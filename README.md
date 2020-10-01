@@ -7,7 +7,7 @@
 <p>@babel/core @babel/preset-env @babel/preset-react babel-loader css-loader node-sass webpack webpack-cli style-loader bootstrap react-bootstrap</p>
 
 Authors:
-Andrés, Tobón
+Andres, Tobon
 Deiwin, Monsalve
-Maelon, García
+Marlon, Garcia
 Nasser, Abuchaibe
