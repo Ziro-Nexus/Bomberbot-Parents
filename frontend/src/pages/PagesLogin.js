@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import Navbar from '../components/Navbar'
-import BodyPage from '../components/BodyPage'
+import Navbar from '../components/login/Navbar'
+import BodyPage from '../components/login/BodyPage'
 
 export default class Home extends Component {
   render() {

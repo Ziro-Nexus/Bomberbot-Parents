@@ -2,10 +2,10 @@ import React from 'react';
 
 import './styles/Navbar.css';
 
-import logo from '../images/logobom2.png';
-import fi from '../images/finlandia_bandera.png'
-import en from '../images/reino-unido.png'
-import ne from '../images/HOLANDA.png'
+import logo from '../../images/logobom2.png';
+import fi from '../../images/finlandia_bandera.png'
+import en from '../../images/reino-unido.png'
+import ne from '../../images/HOLANDA.png'
 
 class Navbar extends React.Component {
   render() {
