@@ -19,6 +19,5 @@ from . import views
 
 urlpatterns = [
     path('index/', views.index),
-    path('ruta2/', views.ruta2),
     path('admin/', admin.site.urls),
 ]
