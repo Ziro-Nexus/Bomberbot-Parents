@@ -2,8 +2,7 @@ const path = require("path");
 
 module.exports = {
     entry: {
-        index: './src/index/index.js',
-        ruta2: './src/ruta2/index.js'
+        login: './src/index.js',
     },
     watch: true,
     mode: "development",
@@ -29,7 +28,12 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
+                
             },
+            {
+                test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
+                loader: ['url-loader?limit=100000'],
+            }
         ]
     },
     resolve: {
