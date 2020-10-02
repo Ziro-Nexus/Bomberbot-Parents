@@ -1,21 +1,17 @@
-main {
-    position: relative;
-}
-
-
 .container {
     /* background: blue; */
     height: 40rem;
     display: flex;
 }
 
-.container .row .formulario {
-    height: 55%;
-    width: 35rem;
-    /* border: .1rem solid black; */
+main .container .imag_main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.container .row .formulario {
+    height: 65%;
+    width: 35rem;
+    /* border: .1rem solid black; */
 }
