@@ -38,12 +38,14 @@ STYLES OF MAIN
     display: flex;
 }
 
-.container .area-formulario {
-    
+main .container .imag_main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .container .row .formulario {
-    height: 55%;
+    height: 65%;
     width: 35rem;
     /* border: .1rem solid black; */
 }
@@ -51,8 +53,10 @@ STYLES OF MAIN
 /***********************************************
 STYLES OF FOOTER
 ***********************************************/
-footer .container-fluid{
+footer .style-footer {
     background-color: rgb(28, 163, 163);
     border-top: 0.1rem solid black;
-    height: 8rem;
+    height: 8.5rem;
+    position: fixed;
+
 }
