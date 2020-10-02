@@ -1,0 +1,21 @@
+main {
+    position: relative;
+}
+
+
+.container {
+    /* background: blue; */
+    height: 40rem;
+    display: flex;
+}
+
+.container .row .formulario {
+    height: 55%;
+    width: 35rem;
+    /* border: .1rem solid black; */
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
