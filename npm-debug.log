@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'rest_framework' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/marlon/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData rest_framework
+9 silly fetchNamedPackageData rest_framework
+10 silly mapToRegistry name rest_framework
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/rest_framework
+14 verbose request uri https://registry.npmjs.org/rest_framework
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:43:26 p. m.
+17 verbose request id cd800739229999af
+18 http request GET https://registry.npmjs.org/rest_framework
+19 http 404 https://registry.npmjs.org/rest_framework
+20 verbose headers { date: 'Sat, 03 Oct 2020 01:43:27 GMT',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-length': '21',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'set-cookie':
+20 verbose headers    [ '__cfduid=dc83847f4bda5b3112262988073d63c5c1601689407; expires=Mon, 02-Nov-20 01:43:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+20 verbose headers   'cf-ray': '5dc2f8eb0a53ef02-MIA',
+20 verbose headers   vary: 'Accept-Encoding',
+20 verbose headers   'cf-cache-status': 'MISS',
+20 verbose headers   'cf-request-id': '058db9e6e50000ef02e51d1200000001',
+20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 verbose headers   server: 'cloudflare' }
+21 silly get cb [ 404,
+21 silly get   { date: 'Sat, 03 Oct 2020 01:43:27 GMT',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-length': '21',
+21 silly get     connection: 'keep-alive',
+21 silly get     'set-cookie':
+21 silly get      [ '__cfduid=dc83847f4bda5b3112262988073d63c5c1601689407; expires=Mon, 02-Nov-20 01:43:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 silly get     'cf-ray': '5dc2f8eb0a53ef02-MIA',
+21 silly get     vary: 'Accept-Encoding',
+21 silly get     'cf-cache-status': 'MISS',
+21 silly get     'cf-request-id': '058db9e6e50000ef02e51d1200000001',
+21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 silly get     server: 'cloudflare' } ]
+22 silly fetchPackageMetaData Error: Not found : rest_framework
+22 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+22 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+22 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+22 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+22 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+22 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+22 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+22 silly fetchPackageMetaData  error for rest_framework { Error: Not found : rest_framework
+22 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+22 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+22 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+22 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+22 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+22 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+22 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'rest_framework', statusCode: 404, code: 'E404' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Starting
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: Not found : rest_framework
+28 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+28 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+28 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+28 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+28 verbose stack     at emitTwo (events.js:126:13)
+28 verbose stack     at Request.emit (events.js:214:7)
+28 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+28 verbose stack     at emitOne (events.js:121:20)
+28 verbose stack     at Request.emit (events.js:211:7)
+28 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+29 verbose statusCode 404
+30 verbose pkgid rest_framework
+31 verbose cwd /home/marlon/Bomberbot-Parents
+32 error Linux 5.4.0-48-generic
+33 error argv "/usr/bin/node" "/usr/bin/npm" "install" "rest_framework"
+34 error node v8.10.0
+35 error npm  v3.5.2
+36 error code E404
+37 error 404 Not found : rest_framework
+38 error 404
+39 error 404 'rest_framework' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+41 error 404 Note that you can also install from a
+42 error 404 tarball, folder, http url, or git url.
+43 verbose exit [ 1, true ]
