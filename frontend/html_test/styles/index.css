@@ -71,8 +71,8 @@ STYLES OF HEADER
 }
 
 .container-fluid .image-pais {
-    height: 4rem;
-    width: 4rem;
+    height: 3.8rem;
+    width: 3.8rem;
     border: 0.01rem solid black;
     border-radius: 50%;
     box-shadow: 5px 5px 5px rgb(93, 92, 92);
@@ -257,3 +257,50 @@ STYLES OF FOOTER
     z-index: 100;
     text-align: center;
 }
+
+/***********************************************
+CHILDREN
+***********************************************/
+.member {
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0 0.05);
+  }
+
+  .member .member-img {
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    
+  }
+
+  .member .member-img img {
+    height: 20rem;
+    /* width: 100%; */
+  }
+
+  .member .member-img {
+    padding: 1.56rem 0.94rem;
+  }
+
+  .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 0.31rem;
+    font-size: 1.13rem;
+    color: #052c3f;
+    text-align: center;
+  }
+  
+  .member .member-info span {
+    display: block;
+    font-size: 0.81rem;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-align: center;
+  }
+
+  .member:hover {
+    opacity: 0.8;
+  }
