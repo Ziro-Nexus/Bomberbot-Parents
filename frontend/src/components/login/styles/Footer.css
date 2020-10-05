@@ -1,0 +1,11 @@
+/***********************************************
+STYLES OF FOOTER
+***********************************************/
+.style-header {
+    font-size: 1.3rem;
+    background-color: #6cc78e;
+    border-bottom: 0.1rem solid black;
+    height: 7rem;
+    z-index: 100;
+    text-align: center;
+}

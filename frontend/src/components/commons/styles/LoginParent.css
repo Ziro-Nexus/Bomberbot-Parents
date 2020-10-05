@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/***********************************************
-ANIMATION
-***********************************************/
 @-webkit-keyframes tracking-in-expand-fwd-top {
     0% {
       letter-spacing: -0.5em;
@@ -44,18 +35,36 @@ ANIMATION
 	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+.home-bb {
+    width: 15rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #f7a441;
+}
 
-/***********************************************
-STYLES OF HEADER
-***********************************************/
-.image-main {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -100;
-    margin-left: 0;
-    padding-left: 0;
-    background-image: linear-gradient(315deg, rgba(11, 26, 53, 0.65) 0%, rgba(78, 112, 175, 0.65) 74%), url('../../../images/bombebotimages.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.home-bb a {
+    text-decoration: none;
+    color: orangered;
+    justify-self: center;
+}
+
+.home-bb:hover {
+    width: 15rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #e9c08e;
 }
