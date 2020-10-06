@@ -1,0 +1,67 @@
+
+/***********************************************
+STYLES OF MAIN FORMULARY - ANIMATION
+***********************************************/
+.style-main {
+    /* background: blue; */
+    height: 90%;
+    display: flex;
+}
+
+.hero {
+    position: relative;
+    z-index: 100;
+}
+
+.hero h1 {
+    margin: 0 0 1rem 0;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: white;
+    
+}
+
+.hero h3 {
+    color: white;
+}
+
+.hero .begin {
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    text-align: center;
+    align-content: center;
+    background: #f7a441;
+}
+
+.hero .begin a {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: orangered;
+}
+
+.hero .begin:hover {
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #e9c08e;
+}
+
+.style-main .row .formulario {
+    height: 25rem;
+    width: 30rem;
+    border: .1rem solid black;
+}

@@ -2,35 +2,44 @@ import React from 'react';
 
 import './styles/Navbar.css';
 
-import logo from '../../images/logobom2.png';
-import fi from '../../images/finlandia_bandera.png'
-import en from '../../images/reino-unido.png'
-import ne from '../../images/HOLANDA.png'
+import Photo from '../../images/logo_01_BB_tr.png';
+import Kingdow from '../../images/reino-unido.png'
+import Filand from '../../images/finlandia.png'
+import Netherlands from '../../images/paises-bajos.png'
+import { Link } from 'react-router-dom';
 
 class Navbar extends React.Component {
   render() {
     return (
-    <header>
-    <div className="container-fluid ">
-        <div className="row d-flex justify-content-between align-items-center">
-            <div className="col-12 col-sm-4">
-                <a href="/">
-                    <img className="img-logo" src={logo} alt="Logo Bomberbot" />
-                </a>
-            </div>
+    <div className="row d-flex style-header justify-content-between align-items-center bg-light">
 
-            <div className="col-12 col-sm-4 d-flex images">
-                <a href="/"><img className="img" src={en} alt="Idioma ingles" /></a>
-                <a href="/"><img className="img" src={fi} alt="Idioma souma" /></a>
-                <a href="/"><img className="img" src={ne} alt="Neherlandes" /></a>
-            </div>
-
-            <div className="col-12 col-sm-4 d-flex justify-content-end">
-                <a href="/">Go at Home</a>
-            </div>
+        <div className="col-12 col-sm-4 d-flex align-items-center">
+            <Link to="/index">
+                <img className="img-logo" src={Photo} alt="Logo Bomberbot" />
+            </Link>
         </div>
-    </div>
-    </header>
+
+        <div className="col-12 col-sm-4 d-flex justify-content-center">
+            <a href="/">
+                <img className="image-pais" src={Kingdow} alt="Reino Unido"/>
+            </a>
+            <a href="/">
+                <img className="image-pais" src={Netherlands} alt="Países bajos" />
+            </a>
+            <a href="/">
+                <img className="image-pais" src={Filand} alt="Suomi" />
+            </a>
+        </div>
+
+        <div className="col-12 col-sm-4 d-flex justify-content-end">
+            <a href="https://bomberbot.com/">
+            <div className="home-bb d-flex align-items-center justify-content-center">
+                Go at Home
+            </div>
+            </a>
+        </div>
+    </div> 
+    
     );
   }
 }
