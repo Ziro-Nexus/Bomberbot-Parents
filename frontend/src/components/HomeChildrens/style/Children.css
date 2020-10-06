@@ -49,3 +49,8 @@ CHILDREN
   .style-main-scrool{
     overflow-y: scroll;
   }
+
+  .spaces {
+    width: 100%;
+    height: 4rem;
+}
