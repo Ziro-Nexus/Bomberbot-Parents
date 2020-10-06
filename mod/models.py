@@ -6,17 +6,17 @@ import uuid
 class StudentModel(User):
     uuid = models.CharField(max_length=60, unique=True, default=uuid.uuid4)
     class Meta:
-        ordering = ['username']
+        ordering = ['uuid']
 
     def __str__(self):
-        return self.uuid + f"({self.username})"
+        return self.username
 
 
 class ParentsModel(User):
     uuid = models.CharField(max_length=60, unique=True, default=uuid.uuid4)
     class Meta:
-        ordering = ['username']
+        ordering = ['uuid']
     
     def __str__(self):
-        return self.uuid + f"({self.username})"
+        return self.username
     student_id = models.ManyToManyField(StudentModel)

@@ -22,3 +22,6 @@ urlpatterns = [
     path('index/', views.index),
     path('', include("mod.urls"))
 ]
+
+# Ruta servida para verificar existencia
+urlpatterns.append(path('auth/', views.auth))
