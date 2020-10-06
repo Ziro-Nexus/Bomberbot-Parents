@@ -4,14 +4,14 @@ import './style/Children.css';
 import '../login/styles/LoginForm.css'
 
 import Avatar1 from '../../images/undraw_female_avatar_w3jk.png';
-import Avatar2 from '../../images/undraw_male_avatar_323b.png'
+import Avatar2 from '../../images/Bomber_01.png'
 
 class Children extends React.Component {
     
    constructor(props){
         super(props)
         this.data = {
-            name_childres: ['Hijo1', 'Hijo2', 'Hijo1', 'Hijo2', 'Hijo1', 'Hijo2']
+            name_childres: ['Hijo1', 'Hijo2']
         }
         this.columns = this.data.name_childres.length;
         this.class = ''
@@ -48,22 +48,7 @@ class Children extends React.Component {
                 })}
                 
                 
-{/*                 <div className="col-12 col-sm-12 rounded d-flex justify-content-center">
-
-                    <div className="member shadow p-3 mb-5 bg-light ">
-                        <div className="member-img ">
-                            <img src={Avatar2} alt="Avatar" />
-                        </div>
-                        <div className="member-info">
-                            <h4>Little programmer 1</h4>
-                            <span>Name programmer</span>
-                        </div>
-                    </div>
-                </div>
- */}
-
-
-            </div>
+           </div>
         </div>
         )
     }
