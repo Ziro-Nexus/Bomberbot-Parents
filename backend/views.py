@@ -8,6 +8,10 @@ import requests
 from rest_framework.decorators import api_view
 
 
+# SERVIR LAS RUTAS DE TEMPLATES HTML Y CONFIGURAR EN url.py
+def index(request):
+    return render("index.html")
+
 @api_view(('POST',))
 def auth(request):
 
