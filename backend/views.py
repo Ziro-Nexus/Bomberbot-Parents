@@ -1,22 +1,40 @@
 from django.shortcuts import render
-from api.models import Parent_Login
 from django.http import HttpResponse
 import json
 from django.forms.models import model_to_dict
 
-
-def login(request):
-
-    lista = []
-    obj = Parent_Login.objects.all()
-    for item in obj:
-        lista.append({
-            "username": model_to_dict(item)["username"],
-            "password": model_to_dict(item)["passowrd"]
-        })
+from django.shortcuts import render
+import json
+import requests
+from django.http import HttpResponse
+from rest_framework.response import Response
+from django.views.decorators.csrf import csrf_exempt
+import requests
+from rest_framework.decorators import api_view
 
 
-    return HttpResponse(json.dumps(lista))
+
+
+@api_view(('POST',))
+def auth(request):
+    headers = {
+        'Content-Type': 'application/json'
+    }
+    auth = json.loads(request.body)
+    url = 'https://speedcoder.pythonanywhere.com/bomberbot_api/'
+    r = requests.post(url, headers=headers, data=json.dumps(auth))
+    response_json = r.json()
+    response = [{"status": "OK", "students": []}]
+    if r.status_code == 200:
+        if type(response_json) in [list]:
+            for student in response_json:
+                response[0]["students"].append({
+                    "first_name" : student["firts_name"],
+                    "last_name":   student["last_name"],
+                    "id": student["id"]
+                })
+            return Response(response)
+    return Response(r.json())
 
 
 def index(request):
