@@ -1,1 +1,18 @@
+<<<<<<< HEAD
 *__pycache__*
+=======
+frontend/node_modules/
+backend/__pycache__/
+db.sqlite3
+
+api/__pycache__/admin.cpython-36.pyc
+api/__pycache__/serializer.cpython-36.pyc
+api/__pycache__/urls.cpython-36.pyc
+api/__pycache__/views.cpython-36.pyc
+api/migrations/__pycache__/
+npm-debug.log
+
+*api/__pycache__/__init__.cpython-36.pyc*
+*api/__pycache__/models.cpython-36.pyc*
+frontend/dist
+>>>>>>> 7b08f3718b8296c7e1a65b3407aee462bb55bf1d
