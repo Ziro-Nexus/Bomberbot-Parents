@@ -5,54 +5,367 @@
 }
 
 /***********************************************
+ANIMATION
+***********************************************/
+@-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/***********************************************
 STYLES OF HEADER
 ***********************************************/
-header .container-fluid {
-    background-color: rgb(28, 163, 163);
+.image-main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    margin-left: 0;
+    padding-left: 0;
+    background-image: linear-gradient(315deg, rgba(11, 26, 53, 0.65) 0%, rgba(78, 112, 175, 0.65) 74%), url('/frontend/src/images/bombebotimages.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.style-header {
+    /* background-color: #6cc78e; */
     border-bottom: 0.1rem solid black;
 }
 
-header .container-fluid .img-logo {
-    height: 4rem;
-    width: 4rem;
+.style-header .img-logo {
+    height: 4.5rem;
+    width: 12.5rem;
 }
 
-header .container-fluid a {
+.container-fluid .image-pais {
+    height: 3.8rem;
+    width: 3.8rem;
+    border: 0.01rem solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(93, 92, 92);
+}
+
+.container-fluid .image-pais:hover {
+    opacity: 0.7;
+}
+
+.style-header a {
     color: black;
     font-size: 1.2rem;
     margin-left: 1.5rem;
     text-decoration: none;
 }
 
-header .container-fluid a:hover {
+.style-header a:hover {
     color: white;
     font-size: 1.2rem;
 }
 
+.home-bb {
+    width: 15rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #f7a441;
+}
+
+.home-bb a {
+    text-decoration: none;
+    color: orangered;
+    justify-self: center;
+}
+
+.home-bb:hover {
+    width: 15rem;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #e9c08e;
+}
+
 /***********************************************
-STYLES OF MAIN
+SOCIAL MEDIA
 ***********************************************/
-.container {
+.icon__bar{
+    position: fixed;
+    top: 12rem;
+    right: 1rem;
+    z-index: 10000;
+    transform: translateY(-50);
+}
+
+.icon__bar a{
+    display:block;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.facebook{
+    background-color: rgb(0, 195, 255);
+}
+.twitter{
+    background-color: rgb(147, 222, 245);
+}
+.youtube{
+    background-color: red;
+}
+.linkedin{
+    background-color: rgb(25, 119, 173);
+}
+
+.facebook:hover{
+    background-color: rgb(107, 177, 199);
+    color: black;
+}
+.twitter:hover{
+    background-color: rgb(114, 192, 216);
+    color: black;
+}
+.youtube:hover{
+    background-color: rgb(224, 92, 92);
+    color: black;
+}
+.linkedin:hover{
+    background-color: rgb(95, 176, 223);
+    color: black;
+}
+
+/* SOCIAL MEDIA FOOTER */
+.icon__bar2 {
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    z-index: 10000;
+    transform: translateY(-50);
+}
+
+.icon__bar2 a {
+    /* display:block; */
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    /* padding: auto; */
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
+.icon__bar2 a:hover {
+    color: black;
+}
+
+.facebook2, .twitter2, .youtube2, .linkedin2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook2{
+    background-color: rgb(0, 195, 255);
+}
+.twitter2{
+    background-color: rgb(147, 222, 245);
+}
+.youtube2{
+    background-color: red;
+}
+.linkedin2{
+    background-color: rgb(25, 119, 173);
+}
+
+.facebook2:hover {
+    background-color: rgb(107, 177, 199);
+}
+.twitter2:hover{
+    background-color: rgb(114, 192, 216);
+}
+.youtube2:hover{
+    background-color: rgb(224, 92, 92);
+}
+.linkedin2:hover{
+    background-color: rgb(95, 176, 223);
+}
+
+
+
+
+/***********************************************
+STYLES OF MAIN FORMULARY - ANIMATION
+***********************************************/
+.style-main {
     /* background: blue; */
-    height: 40rem;
+    height: 90%;
     display: flex;
 }
 
-.container .area-formulario {
+.hero {
+    position: relative;
+    z-index: 100;
+}
+
+.hero h1 {
+    margin: 0 0 1rem 0;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: white;
     
 }
 
-.container .row .formulario {
-    height: 55%;
-    width: 35rem;
-    /* border: .1rem solid black; */
+.hero h3 {
+    color: white;
+}
+
+.hero .begin {
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    text-align: center;
+    align-content: center;
+    background: #f7a441;
+}
+
+.hero .begin a {
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: orangered;
+}
+
+.hero .begin:hover {
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    border: 0.1rem solid orange;
+    background: #e9c08e;
+}
+
+.style-main .row .formulario {
+    height: 60%;
+    width: 30rem;
+    border: .1rem solid black;
 }
 
 /***********************************************
 STYLES OF FOOTER
 ***********************************************/
-footer .container-fluid{
-    background-color: rgb(28, 163, 163);
-    border-top: 0.1rem solid black;
-    height: 8rem;
+.style-header {
+    font-size: 1.3rem;
+    background-color: #6cc78e;
+    border-bottom: 0.1rem solid black;
+    height: 7rem;
+    z-index: 100;
+    text-align: center;
+    /* color: #ee6330; */
+    /* color:white; */
+    /* color: white; text-shadow: black 0.1em 0.1em 0.2em */
 }
+
+.style-shadow {
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/***********************************************
+CHILDREN
+***********************************************/
+.member {
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0 0.05);
+  }
+
+  .member .member-img {
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    
+  }
+
+  .member .member-img img {
+    height: 100%;
+    width: 100%; 
+  }
+
+  .member .member-img {
+    padding: 1.56rem 0.94rem;
+  }
+
+  .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 0.31rem;
+    font-size: 1.13rem;
+    color: #052c3f;
+    text-align: center;
+  }
+  
+  .member .member-info span {
+    display: block;
+    font-size: 0.81rem;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-align: center;
+  }
+
+  .member:hover {
+    opacity: 0.8;
+  }

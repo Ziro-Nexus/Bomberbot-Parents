@@ -1,0 +1,51 @@
+/***********************************************
+CHILDREN
+***********************************************/
+.member {
+    margin-bottom: 1.25rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0 0.05);
+  }
+
+  .member .member-img {
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+  }
+
+  .member .member-img img {
+    /* height: 20rem; */
+    /* width: 100%; */
+    width: 100%;
+    height: 100%;
+  }
+
+  .member .member-img {
+    padding: 1.56rem 0.94rem;
+  }
+
+  .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 0.31rem;
+    font-size: 1.13rem;
+    color: #052c3f;
+    text-align: center;
+  }
+  
+  .member .member-info span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #aaaaaa;
+    text-align: center;
+  }
+
+  .member:hover {
+    opacity: 0.8;
+  }
+
+  .style-main-scrool{
+    overflow-y: scroll;
+  }
