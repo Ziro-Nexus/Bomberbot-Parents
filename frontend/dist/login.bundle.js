@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../node_modules/axios/index.js":
-/*!************************************************!*\
-  !*** /home/marlon/node_modules/axios/index.js ***!
-  \************************************************/
+/*!*************************************************!*\
+  !*** /home/usuario/node_modules/axios/index.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98,9 +98,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ "../../node_modules/axio
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/adapters/xhr.js":
-/*!***********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/adapters/xhr.js ***!
-  \***********************************************************/
+/*!************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/adapters/xhr.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -290,9 +290,9 @@ module.exports = function xhrAdapter(config) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/axios.js":
-/*!****************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/axios.js ***!
-  \****************************************************/
+/*!*****************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/axios.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -352,9 +352,9 @@ module.exports.default = axios;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/Cancel.js":
-/*!************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/Cancel.js ***!
-  \************************************************************/
+/*!*************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/Cancel.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -381,9 +381,9 @@ module.exports = Cancel;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/CancelToken.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/CancelToken.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -451,9 +451,9 @@ module.exports = CancelToken;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/isCancel.js":
-/*!**************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/isCancel.js ***!
-  \**************************************************************/
+/*!***************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/isCancel.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -467,9 +467,9 @@ module.exports = function isCancel(value) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/Axios.js":
-/*!*********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/Axios.js ***!
-  \*********************************************************/
+/*!**********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/Axios.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -573,9 +573,9 @@ module.exports = Axios;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/InterceptorManager.js":
-/*!**********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/InterceptorManager.js ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -639,9 +639,9 @@ module.exports = InterceptorManager;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/buildFullPath.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/buildFullPath.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/buildFullPath.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -673,9 +673,9 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/createError.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/createError.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/createError.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -703,9 +703,9 @@ module.exports = function createError(message, config, code, request, response) 
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/dispatchRequest.js":
-/*!*******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/dispatchRequest.js ***!
-  \*******************************************************************/
+/*!********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -770,9 +770,9 @@ module.exports = function dispatchRequest(config) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/enhanceError.js":
-/*!****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/enhanceError.js ***!
-  \****************************************************************/
+/*!*****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/enhanceError.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -825,9 +825,9 @@ module.exports = function enhanceError(error, config, code, request, response) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/mergeConfig.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/mergeConfig.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/mergeConfig.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -905,9 +905,9 @@ module.exports = function mergeConfig(config1, config2) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/settle.js":
-/*!**********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/settle.js ***!
-  \**********************************************************/
+/*!***********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/settle.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -937,9 +937,9 @@ module.exports = function settle(resolve, reject, response) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/transformData.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/transformData.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/transformData.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -968,9 +968,9 @@ module.exports = function transformData(data, headers, fns) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/defaults.js":
-/*!*******************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/defaults.js ***!
-  \*******************************************************/
+/*!********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/defaults.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1074,9 +1074,9 @@ module.exports = defaults;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/bind.js":
-/*!***********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/bind.js ***!
-  \***********************************************************/
+/*!************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/bind.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1098,9 +1098,9 @@ module.exports = function bind(fn, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/buildURL.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/buildURL.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/buildURL.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1175,9 +1175,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/combineURLs.js":
-/*!******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/combineURLs.js ***!
-  \******************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1198,9 +1198,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/cookies.js":
-/*!**************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/cookies.js ***!
-  \**************************************************************/
+/*!***************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/cookies.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1256,9 +1256,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/isAbsoluteURL.js":
-/*!********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \********************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1281,9 +1281,9 @@ module.exports = function isAbsoluteURL(url) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/isURLSameOrigin.js":
-/*!**********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1350,9 +1350,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/normalizeHeaderName.js":
-/*!**************************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \**************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1373,9 +1373,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/parseHeaders.js":
-/*!*******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \*******************************************************************/
+/*!********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1434,9 +1434,9 @@ module.exports = function parseHeaders(headers) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/spread.js":
-/*!*************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/spread.js ***!
-  \*************************************************************/
+/*!**************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/spread.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1472,9 +1472,9 @@ module.exports = function spread(callback) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/utils.js":
-/*!****************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/utils.js ***!
-  \****************************************************/
+/*!*****************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/utils.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3430,19 +3430,6 @@ module.exports = hoistNonReactStatics;
 
 /***/ }),
 
-/***/ "./node_modules/isarray/index.js":
-/*!***************************************!*\
-  !*** ./node_modules/isarray/index.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = Array.isArray || function (arr) {
-  return Object.prototype.toString.call(arr) == '[object Array]';
-};
-
-/***/ }),
-
 /***/ "./node_modules/mini-create-react-context/dist/esm/index.js":
 /*!******************************************************************!*\
   !*** ./node_modules/mini-create-react-context/dist/esm/index.js ***!
@@ -3739,457 +3726,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
   return to;
 };
-
-/***/ }),
-
-/***/ "./node_modules/path-to-regexp/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/path-to-regexp/index.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isarray = __webpack_require__(/*! isarray */ "./node_modules/isarray/index.js");
-/**
- * Expose `pathToRegexp`.
- */
-
-
-module.exports = pathToRegexp;
-module.exports.parse = parse;
-module.exports.compile = compile;
-module.exports.tokensToFunction = tokensToFunction;
-module.exports.tokensToRegExp = tokensToRegExp;
-/**
- * The main path matching regexp utility.
- *
- * @type {RegExp}
- */
-
-var PATH_REGEXP = new RegExp([// Match escaped characters that would otherwise appear in future matches.
-// This allows the user to escape special characters that won't transform.
-'(\\\\.)', // Match Express-style parameters and un-named parameters with a prefix
-// and optional suffixes. Matches appear as:
-//
-// "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
-// "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
-// "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
-'([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'].join('|'), 'g');
-/**
- * Parse a string for the raw tokens.
- *
- * @param  {string}  str
- * @param  {Object=} options
- * @return {!Array}
- */
-
-function parse(str, options) {
-  var tokens = [];
-  var key = 0;
-  var index = 0;
-  var path = '';
-  var defaultDelimiter = options && options.delimiter || '/';
-  var res;
-
-  while ((res = PATH_REGEXP.exec(str)) != null) {
-    var m = res[0];
-    var escaped = res[1];
-    var offset = res.index;
-    path += str.slice(index, offset);
-    index = offset + m.length; // Ignore already escaped sequences.
-
-    if (escaped) {
-      path += escaped[1];
-      continue;
-    }
-
-    var next = str[index];
-    var prefix = res[2];
-    var name = res[3];
-    var capture = res[4];
-    var group = res[5];
-    var modifier = res[6];
-    var asterisk = res[7]; // Push the current path onto the tokens.
-
-    if (path) {
-      tokens.push(path);
-      path = '';
-    }
-
-    var partial = prefix != null && next != null && next !== prefix;
-    var repeat = modifier === '+' || modifier === '*';
-    var optional = modifier === '?' || modifier === '*';
-    var delimiter = res[2] || defaultDelimiter;
-    var pattern = capture || group;
-    tokens.push({
-      name: name || key++,
-      prefix: prefix || '',
-      delimiter: delimiter,
-      optional: optional,
-      repeat: repeat,
-      partial: partial,
-      asterisk: !!asterisk,
-      pattern: pattern ? escapeGroup(pattern) : asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?'
-    });
-  } // Match any characters still remaining.
-
-
-  if (index < str.length) {
-    path += str.substr(index);
-  } // If the path exists, push it onto the end.
-
-
-  if (path) {
-    tokens.push(path);
-  }
-
-  return tokens;
-}
-/**
- * Compile a string to a template function for the path.
- *
- * @param  {string}             str
- * @param  {Object=}            options
- * @return {!function(Object=, Object=)}
- */
-
-
-function compile(str, options) {
-  return tokensToFunction(parse(str, options), options);
-}
-/**
- * Prettier encoding of URI path segments.
- *
- * @param  {string}
- * @return {string}
- */
-
-
-function encodeURIComponentPretty(str) {
-  return encodeURI(str).replace(/[\/?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
-  });
-}
-/**
- * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
- *
- * @param  {string}
- * @return {string}
- */
-
-
-function encodeAsterisk(str) {
-  return encodeURI(str).replace(/[?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
-  });
-}
-/**
- * Expose a method for transforming tokens into the path function.
- */
-
-
-function tokensToFunction(tokens, options) {
-  // Compile all the tokens into regexps.
-  var matches = new Array(tokens.length); // Compile all the patterns before compilation.
-
-  for (var i = 0; i < tokens.length; i++) {
-    if (typeof tokens[i] === 'object') {
-      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options));
-    }
-  }
-
-  return function (obj, opts) {
-    var path = '';
-    var data = obj || {};
-    var options = opts || {};
-    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
-
-    for (var i = 0; i < tokens.length; i++) {
-      var token = tokens[i];
-
-      if (typeof token === 'string') {
-        path += token;
-        continue;
-      }
-
-      var value = data[token.name];
-      var segment;
-
-      if (value == null) {
-        if (token.optional) {
-          // Prepend partial segment prefixes.
-          if (token.partial) {
-            path += token.prefix;
-          }
-
-          continue;
-        } else {
-          throw new TypeError('Expected "' + token.name + '" to be defined');
-        }
-      }
-
-      if (isarray(value)) {
-        if (!token.repeat) {
-          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`');
-        }
-
-        if (value.length === 0) {
-          if (token.optional) {
-            continue;
-          } else {
-            throw new TypeError('Expected "' + token.name + '" to not be empty');
-          }
-        }
-
-        for (var j = 0; j < value.length; j++) {
-          segment = encode(value[j]);
-
-          if (!matches[i].test(segment)) {
-            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`');
-          }
-
-          path += (j === 0 ? token.prefix : token.delimiter) + segment;
-        }
-
-        continue;
-      }
-
-      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
-
-      if (!matches[i].test(segment)) {
-        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"');
-      }
-
-      path += token.prefix + segment;
-    }
-
-    return path;
-  };
-}
-/**
- * Escape a regular expression string.
- *
- * @param  {string} str
- * @return {string}
- */
-
-
-function escapeString(str) {
-  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1');
-}
-/**
- * Escape the capturing group by escaping special characters and meaning.
- *
- * @param  {string} group
- * @return {string}
- */
-
-
-function escapeGroup(group) {
-  return group.replace(/([=!:$\/()])/g, '\\$1');
-}
-/**
- * Attach the keys as a property of the regexp.
- *
- * @param  {!RegExp} re
- * @param  {Array}   keys
- * @return {!RegExp}
- */
-
-
-function attachKeys(re, keys) {
-  re.keys = keys;
-  return re;
-}
-/**
- * Get the flags for a regexp from the options.
- *
- * @param  {Object} options
- * @return {string}
- */
-
-
-function flags(options) {
-  return options && options.sensitive ? '' : 'i';
-}
-/**
- * Pull out keys from a regexp.
- *
- * @param  {!RegExp} path
- * @param  {!Array}  keys
- * @return {!RegExp}
- */
-
-
-function regexpToRegexp(path, keys) {
-  // Use a negative lookahead to match only capturing groups.
-  var groups = path.source.match(/\((?!\?)/g);
-
-  if (groups) {
-    for (var i = 0; i < groups.length; i++) {
-      keys.push({
-        name: i,
-        prefix: null,
-        delimiter: null,
-        optional: false,
-        repeat: false,
-        partial: false,
-        asterisk: false,
-        pattern: null
-      });
-    }
-  }
-
-  return attachKeys(path, keys);
-}
-/**
- * Transform an array into a regexp.
- *
- * @param  {!Array}  path
- * @param  {Array}   keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-
-
-function arrayToRegexp(path, keys, options) {
-  var parts = [];
-
-  for (var i = 0; i < path.length; i++) {
-    parts.push(pathToRegexp(path[i], keys, options).source);
-  }
-
-  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
-  return attachKeys(regexp, keys);
-}
-/**
- * Create a path regexp from string input.
- *
- * @param  {string}  path
- * @param  {!Array}  keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-
-
-function stringToRegexp(path, keys, options) {
-  return tokensToRegExp(parse(path, options), keys, options);
-}
-/**
- * Expose a function for taking tokens and returning a RegExp.
- *
- * @param  {!Array}          tokens
- * @param  {(Array|Object)=} keys
- * @param  {Object=}         options
- * @return {!RegExp}
- */
-
-
-function tokensToRegExp(tokens, keys, options) {
-  if (!isarray(keys)) {
-    options =
-    /** @type {!Object} */
-    keys || options;
-    keys = [];
-  }
-
-  options = options || {};
-  var strict = options.strict;
-  var end = options.end !== false;
-  var route = ''; // Iterate over the tokens and create our regexp string.
-
-  for (var i = 0; i < tokens.length; i++) {
-    var token = tokens[i];
-
-    if (typeof token === 'string') {
-      route += escapeString(token);
-    } else {
-      var prefix = escapeString(token.prefix);
-      var capture = '(?:' + token.pattern + ')';
-      keys.push(token);
-
-      if (token.repeat) {
-        capture += '(?:' + prefix + capture + ')*';
-      }
-
-      if (token.optional) {
-        if (!token.partial) {
-          capture = '(?:' + prefix + '(' + capture + '))?';
-        } else {
-          capture = prefix + '(' + capture + ')?';
-        }
-      } else {
-        capture = prefix + '(' + capture + ')';
-      }
-
-      route += capture;
-    }
-  }
-
-  var delimiter = escapeString(options.delimiter || '/');
-  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter; // In non-strict mode we allow a slash at the end of match. If the path to
-  // match already ends with a slash, we remove it for consistency. The slash
-  // is valid at the end of a path match, not in the middle. This is important
-  // in non-ending mode, where "/test/" shouldn't match "/test//route".
-
-  if (!strict) {
-    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
-  }
-
-  if (end) {
-    route += '$';
-  } else {
-    // In non-ending mode, we need the capturing groups to match as much as
-    // possible by using a positive lookahead to the end or next path segment.
-    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
-  }
-
-  return attachKeys(new RegExp('^' + route, flags(options)), keys);
-}
-/**
- * Normalize the given path string, returning a regular expression.
- *
- * An empty array can be passed in for the keys, which will hold the
- * placeholder key descriptions. For example, using `/user/:id`, `keys` will
- * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
- *
- * @param  {(string|RegExp|Array)} path
- * @param  {(Array|Object)=}       keys
- * @param  {Object=}               options
- * @return {!RegExp}
- */
-
-
-function pathToRegexp(path, keys, options) {
-  if (!isarray(keys)) {
-    options =
-    /** @type {!Object} */
-    keys || options;
-    keys = [];
-  }
-
-  options = options || {};
-
-  if (path instanceof RegExp) {
-    return regexpToRegexp(path,
-    /** @type {!Array} */
-    keys);
-  }
-
-  if (isarray(path)) {
-    return arrayToRegexp(
-    /** @type {!Array} */
-    path,
-    /** @type {!Array} */
-    keys, options);
-  }
-
-  return stringToRegexp(
-  /** @type {string} */
-  path,
-  /** @type {!Array} */
-  keys, options);
-}
 
 /***/ }),
 
@@ -10023,7 +9559,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
 /* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/path-to-regexp/index.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
 /* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 /* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_9__);
@@ -10782,6 +10318,470 @@ if (true) {
 }
 
 
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/isarray/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/path-to-regexp/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js");
+/**
+ * Expose `pathToRegexp`.
+ */
+
+
+module.exports = pathToRegexp;
+module.exports.parse = parse;
+module.exports.compile = compile;
+module.exports.tokensToFunction = tokensToFunction;
+module.exports.tokensToRegExp = tokensToRegExp;
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+
+var PATH_REGEXP = new RegExp([// Match escaped characters that would otherwise appear in future matches.
+// This allows the user to escape special characters that won't transform.
+'(\\\\.)', // Match Express-style parameters and un-named parameters with a prefix
+// and optional suffixes. Matches appear as:
+//
+// "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
+// "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
+// "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
+'([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'].join('|'), 'g');
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+
+function parse(str, options) {
+  var tokens = [];
+  var key = 0;
+  var index = 0;
+  var path = '';
+  var defaultDelimiter = options && options.delimiter || '/';
+  var res;
+
+  while ((res = PATH_REGEXP.exec(str)) != null) {
+    var m = res[0];
+    var escaped = res[1];
+    var offset = res.index;
+    path += str.slice(index, offset);
+    index = offset + m.length; // Ignore already escaped sequences.
+
+    if (escaped) {
+      path += escaped[1];
+      continue;
+    }
+
+    var next = str[index];
+    var prefix = res[2];
+    var name = res[3];
+    var capture = res[4];
+    var group = res[5];
+    var modifier = res[6];
+    var asterisk = res[7]; // Push the current path onto the tokens.
+
+    if (path) {
+      tokens.push(path);
+      path = '';
+    }
+
+    var partial = prefix != null && next != null && next !== prefix;
+    var repeat = modifier === '+' || modifier === '*';
+    var optional = modifier === '?' || modifier === '*';
+    var delimiter = res[2] || defaultDelimiter;
+    var pattern = capture || group;
+    tokens.push({
+      name: name || key++,
+      prefix: prefix || '',
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      asterisk: !!asterisk,
+      pattern: pattern ? escapeGroup(pattern) : asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?'
+    });
+  } // Match any characters still remaining.
+
+
+  if (index < str.length) {
+    path += str.substr(index);
+  } // If the path exists, push it onto the end.
+
+
+  if (path) {
+    tokens.push(path);
+  }
+
+  return tokens;
+}
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+
+
+function compile(str, options) {
+  return tokensToFunction(parse(str, options), options);
+}
+/**
+ * Prettier encoding of URI path segments.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+
+
+function encodeURIComponentPretty(str) {
+  return encodeURI(str).replace(/[\/?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+  });
+}
+/**
+ * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+
+
+function encodeAsterisk(str) {
+  return encodeURI(str).replace(/[?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+  });
+}
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+
+
+function tokensToFunction(tokens, options) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length); // Compile all the patterns before compilation.
+
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options));
+    }
+  }
+
+  return function (obj, opts) {
+    var path = '';
+    var data = obj || {};
+    var options = opts || {};
+    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i];
+
+      if (typeof token === 'string') {
+        path += token;
+        continue;
+      }
+
+      var value = data[token.name];
+      var segment;
+
+      if (value == null) {
+        if (token.optional) {
+          // Prepend partial segment prefixes.
+          if (token.partial) {
+            path += token.prefix;
+          }
+
+          continue;
+        } else {
+          throw new TypeError('Expected "' + token.name + '" to be defined');
+        }
+      }
+
+      if (isarray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`');
+        }
+
+        if (value.length === 0) {
+          if (token.optional) {
+            continue;
+          } else {
+            throw new TypeError('Expected "' + token.name + '" to not be empty');
+          }
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j]);
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`');
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment;
+        }
+
+        continue;
+      }
+
+      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
+
+      if (!matches[i].test(segment)) {
+        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"');
+      }
+
+      path += token.prefix + segment;
+    }
+
+    return path;
+  };
+}
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+
+
+function escapeString(str) {
+  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1');
+}
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+
+
+function escapeGroup(group) {
+  return group.replace(/([=!:$\/()])/g, '\\$1');
+}
+/**
+ * Attach the keys as a property of the regexp.
+ *
+ * @param  {!RegExp} re
+ * @param  {Array}   keys
+ * @return {!RegExp}
+ */
+
+
+function attachKeys(re, keys) {
+  re.keys = keys;
+  return re;
+}
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+
+
+function flags(options) {
+  return options && options.sensitive ? '' : 'i';
+}
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {!Array}  keys
+ * @return {!RegExp}
+ */
+
+
+function regexpToRegexp(path, keys) {
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g);
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        asterisk: false,
+        pattern: null
+      });
+    }
+  }
+
+  return attachKeys(path, keys);
+}
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array}   keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+
+
+function arrayToRegexp(path, keys, options) {
+  var parts = [];
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source);
+  }
+
+  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
+  return attachKeys(regexp, keys);
+}
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {!Array}  keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+
+
+function stringToRegexp(path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options);
+}
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}          tokens
+ * @param  {(Array|Object)=} keys
+ * @param  {Object=}         options
+ * @return {!RegExp}
+ */
+
+
+function tokensToRegExp(tokens, keys, options) {
+  if (!isarray(keys)) {
+    options =
+    /** @type {!Object} */
+    keys || options;
+    keys = [];
+  }
+
+  options = options || {};
+  var strict = options.strict;
+  var end = options.end !== false;
+  var route = ''; // Iterate over the tokens and create our regexp string.
+
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i];
+
+    if (typeof token === 'string') {
+      route += escapeString(token);
+    } else {
+      var prefix = escapeString(token.prefix);
+      var capture = '(?:' + token.pattern + ')';
+      keys.push(token);
+
+      if (token.repeat) {
+        capture += '(?:' + prefix + capture + ')*';
+      }
+
+      if (token.optional) {
+        if (!token.partial) {
+          capture = '(?:' + prefix + '(' + capture + '))?';
+        } else {
+          capture = prefix + '(' + capture + ')?';
+        }
+      } else {
+        capture = prefix + '(' + capture + ')';
+      }
+
+      route += capture;
+    }
+  }
+
+  var delimiter = escapeString(options.delimiter || '/');
+  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter; // In non-strict mode we allow a slash at the end of match. If the path to
+  // match already ends with a slash, we remove it for consistency. The slash
+  // is valid at the end of a path match, not in the middle. This is important
+  // in non-ending mode, where "/test/" shouldn't match "/test//route".
+
+  if (!strict) {
+    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
+  }
+
+  if (end) {
+    route += '$';
+  } else {
+    // In non-ending mode, we need the capturing groups to match as much as
+    // possible by using a positive lookahead to the end or next path segment.
+    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
+  }
+
+  return attachKeys(new RegExp('^' + route, flags(options)), keys);
+}
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {(Array|Object)=}       keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+
+
+function pathToRegexp(path, keys, options) {
+  if (!isarray(keys)) {
+    options =
+    /** @type {!Object} */
+    keys || options;
+    keys = [];
+  }
+
+  options = options || {};
+
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path,
+    /** @type {!Array} */
+    keys);
+  }
+
+  if (isarray(path)) {
+    return arrayToRegexp(
+    /** @type {!Array} */
+    path,
+    /** @type {!Array} */
+    keys, options);
+  }
+
+  return stringToRegexp(
+  /** @type {string} */
+  path,
+  /** @type {!Array} */
+  keys, options);
+}
 
 /***/ }),
 
@@ -14203,7 +14203,7 @@ function applyToTag(style, options, obj) {
     style.removeAttribute('media');
   }
 
-  if (sourceMap && typeof btoa !== 'undefined') {
+  if (sourceMap && btoa) {
     css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
   } // For old IE
 
@@ -14701,7 +14701,6 @@ function App() {
     path: "/loginParents",
     component: _pages_PagesLogin__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    exact: true,
     path: "/homeParents",
     component: _pages_PagesChildrens__WEBPACK_IMPORTED_MODULE_4__["default"]
   })));
@@ -14868,14 +14867,17 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _LoginForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoginForm */ "./src/components/login/LoginForm.js");
-/* harmony import */ var _commons_LoginParent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../commons/LoginParent */ "./src/components/commons/LoginParent.js");
-/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/BodyPage.css */ "./src/components/login/styles/BodyPage.css");
-/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/Navbar.css */ "./src/components/login/styles/Navbar.css");
-/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_Navbar_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _LoginForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LoginForm */ "./src/components/login/LoginForm.js");
+/* harmony import */ var _commons_LoginParent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../commons/LoginParent */ "./src/components/commons/LoginParent.js");
+/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/BodyPage.css */ "./src/components/login/styles/BodyPage.css");
+/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/Navbar.css */ "./src/components/login/styles/Navbar.css");
+/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6__);
+
 
 
 
@@ -14884,9 +14886,49 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      islogged: '',
+      users: {
+        username: '',
+        password: ''
+      }
+    };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    const obj = this.state.users;
+    obj[event.target.name] = event.target.value;
+    this.setState(obj);
+  }
+
+  async handleSubmit(event) {
+    event.preventDefault();
+    const required = {
+      "credentials": [{
+        "name": this.state.users.username,
+        "password": this.state.users.password
+      }]
+    };
+    await axios__WEBPACK_IMPORTED_MODULE_1___default.a.post('http://127.0.0.1:8000/login/', JSON.stringify(required)).then(res => {
+      console.log(res);
+
+      if (res.data[0].Status === 'OK') {
+        this.setState({
+          islogged: true
+        });
+      }
+    }).catch(err => {
+      console.error(err);
+    });
+  }
+
   render() {
     if (this.props.value === true) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_commons_LoginParent__WEBPACK_IMPORTED_MODULE_2__["default"], null);
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_commons_LoginParent__WEBPACK_IMPORTED_MODULE_3__["default"], null);
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -14895,7 +14937,13 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "row d-flex align-items-center "
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-12 bg-secondary shadow p-3 mb-5 bg-light rounded formulario  d-flex flex-column justify-content-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginForm__WEBPACK_IMPORTED_MODULE_1__["default"], null))));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LoginForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      islogged: this.state.islogged,
+      username: this.state.users.username,
+      password: this.state.users.password,
+      handleChange: this.handleChange,
+      handleSubmit: this.handleSubmit
+    }))));
   }
 
 }
@@ -14942,73 +14990,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3__);
-
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
 
 class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: '',
-      password: ''
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  componentDidMount() {}
-
-  handleChange(event) {
-    const name = event.target.name;
-    const value = event.target.value;
-    /*     const obj = this.state;
-        obj[event.target.name] = event.target.value */
-
-    this.setState({
-      [name]: value
-    });
-    /*    this.setState({
-         username: event.target.value,
-         password: event.target.value
-       }); */
-  }
-
-  handleSubmit(event) {
-    alert(this.state.username);
-    alert(this.state.password);
-    /*     alert('A name was submitted: ' + this.state.users);
-        event.preventDefault(); */
-  }
-
   render() {
+    if (this.props.islogged === true) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Redirect"], {
+        to: "/homeParents"
+      });
+    }
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-      onSubmit: this.handleSubmit,
-      className: "align-items-center"
+      className: "align-items-center",
+      onSubmit: this.props.handleSubmit
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "form-group "
+      className: "form-group"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Username"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-      type: "text",
-      onChange: e => this.handleChange(e),
       className: "form-control",
-      id: "exampleInputEmail1",
-      "aria-describedby": "emailHelp"
+      type: "text",
+      name: "username",
+      value: this.props.username,
+      onChange: this.props.handleChange,
+      required: "required"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", {
       id: "emailHelp",
       className: "form-text text-muted"
     }, "We'll never share your email with anyone else.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "form-group"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-      type: "password",
-      value: this.state.username,
-      onChange: this.handleChange,
       className: "form-control",
-      id: "exampleInputPassword1"
+      type: "password",
+      name: "password",
+      value: this.props.password,
+      onChange: this.props.handleChange,
+      required: "required"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "form-group form-check"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
@@ -15018,7 +15037,6 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
       className: "form-check-label"
     }, "Check me out")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-      type: "submit",
       className: "btn btn-primary"
     }, "Submit")));
   }

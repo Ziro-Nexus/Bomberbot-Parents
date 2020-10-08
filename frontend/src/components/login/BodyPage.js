@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 
 import LoginForm from './LoginForm'
 import LoginParent from '../commons/LoginParent'
@@ -10,6 +11,48 @@ import './styles/Navbar.css'
 
 
 class BodyPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      islogged: '',
+      users: {
+        username: '',
+        password: ''
+      }
+    };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChange(event) {
+    const obj = this.state.users;
+    obj[event.target.name] = event.target.value
+    this.setState(obj);
+  }
+
+  async handleSubmit(event) {
+    event.preventDefault();
+    const required = {
+      "credentials": [
+          {
+              "name": this.state.users.username,
+              "password": this.state.users.password
+          }
+      ]
+    }
+
+    await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
+        .then(res => {
+          console.log(res);
+          if(res.data[0].Status === 'OK'){
+            this.setState({ islogged: true})
+          }
+        })
+        .catch(err =>{
+          console.error(err);
+        })
+      }
   render() {
 
     if (this.props.value === true) {
@@ -19,7 +62,12 @@ class BodyPage extends React.Component {
         <div className="container-fluid style-main justify-content-center">
             <div className="row d-flex align-items-center ">
                 <div className="col-12 bg-secondary shadow p-3 mb-5 bg-light rounded formulario  d-flex flex-column justify-content-center">
-                <LoginForm />
+                <LoginForm 
+                islogged={this.state.islogged}
+                username = {this.state.users.username}
+                password = {this.state.users.password} 
+                handleChange={this.handleChange} 
+                handleSubmit={this.handleSubmit}/>
                 </div>
             </div>
         </div>

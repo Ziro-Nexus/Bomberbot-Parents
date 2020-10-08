@@ -11,7 +11,7 @@ function App() {
         <Switch>
           <Route exact path="/index" component={Home} />
           <Route exact path="/loginParents" component={Login} />
-          <Route exact path="/homeParents" component={Children} />
+          <Route path="/homeParents" component={Children} />
         </Switch>
     </BrowserRouter>
   );
