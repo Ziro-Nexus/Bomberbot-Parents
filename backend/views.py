@@ -24,7 +24,8 @@ def auth(request):
     url = 'https://speedcoder.pythonanywhere.com/bomberbot_api/'
     r = requests.post(url, headers=headers, data=json.dumps(auth))
     response_json = r.json()
-    response = [{"status": "OK", "students": []}]
+    response = [{"Status": "OK", "students": []}]
+
     if r.status_code == 200:
         if type(response_json) in [list]:
             for student in response_json:
@@ -34,7 +35,9 @@ def auth(request):
                     "id": student["id"]
                 })
             return Response(response)
-    return Response(r.json())
+
+    response[0]["Status"] = response_json["Status"]
+    return Response(response)
 
 
 def index(request):
