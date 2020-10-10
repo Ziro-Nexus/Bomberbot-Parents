@@ -45,7 +45,8 @@ class BodyPage extends React.Component {
     await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
         .then(res => {
           console.log(res);
-          if(res.data[0].Status === 'OK'){
+          if(res.data[0].status === 'OK'){
+            
             this.setState({ islogged: true})
           }
         })
