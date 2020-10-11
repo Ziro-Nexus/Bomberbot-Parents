@@ -14,7 +14,7 @@ class BodyPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      islogged: '',
+      islogged: false,
       users: {
         username: '',
         password: ''
