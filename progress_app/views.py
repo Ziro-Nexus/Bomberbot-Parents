@@ -8,6 +8,4 @@ para comprobar que la pagina si reciba los estudiantes relacionados.
 '''
 
 def progress_test(request):
-    if 'student' in request.session:
-        return HttpResponse(request.session["student"])
-    return HttpResponse(None)
+    return HttpResponse(request.session.get("student"))
