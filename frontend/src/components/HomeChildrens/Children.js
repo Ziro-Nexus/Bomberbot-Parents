@@ -3,8 +3,7 @@ import React from 'react';
 import './style/Children.css';
 import '../login/styles/LoginForm.css'
 
-import Avatar1 from '../../images/undraw_female_avatar_w3jk.png';
-import Avatar2 from '../../images/Bomber_01.png'
+import Avatar from '../../images/Card_Children.jpeg'
 
 class Children extends React.Component {
     
@@ -28,22 +27,24 @@ class Children extends React.Component {
 
 
                 {this.data.name_childres.map((name, i) => {
-                    {this.columns != 1 ? this.columns = "col-12 col-sm-6 rounded d-flex justify-content-center"
-                    : this.columns = "col-12 col-sm-12 rounded d-flex justify-content-center"}
+                    {this.columns != 1 ? this.columns = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center"
+                    : this.columns = "col-12 col-sm-12 col-md-5 mr-5 mt-5 d-flex justify-content-center"}
                     return (
                      
                     <div className={this.columns} key={i}>
-
-                        <div className="member shadow p-3 mb-5 bg-light ">
-                            <div className="member-img ">
-                                <img src={Avatar2} alt="Avatar" />
-                            </div>
-                            <div className="member-info">
-                                <h4>Little programmer 1</h4>
-                                <span>{name}</span>
+                        <div className="box">
+                            <div className="card ">
+                                <div className="imgBx">
+                                    <img src={Avatar}
+                                        alt="images" />
+                                </div>
+                                <div className="details">
+                                    <h2>Name of children 1<br/><span>Litle Programmer</span></h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                </div>
+
                     )
                 })}
                 

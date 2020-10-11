@@ -7,7 +7,7 @@ export default class SocialMediaFooter extends React.Component {
     render () {
         return (
 
-            <div className="col-12 ">
+            <div className="col-12">
                 <div className="icon__bar2 d-flex align-items-center justify-content-center">
                     <a href="https://www.facebook.com/bomberbot" target="_blank" className="facebook2"><i
                             className="fa fa-facebook"></i></a>

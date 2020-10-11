@@ -1,51 +1,94 @@
 /***********************************************
 CHILDREN
 ***********************************************/
-.member {
-    margin-bottom: 1.25rem;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    background: white;
-    box-shadow: 0 0 2rem rgba(0, 0, 0 0.05);
-  }
+.card{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 1rem;
+  /* box-shadow:0 2px 20px rgba(0,0,0,.2); */
+  box-shadow: 0 2px 20px rgb(5, 5, 5);
+  margin-top: 5rem;;
+}
 
-  .member .member-img {
-    position: relative;
-    overflow: hidden;
-    height: 20rem;
-  }
+.card:before,
+.card:after
+{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 8px; */
+  background: #fff;
+  transition: 0.5s;
+  z-index:-1;
+  border-radius: 1rem;
+}
+.card:hover:before{
+box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.card:hover:after{
+box-shadow: 0 2px 20px rgba(0,0,0,.2);
+}
+.card .imgBx{
+position: absolute;
+top: 10px;
+left: 10px;
+bottom: 10px;
+right: 10px;
+/* background: #222; */
+/* background: white */
+transition: 0.5s;
+z-index: 1;
+}
 
-  .member .member-img img {
-    /* height: 20rem; */
-    /* width: 100%; */
-    width: 100%;
-    height: 100%;
-  }
-
-  .member .member-img {
-    padding: 1.56rem 0.94rem;
-  }
-
-  .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 0.31rem;
-    font-size: 1.13rem;
-    color: #052c3f;
-    text-align: center;
-  }
+.card:hover .imgBx
+{
+  bottom: 30px;
   
-  .member .member-info span {
-    display: block;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #aaaaaa;
+}
+
+.card .imgBx img{
+    /* ojo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    width: 100%;
+    height: 77%;
+    object-fit: cover;
+}
+
+.card .details{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 60px;
     text-align: center;
-  }
+}
 
-  .member:hover {
-    opacity: 0.8;
-  }
+.card .details h2{
+ margin: 0;
+ padding: 0;
+ font-weight: 600;
+ font-size: 20px;
+ color: #777;
+ text-transform: uppercase;
+} 
 
-  .style-main-scrool{
-    overflow-y: scroll;
-  }
+.card .details h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+} 
+
+.style-main-scrool{
+  overflow-y: scroll;
+}

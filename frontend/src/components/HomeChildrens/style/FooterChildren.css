@@ -1,14 +1,15 @@
-/***********************************************
-STYLES OF FOOTER
-***********************************************/
 .style-header {
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: #6cc78e;
     border-bottom: 0.1rem solid black;
-    height: 7rem;
+    height: 5rem;
     z-index: 100;
     text-align: center;
+    /* color: #ee6330; */
+    /* color:white; */
+    /* color: white; text-shadow: black 0.1em 0.1em 0.2em */
 }
+
 .style-shadow {
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }

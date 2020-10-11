@@ -14,7 +14,7 @@ class BodyPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      islogged: '',
+      islogged: false,
       users: {
         username: '',
         password: ''
@@ -47,6 +47,8 @@ class BodyPage extends React.Component {
           console.log(res);
           if(res.data[0].Status === 'OK'){
             this.setState({ islogged: true})
+            console.log(res.data[0]);
+            /* localStorage('parents', JSON.stringify(res.data)) */
           }
         })
         .catch(err =>{
