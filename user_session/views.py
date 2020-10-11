@@ -1,7 +1,6 @@
 import json
 from django.http import HttpResponse
 from rest_framework.response import Response
-from django.views.decorators.csrf import csrf_exempt
 import requests
 from rest_framework.decorators import api_view
 
@@ -16,9 +15,9 @@ def auth(request):
     r = requests.post(url, headers=headers, data=json.dumps(auth))
     response_json = r.json()
     response = [{"Status": "OK", "students": []}]
-    request.session["student"] = response_json
     if r.status_code == 200:
         if type(response_json) in [list]:
+            request.session["student"] = response_json
             for student in response_json:
                 response[0]["students"].append({
                     "first_name" : student["firts_name"],
