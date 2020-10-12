@@ -18,4 +18,5 @@ from . import views
 
 urlpatterns = [
     path('login/', views.auth),
+    path('related_students/', views.related_students)
 ]
