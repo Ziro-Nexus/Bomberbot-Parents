@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 
+
 import './styles/LoginForm.css'
 
 class LoginForm extends React.Component {
@@ -8,8 +9,11 @@ class LoginForm extends React.Component {
 
   render() {
 
-    if(this.props.islogged === true){
-      return <Redirect to="/homeParents" />;
+ if(this.props.islogged === true){
+      return <Redirect to={{
+        pathname: '/homeParents',
+        state: { data: this.props.data }
+      }} />;
 
     }
     return (
@@ -45,9 +49,9 @@ class LoginForm extends React.Component {
                 <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                 <label className="form-check-label">Check me out</label>
             </div>
-        <button className="btn btn-primary">
-        Submit
-        </button>
+          <button className="btn btn-primary">
+          Submit
+          </button>
       </form>
     </div>
     );

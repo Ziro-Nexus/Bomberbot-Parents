@@ -14,12 +14,13 @@ class BodyPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      islogged: '',
+      islogged: false,
       users: {
         username: '',
         password: ''
       }
     };
+    this.data = {};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -30,7 +31,7 @@ class BodyPage extends React.Component {
     obj[event.target.name] = event.target.value
     this.setState(obj);
   }
-
+  
   async handleSubmit(event) {
     event.preventDefault();
     const required = {
@@ -41,19 +42,19 @@ class BodyPage extends React.Component {
           }
       ]
     }
-
     await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
         .then(res => {
-          console.log(res);
           if(res.data[0].Status === 'OK'){
+            this.data = res.data[0].students;
+            console.log(this.data)
             this.setState({ islogged: true})
-            console.log(res.data[0]);
-            /* localStorage('parents', JSON.stringify(res.data)) */
           }
         })
         .catch(err =>{
           console.error(err);
         })
+
+        /*Guardando datos en cache */
       }
   render() {
 
@@ -69,7 +70,8 @@ class BodyPage extends React.Component {
                 username = {this.state.users.username}
                 password = {this.state.users.password} 
                 handleChange={this.handleChange} 
-                handleSubmit={this.handleSubmit}/>
+                handleSubmit={this.handleSubmit}
+                data={this.data}/>
                 </div>
             </div>
         </div>
