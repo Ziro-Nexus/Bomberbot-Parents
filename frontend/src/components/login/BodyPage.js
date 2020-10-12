@@ -44,14 +44,13 @@ class BodyPage extends React.Component {
     }
     await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
         .then(res => {
-          if(res.data[0].Status === 'OK'){
-            this.data = res.data[0].students;
-            console.log(this.data)
+          if(res.data.Status === 'OK'){
             this.setState({ islogged: true})
           }
         })
         .catch(err =>{
           console.error(err);
+          /* ccreate page of error  */
         })
 
         /*Guardando datos en cache */

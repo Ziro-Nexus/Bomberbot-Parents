@@ -12,7 +12,6 @@ class LoginForm extends React.Component {
  if(this.props.islogged === true){
       return <Redirect to={{
         pathname: '/homeParents',
-        state: { data: this.props.data }
       }} />;
 
     }
