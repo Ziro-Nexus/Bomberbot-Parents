@@ -17,5 +17,5 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('progress/', views.progress_test),
+    path('progress/', views.ProgressView.as_view()),
 ]
