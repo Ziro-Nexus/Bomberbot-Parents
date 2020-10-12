@@ -10,7 +10,7 @@ def related_students(request):
     if "related_students" in request.session:
         return Response(request.session["related_students"])
     else:
-        return Response({"Status": "Failed"})
+        return Response({"Status": "Failed"}, status=402)
 
 
 @api_view(('POST',))
