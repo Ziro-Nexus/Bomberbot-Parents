@@ -40,8 +40,8 @@ class Children extends React.Component {
 
                 {/* {this.data.name_childres = this.handleList()} */}
                 {this.data.name_childres.map((name, i) => {
-                    {this.columns != 1 ? this.columns = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center"
-                    : this.columns = "col-12 col-sm-12 col-md-5 mr-5 mt-5 d-flex justify-content-center"}
+                    {this.columns != 1 ? this.columns = "col-12 col-sm-6 col-md-5 mr-1 mt-5 d-flex justify-content-center"
+                    : this.columns = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center"}
                     return (
                      
                     <div className={this.columns} key={i}>
