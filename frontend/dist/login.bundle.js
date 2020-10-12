@@ -14477,11 +14477,20 @@ class Children extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
     this.data = {
-      name_childres: ['Hijo1', 'Hijo2']
+      name_childres: this.handleList()
     };
     this.columns = this.data.name_childres.length;
     this.class = '';
-    console.log(this.columns);
+  }
+
+  handleList() {
+    let name_children = [];
+
+    for (let name of this.props.data.data) {
+      name_children.push(name.first_name + ' ' + name.last_name);
+    }
+
+    return name_children;
   }
 
   render() {
@@ -14510,7 +14519,7 @@ class Children extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         alt: "images"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Name of children 1", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Litle Programmer"))))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Litle Programmer"))))));
     })));
   }
 
@@ -15011,12 +15020,13 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   constructor(props) {
     super(props);
     this.state = {
-      islogged: '',
+      islogged: false,
       users: {
         username: '',
         password: ''
       }
     };
+    this.data = {};
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -15036,18 +15046,17 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }]
     };
     await axios__WEBPACK_IMPORTED_MODULE_1___default.a.post('http://127.0.0.1:8000/login/', JSON.stringify(required)).then(res => {
-      console.log(res);
-
       if (res.data[0].Status === 'OK') {
+        this.data = res.data[0].students;
+        console.log(this.data);
         this.setState({
           islogged: true
         });
-        console.log(res.data[0]);
-        /* localStorage('parents', JSON.stringify(res.data)) */
       }
     }).catch(err => {
       console.error(err);
     });
+    /*Guardando datos en cache */
   }
 
   render() {
@@ -15066,7 +15075,8 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       username: this.state.users.username,
       password: this.state.users.password,
       handleChange: this.handleChange,
-      handleSubmit: this.handleSubmit
+      handleSubmit: this.handleSubmit,
+      data: this.data
     }))));
   }
 
@@ -15124,7 +15134,12 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     if (this.props.islogged === true) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Redirect"], {
-        to: "/homeParents"
+        to: {
+          pathname: '/homeParents',
+          state: {
+            data: this.props.data
+          }
+        }
       });
     }
 
@@ -15506,11 +15521,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PagesChildrens; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_login_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/login/Navbar */ "./src/components/login/Navbar.js");
-/* harmony import */ var _components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HomeChildrens/HeaderChildren */ "./src/components/HomeChildrens/HeaderChildren.js");
-/* harmony import */ var _components_HomeChildrens_Children__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/HomeChildrens/Children */ "./src/components/HomeChildrens/Children.js");
-/* harmony import */ var _components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/HomeChildrens/FooterChildren */ "./src/components/HomeChildrens/FooterChildren.js");
-
+/* harmony import */ var _components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/HomeChildrens/HeaderChildren */ "./src/components/HomeChildrens/HeaderChildren.js");
+/* harmony import */ var _components_HomeChildrens_Children__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HomeChildrens/Children */ "./src/components/HomeChildrens/Children.js");
+/* harmony import */ var _components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/HomeChildrens/FooterChildren */ "./src/components/HomeChildrens/FooterChildren.js");
 
 
 
@@ -15519,7 +15532,9 @@ class PagesChildrens extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container-fluid d-flex flex-column image-main"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_Children__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_Children__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      data: this.props.location.state
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   }
 
 }

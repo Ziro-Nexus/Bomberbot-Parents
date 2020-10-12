@@ -1,9 +1,16 @@
 import json
 from django.http import HttpResponse
 from rest_framework.response import Response
-from django.views.decorators.csrf import csrf_exempt
 import requests
 from rest_framework.decorators import api_view
+
+
+@api_view(('GET',))
+def related_students(request):
+    if "related_students" in request.session:
+        return Response(request.session["related_students"])
+    else:
+        return Response({"Status": "Failed"})
 
 
 @api_view(('POST',))
@@ -15,17 +22,19 @@ def auth(request):
     url = 'https://speedcoder.pythonanywhere.com/bomberbot_api/'
     r = requests.post(url, headers=headers, data=json.dumps(auth))
     response_json = r.json()
-    response = [{"Status": "OK", "students": []}]
-    request.session["student"] = response_json
+    response = {"students": []}
     if r.status_code == 200:
         if type(response_json) in [list]:
+            request.session["students"] = response_json
             for student in response_json:
-                response[0]["students"].append({
+                response["students"].append({
                     "first_name" : student["firts_name"],
                     "last_name":   student["last_name"],
                     "id": student["id"]
                 })
-            return Response(response)
+            request.session["related_students"] = response
+            return Response({"Status": "OK"})
 
-    response[0]["Status"] = response_json["Status"]
-    return Response(response)
+    response["Status"] = response_json["Status"]
+    request.session["related_students"] = json.dumps(response_json)
+    return Response(json.dumps({"Status": response_json["Status"]}))
