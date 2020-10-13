@@ -87,9 +87,9 @@
 /******/ ({
 
 /***/ "../../node_modules/axios/index.js":
-/*!************************************************!*\
-  !*** /home/marlon/node_modules/axios/index.js ***!
-  \************************************************/
+/*!*************************************************!*\
+  !*** /home/usuario/node_modules/axios/index.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98,9 +98,9 @@ module.exports = __webpack_require__(/*! ./lib/axios */ "../../node_modules/axio
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/adapters/xhr.js":
-/*!***********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/adapters/xhr.js ***!
-  \***********************************************************/
+/*!************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/adapters/xhr.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -290,9 +290,9 @@ module.exports = function xhrAdapter(config) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/axios.js":
-/*!****************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/axios.js ***!
-  \****************************************************/
+/*!*****************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/axios.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -352,9 +352,9 @@ module.exports.default = axios;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/Cancel.js":
-/*!************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/Cancel.js ***!
-  \************************************************************/
+/*!*************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/Cancel.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -381,9 +381,9 @@ module.exports = Cancel;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/CancelToken.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/CancelToken.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -451,9 +451,9 @@ module.exports = CancelToken;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/cancel/isCancel.js":
-/*!**************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/cancel/isCancel.js ***!
-  \**************************************************************/
+/*!***************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/cancel/isCancel.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -467,9 +467,9 @@ module.exports = function isCancel(value) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/Axios.js":
-/*!*********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/Axios.js ***!
-  \*********************************************************/
+/*!**********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/Axios.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -573,9 +573,9 @@ module.exports = Axios;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/InterceptorManager.js":
-/*!**********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/InterceptorManager.js ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -639,9 +639,9 @@ module.exports = InterceptorManager;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/buildFullPath.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/buildFullPath.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/buildFullPath.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -673,9 +673,9 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/createError.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/createError.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/createError.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -703,9 +703,9 @@ module.exports = function createError(message, config, code, request, response) 
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/dispatchRequest.js":
-/*!*******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/dispatchRequest.js ***!
-  \*******************************************************************/
+/*!********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -770,9 +770,9 @@ module.exports = function dispatchRequest(config) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/enhanceError.js":
-/*!****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/enhanceError.js ***!
-  \****************************************************************/
+/*!*****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/enhanceError.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -825,9 +825,9 @@ module.exports = function enhanceError(error, config, code, request, response) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/mergeConfig.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/mergeConfig.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/mergeConfig.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -905,9 +905,9 @@ module.exports = function mergeConfig(config1, config2) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/settle.js":
-/*!**********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/settle.js ***!
-  \**********************************************************/
+/*!***********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/settle.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -937,9 +937,9 @@ module.exports = function settle(resolve, reject, response) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/core/transformData.js":
-/*!*****************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/core/transformData.js ***!
-  \*****************************************************************/
+/*!******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/core/transformData.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -968,9 +968,9 @@ module.exports = function transformData(data, headers, fns) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/defaults.js":
-/*!*******************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/defaults.js ***!
-  \*******************************************************/
+/*!********************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/defaults.js ***!
+  \********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1074,9 +1074,9 @@ module.exports = defaults;
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/bind.js":
-/*!***********************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/bind.js ***!
-  \***********************************************************/
+/*!************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/bind.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1098,9 +1098,9 @@ module.exports = function bind(fn, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/buildURL.js":
-/*!***************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/buildURL.js ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/buildURL.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1175,9 +1175,9 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/combineURLs.js":
-/*!******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/combineURLs.js ***!
-  \******************************************************************/
+/*!*******************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1198,9 +1198,9 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/cookies.js":
-/*!**************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/cookies.js ***!
-  \**************************************************************/
+/*!***************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/cookies.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1256,9 +1256,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/isAbsoluteURL.js":
-/*!********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \********************************************************************/
+/*!*********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1281,9 +1281,9 @@ module.exports = function isAbsoluteURL(url) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/isURLSameOrigin.js":
-/*!**********************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1350,9 +1350,9 @@ function nonStandardBrowserEnv() {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/normalizeHeaderName.js":
-/*!**************************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \**************************************************************************/
+/*!***************************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1373,9 +1373,9 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/parseHeaders.js":
-/*!*******************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \*******************************************************************/
+/*!********************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1434,9 +1434,9 @@ module.exports = function parseHeaders(headers) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/helpers/spread.js":
-/*!*************************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/helpers/spread.js ***!
-  \*************************************************************/
+/*!**************************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/helpers/spread.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1472,9 +1472,9 @@ module.exports = function spread(callback) {
 /***/ }),
 
 /***/ "../../node_modules/axios/lib/utils.js":
-/*!****************************************************!*\
-  !*** /home/marlon/node_modules/axios/lib/utils.js ***!
-  \****************************************************/
+/*!*****************************************************!*\
+  !*** /home/usuario/node_modules/axios/lib/utils.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1981,6 +1981,28 @@ ___CSS_LOADER_EXPORT___.push([module.i, "/*!\n * Bootstrap v4.5.2 (https://getbo
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/components/Altern/styles/Loader.css":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/Altern/styles/Loader.css ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".PageLoading {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    min-height: 100vh;\n    width: 100%;\n  }\n  .lds-grid {\n    display: inline-block;\n    position: relative;\n    width: 64px;\n    height: 64px;\n  }\n  \n  .lds-grid div {\n    position: absolute;\n    width: 13px;\n    height: 13px;\n    border-radius: 50%;\n    background: #000;\n    animation: lds-grid 1.2s linear infinite;\n  }\n  \n  .lds-grid div:nth-child(1) {\n    top: 6px;\n    left: 6px;\n    animation-delay: 0s;\n  }\n  \n  .lds-grid div:nth-child(2) {\n    top: 6px;\n    left: 26px;\n    animation-delay: -0.4s;\n  }\n  \n  .lds-grid div:nth-child(3) {\n    top: 6px;\n    left: 45px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(4) {\n    top: 26px;\n    left: 6px;\n    animation-delay: -0.4s;\n  }\n  \n  .lds-grid div:nth-child(5) {\n    top: 26px;\n    left: 26px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(6) {\n    top: 26px;\n    left: 45px;\n    animation-delay: -1.2s;\n  }\n  \n  .lds-grid div:nth-child(7) {\n    top: 45px;\n    left: 6px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(8) {\n    top: 45px;\n    left: 26px;\n    animation-delay: -1.2s;\n  }\n  \n  .lds-grid div:nth-child(9) {\n    top: 45px;\n    left: 45px;\n    animation-delay: -1.6s;\n  }\n  \n  @keyframes lds-grid {\n  \n    0%,\n    100% {\n      opacity: 1;\n    }\n  \n    50% {\n      opacity: 0.5;\n    }\n  }\n  ", "",{"version":3,"sources":["webpack://src/components/Altern/styles/Loader.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,iBAAiB;IACjB,WAAW;EACb;EACA;IACE,qBAAqB;IACrB,kBAAkB;IAClB,WAAW;IACX,YAAY;EACd;;EAEA;IACE,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,gBAAgB;IAChB,wCAAwC;EAC1C;;EAEA;IACE,QAAQ;IACR,SAAS;IACT,mBAAmB;EACrB;;EAEA;IACE,QAAQ;IACR,UAAU;IACV,sBAAsB;EACxB;;EAEA;IACE,QAAQ;IACR,UAAU;IACV,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,SAAS;IACT,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,UAAU;IACV,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,UAAU;IACV,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,SAAS;IACT,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,UAAU;IACV,sBAAsB;EACxB;;EAEA;IACE,SAAS;IACT,UAAU;IACV,sBAAsB;EACxB;;EAEA;;IAEE;;MAEE,UAAU;IACZ;;IAEA;MACE,YAAY;IACd;EACF","sourcesContent":[".PageLoading {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    min-height: 100vh;\n    width: 100%;\n  }\n  .lds-grid {\n    display: inline-block;\n    position: relative;\n    width: 64px;\n    height: 64px;\n  }\n  \n  .lds-grid div {\n    position: absolute;\n    width: 13px;\n    height: 13px;\n    border-radius: 50%;\n    background: #000;\n    animation: lds-grid 1.2s linear infinite;\n  }\n  \n  .lds-grid div:nth-child(1) {\n    top: 6px;\n    left: 6px;\n    animation-delay: 0s;\n  }\n  \n  .lds-grid div:nth-child(2) {\n    top: 6px;\n    left: 26px;\n    animation-delay: -0.4s;\n  }\n  \n  .lds-grid div:nth-child(3) {\n    top: 6px;\n    left: 45px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(4) {\n    top: 26px;\n    left: 6px;\n    animation-delay: -0.4s;\n  }\n  \n  .lds-grid div:nth-child(5) {\n    top: 26px;\n    left: 26px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(6) {\n    top: 26px;\n    left: 45px;\n    animation-delay: -1.2s;\n  }\n  \n  .lds-grid div:nth-child(7) {\n    top: 45px;\n    left: 6px;\n    animation-delay: -0.8s;\n  }\n  \n  .lds-grid div:nth-child(8) {\n    top: 45px;\n    left: 26px;\n    animation-delay: -1.2s;\n  }\n  \n  .lds-grid div:nth-child(9) {\n    top: 45px;\n    left: 45px;\n    animation-delay: -1.6s;\n  }\n  \n  @keyframes lds-grid {\n  \n    0%,\n    100% {\n      opacity: 1;\n    }\n  \n    50% {\n      opacity: 0.5;\n    }\n  }\n  "],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/components/HomeChildrens/style/Children.css":
 /*!***********************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/components/HomeChildrens/style/Children.css ***!
@@ -2201,6 +2223,34 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.i, ".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 4rem;\n    width: 4rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n\n.home-bb {\n    width: 15rem;\n    height: 3rem;\n    text-transform: uppercase;\n    font-weight: 500;\n    font-size: 1.2rem;\n    display: inline-block;\n    padding: 1rem 1.7rem;\n    border-radius: 1rem;\n    transition: 0.5s;\n    border: 0.1rem solid orange;\n    background: #f7a441;\n}\n\n.home-bb a {\n    text-decoration: none;\n    color: orangered;\n    justify-self: center;\n}\n\n.home-bb:hover {\n    width: 15rem;\n    height: 3rem;\n    text-transform: uppercase;\n    font-weight: 500;\n    font-size: 1.2rem;\n    display: inline-block;\n    padding: 1rem 1.7rem;\n    border-radius: 1rem;\n    transition: 0.5s;\n    border: 0.1rem solid orange;\n    background: #e9c08e;\n}\n", "",{"version":3,"sources":["webpack://src/components/login/styles/Navbar.css"],"names":[],"mappings":"AAAA;IACI,+BAA+B;IAC/B,iCAAiC;AACrC;;AAEA;IACI,cAAc;IACd,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,2BAA2B;IAC3B,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,iBAAiB;IACjB,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,YAAY;IACZ,iBAAiB;AACrB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,yBAAyB;IACzB,gBAAgB;IAChB,iBAAiB;IACjB,qBAAqB;IACrB,oBAAoB;IACpB,mBAAmB;IACnB,gBAAgB;IAChB,2BAA2B;IAC3B,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,gBAAgB;IAChB,oBAAoB;AACxB;;AAEA;IACI,YAAY;IACZ,YAAY;IACZ,yBAAyB;IACzB,gBAAgB;IAChB,iBAAiB;IACjB,qBAAqB;IACrB,oBAAoB;IACpB,mBAAmB;IACnB,gBAAgB;IAChB,2BAA2B;IAC3B,mBAAmB;AACvB","sourcesContent":[".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 4rem;\n    width: 4rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n\n.home-bb {\n    width: 15rem;\n    height: 3rem;\n    text-transform: uppercase;\n    font-weight: 500;\n    font-size: 1.2rem;\n    display: inline-block;\n    padding: 1rem 1.7rem;\n    border-radius: 1rem;\n    transition: 0.5s;\n    border: 0.1rem solid orange;\n    background: #f7a441;\n}\n\n.home-bb a {\n    text-decoration: none;\n    color: orangered;\n    justify-self: center;\n}\n\n.home-bb:hover {\n    width: 15rem;\n    height: 3rem;\n    text-transform: uppercase;\n    font-weight: 500;\n    font-size: 1.2rem;\n    display: inline-block;\n    padding: 1rem 1.7rem;\n    border-radius: 1rem;\n    transition: 0.5s;\n    border: 0.1rem solid orange;\n    background: #e9c08e;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/ProgressChildren.css":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/ProgressChildren.css ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_bombebotimages_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../images/bombebotimages.jpg */ "./src/images/bombebotimages.jpg");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_images_bombebotimages_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n    background-image: linear-gradient(315deg, rgba(11, 26, 53, 0.65) 0%, rgba(78, 112, 175, 0.65) 74%), url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\n.container2{\n    width: 100%;\n    \n/*     position: relative;\n    display: flex;  */\n    /* justify-content: space-between; */\n}\n\n\n.container2 .card2 .face{\n    width: 20rem;\n    height: 12.5rem;\n    transition: 0.5s;\n}\n\n.container2 .card2{\n    position: relative;\n    cursor: pointer;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n\n.container2 .card2 .face.face1{\n    position: relative;\n    \n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 11.5rem;\n    height: 6.5rem;\n\n/*     max-width: 60%;\n    max-height: 80%; */\n    align-items: center;\n    /* margin-left: 1.4rem; */\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    /* margin: 0.2rem 0 0; */\n    padding: .3rem;\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    /* margin: 0.2rem 0 0; */\n    /* padding: .3rem; */\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 15px 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: 5px;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background:white;\n    color: #6cc78e;\n}", "",{"version":3,"sources":["webpack://src/components/progressChildren/styles/ProgressChildren.css"],"names":[],"mappings":"AAAA,uBAAuB;;;AAGvB;IACI,sBAAsB;IACtB,WAAW;IACX,aAAa;IACb,2IAA6I;IAC7I,4BAA4B;IAC5B,sBAAsB;AAC1B;;AAEA;IACI,WAAW;;AAEf;qBACqB;IACjB,oCAAoC;AACxC;;;AAGA;IACI,YAAY;IACZ,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,UAAU;AACd;;AAEA;IACI,mBAAmB;AACvB;;;AAGA;IACI,kBAAkB;;IAElB,mBAAmB;IACnB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,UAAU;IACV,4BAA4B;AAChC;;AAEA;IACI,mBAAmB;IACnB,wBAAwB;AAC5B;;AAEA;IACI,YAAY;IACZ,gBAAgB;;AAEpB;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,SAAS;IACT,cAAc;IACd,cAAc;;AAElB;sBACsB;IAClB,mBAAmB;IACnB,yBAAyB;IACzB,qBAAqB;AACzB;;AAEA;IACI,wBAAwB;IACxB,cAAc;IACd,WAAW;IACX,kBAAkB;IAClB,cAAc;AAClB;;AAEA;IACI,wBAAwB;IACxB,oBAAoB;IACpB,WAAW;IACX,kBAAkB;IAClB,cAAc;AAClB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;IACb,sBAAsB;IACtB,0CAA0C;IAC1C,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,gBAAgB;IAChB,sBAAsB;IACtB,qBAAqB;IACrB,gBAAgB;IAChB,WAAW;IACX,YAAY;IACZ,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,cAAc;AAClB","sourcesContent":["/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n    background-image: linear-gradient(315deg, rgba(11, 26, 53, 0.65) 0%, rgba(78, 112, 175, 0.65) 74%), url('../../../images/bombebotimages.jpg');\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\n.container2{\n    width: 100%;\n    \n/*     position: relative;\n    display: flex;  */\n    /* justify-content: space-between; */\n}\n\n\n.container2 .card2 .face{\n    width: 20rem;\n    height: 12.5rem;\n    transition: 0.5s;\n}\n\n.container2 .card2{\n    position: relative;\n    cursor: pointer;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n\n.container2 .card2 .face.face1{\n    position: relative;\n    \n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 11.5rem;\n    height: 6.5rem;\n\n/*     max-width: 60%;\n    max-height: 80%; */\n    align-items: center;\n    /* margin-left: 1.4rem; */\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    /* margin: 0.2rem 0 0; */\n    padding: .3rem;\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    /* margin: 0.2rem 0 0; */\n    /* padding: .3rem; */\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 15px 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: 5px;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background:white;\n    color: #6cc78e;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -3452,19 +3502,6 @@ module.exports = hoistNonReactStatics;
 
 /***/ }),
 
-/***/ "./node_modules/isarray/index.js":
-/*!***************************************!*\
-  !*** ./node_modules/isarray/index.js ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = Array.isArray || function (arr) {
-  return Object.prototype.toString.call(arr) == '[object Array]';
-};
-
-/***/ }),
-
 /***/ "./node_modules/mini-create-react-context/dist/esm/index.js":
 /*!******************************************************************!*\
   !*** ./node_modules/mini-create-react-context/dist/esm/index.js ***!
@@ -3761,457 +3798,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
   return to;
 };
-
-/***/ }),
-
-/***/ "./node_modules/path-to-regexp/index.js":
-/*!**********************************************!*\
-  !*** ./node_modules/path-to-regexp/index.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isarray = __webpack_require__(/*! isarray */ "./node_modules/isarray/index.js");
-/**
- * Expose `pathToRegexp`.
- */
-
-
-module.exports = pathToRegexp;
-module.exports.parse = parse;
-module.exports.compile = compile;
-module.exports.tokensToFunction = tokensToFunction;
-module.exports.tokensToRegExp = tokensToRegExp;
-/**
- * The main path matching regexp utility.
- *
- * @type {RegExp}
- */
-
-var PATH_REGEXP = new RegExp([// Match escaped characters that would otherwise appear in future matches.
-// This allows the user to escape special characters that won't transform.
-'(\\\\.)', // Match Express-style parameters and un-named parameters with a prefix
-// and optional suffixes. Matches appear as:
-//
-// "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
-// "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
-// "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
-'([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'].join('|'), 'g');
-/**
- * Parse a string for the raw tokens.
- *
- * @param  {string}  str
- * @param  {Object=} options
- * @return {!Array}
- */
-
-function parse(str, options) {
-  var tokens = [];
-  var key = 0;
-  var index = 0;
-  var path = '';
-  var defaultDelimiter = options && options.delimiter || '/';
-  var res;
-
-  while ((res = PATH_REGEXP.exec(str)) != null) {
-    var m = res[0];
-    var escaped = res[1];
-    var offset = res.index;
-    path += str.slice(index, offset);
-    index = offset + m.length; // Ignore already escaped sequences.
-
-    if (escaped) {
-      path += escaped[1];
-      continue;
-    }
-
-    var next = str[index];
-    var prefix = res[2];
-    var name = res[3];
-    var capture = res[4];
-    var group = res[5];
-    var modifier = res[6];
-    var asterisk = res[7]; // Push the current path onto the tokens.
-
-    if (path) {
-      tokens.push(path);
-      path = '';
-    }
-
-    var partial = prefix != null && next != null && next !== prefix;
-    var repeat = modifier === '+' || modifier === '*';
-    var optional = modifier === '?' || modifier === '*';
-    var delimiter = res[2] || defaultDelimiter;
-    var pattern = capture || group;
-    tokens.push({
-      name: name || key++,
-      prefix: prefix || '',
-      delimiter: delimiter,
-      optional: optional,
-      repeat: repeat,
-      partial: partial,
-      asterisk: !!asterisk,
-      pattern: pattern ? escapeGroup(pattern) : asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?'
-    });
-  } // Match any characters still remaining.
-
-
-  if (index < str.length) {
-    path += str.substr(index);
-  } // If the path exists, push it onto the end.
-
-
-  if (path) {
-    tokens.push(path);
-  }
-
-  return tokens;
-}
-/**
- * Compile a string to a template function for the path.
- *
- * @param  {string}             str
- * @param  {Object=}            options
- * @return {!function(Object=, Object=)}
- */
-
-
-function compile(str, options) {
-  return tokensToFunction(parse(str, options), options);
-}
-/**
- * Prettier encoding of URI path segments.
- *
- * @param  {string}
- * @return {string}
- */
-
-
-function encodeURIComponentPretty(str) {
-  return encodeURI(str).replace(/[\/?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
-  });
-}
-/**
- * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
- *
- * @param  {string}
- * @return {string}
- */
-
-
-function encodeAsterisk(str) {
-  return encodeURI(str).replace(/[?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
-  });
-}
-/**
- * Expose a method for transforming tokens into the path function.
- */
-
-
-function tokensToFunction(tokens, options) {
-  // Compile all the tokens into regexps.
-  var matches = new Array(tokens.length); // Compile all the patterns before compilation.
-
-  for (var i = 0; i < tokens.length; i++) {
-    if (typeof tokens[i] === 'object') {
-      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options));
-    }
-  }
-
-  return function (obj, opts) {
-    var path = '';
-    var data = obj || {};
-    var options = opts || {};
-    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
-
-    for (var i = 0; i < tokens.length; i++) {
-      var token = tokens[i];
-
-      if (typeof token === 'string') {
-        path += token;
-        continue;
-      }
-
-      var value = data[token.name];
-      var segment;
-
-      if (value == null) {
-        if (token.optional) {
-          // Prepend partial segment prefixes.
-          if (token.partial) {
-            path += token.prefix;
-          }
-
-          continue;
-        } else {
-          throw new TypeError('Expected "' + token.name + '" to be defined');
-        }
-      }
-
-      if (isarray(value)) {
-        if (!token.repeat) {
-          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`');
-        }
-
-        if (value.length === 0) {
-          if (token.optional) {
-            continue;
-          } else {
-            throw new TypeError('Expected "' + token.name + '" to not be empty');
-          }
-        }
-
-        for (var j = 0; j < value.length; j++) {
-          segment = encode(value[j]);
-
-          if (!matches[i].test(segment)) {
-            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`');
-          }
-
-          path += (j === 0 ? token.prefix : token.delimiter) + segment;
-        }
-
-        continue;
-      }
-
-      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
-
-      if (!matches[i].test(segment)) {
-        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"');
-      }
-
-      path += token.prefix + segment;
-    }
-
-    return path;
-  };
-}
-/**
- * Escape a regular expression string.
- *
- * @param  {string} str
- * @return {string}
- */
-
-
-function escapeString(str) {
-  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1');
-}
-/**
- * Escape the capturing group by escaping special characters and meaning.
- *
- * @param  {string} group
- * @return {string}
- */
-
-
-function escapeGroup(group) {
-  return group.replace(/([=!:$\/()])/g, '\\$1');
-}
-/**
- * Attach the keys as a property of the regexp.
- *
- * @param  {!RegExp} re
- * @param  {Array}   keys
- * @return {!RegExp}
- */
-
-
-function attachKeys(re, keys) {
-  re.keys = keys;
-  return re;
-}
-/**
- * Get the flags for a regexp from the options.
- *
- * @param  {Object} options
- * @return {string}
- */
-
-
-function flags(options) {
-  return options && options.sensitive ? '' : 'i';
-}
-/**
- * Pull out keys from a regexp.
- *
- * @param  {!RegExp} path
- * @param  {!Array}  keys
- * @return {!RegExp}
- */
-
-
-function regexpToRegexp(path, keys) {
-  // Use a negative lookahead to match only capturing groups.
-  var groups = path.source.match(/\((?!\?)/g);
-
-  if (groups) {
-    for (var i = 0; i < groups.length; i++) {
-      keys.push({
-        name: i,
-        prefix: null,
-        delimiter: null,
-        optional: false,
-        repeat: false,
-        partial: false,
-        asterisk: false,
-        pattern: null
-      });
-    }
-  }
-
-  return attachKeys(path, keys);
-}
-/**
- * Transform an array into a regexp.
- *
- * @param  {!Array}  path
- * @param  {Array}   keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-
-
-function arrayToRegexp(path, keys, options) {
-  var parts = [];
-
-  for (var i = 0; i < path.length; i++) {
-    parts.push(pathToRegexp(path[i], keys, options).source);
-  }
-
-  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
-  return attachKeys(regexp, keys);
-}
-/**
- * Create a path regexp from string input.
- *
- * @param  {string}  path
- * @param  {!Array}  keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-
-
-function stringToRegexp(path, keys, options) {
-  return tokensToRegExp(parse(path, options), keys, options);
-}
-/**
- * Expose a function for taking tokens and returning a RegExp.
- *
- * @param  {!Array}          tokens
- * @param  {(Array|Object)=} keys
- * @param  {Object=}         options
- * @return {!RegExp}
- */
-
-
-function tokensToRegExp(tokens, keys, options) {
-  if (!isarray(keys)) {
-    options =
-    /** @type {!Object} */
-    keys || options;
-    keys = [];
-  }
-
-  options = options || {};
-  var strict = options.strict;
-  var end = options.end !== false;
-  var route = ''; // Iterate over the tokens and create our regexp string.
-
-  for (var i = 0; i < tokens.length; i++) {
-    var token = tokens[i];
-
-    if (typeof token === 'string') {
-      route += escapeString(token);
-    } else {
-      var prefix = escapeString(token.prefix);
-      var capture = '(?:' + token.pattern + ')';
-      keys.push(token);
-
-      if (token.repeat) {
-        capture += '(?:' + prefix + capture + ')*';
-      }
-
-      if (token.optional) {
-        if (!token.partial) {
-          capture = '(?:' + prefix + '(' + capture + '))?';
-        } else {
-          capture = prefix + '(' + capture + ')?';
-        }
-      } else {
-        capture = prefix + '(' + capture + ')';
-      }
-
-      route += capture;
-    }
-  }
-
-  var delimiter = escapeString(options.delimiter || '/');
-  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter; // In non-strict mode we allow a slash at the end of match. If the path to
-  // match already ends with a slash, we remove it for consistency. The slash
-  // is valid at the end of a path match, not in the middle. This is important
-  // in non-ending mode, where "/test/" shouldn't match "/test//route".
-
-  if (!strict) {
-    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
-  }
-
-  if (end) {
-    route += '$';
-  } else {
-    // In non-ending mode, we need the capturing groups to match as much as
-    // possible by using a positive lookahead to the end or next path segment.
-    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
-  }
-
-  return attachKeys(new RegExp('^' + route, flags(options)), keys);
-}
-/**
- * Normalize the given path string, returning a regular expression.
- *
- * An empty array can be passed in for the keys, which will hold the
- * placeholder key descriptions. For example, using `/user/:id`, `keys` will
- * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
- *
- * @param  {(string|RegExp|Array)} path
- * @param  {(Array|Object)=}       keys
- * @param  {Object=}               options
- * @return {!RegExp}
- */
-
-
-function pathToRegexp(path, keys, options) {
-  if (!isarray(keys)) {
-    options =
-    /** @type {!Object} */
-    keys || options;
-    keys = [];
-  }
-
-  options = options || {};
-
-  if (path instanceof RegExp) {
-    return regexpToRegexp(path,
-    /** @type {!Array} */
-    keys);
-  }
-
-  if (isarray(path)) {
-    return arrayToRegexp(
-    /** @type {!Array} */
-    path,
-    /** @type {!Array} */
-    keys, options);
-  }
-
-  return stringToRegexp(
-  /** @type {string} */
-  path,
-  /** @type {!Array} */
-  keys, options);
-}
 
 /***/ }),
 
@@ -10045,7 +9631,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
 /* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/path-to-regexp/index.js");
+/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
 /* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 /* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_9__);
@@ -10804,6 +10390,470 @@ if (true) {
 }
 
 
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/isarray/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-router/node_modules/path-to-regexp/index.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js");
+/**
+ * Expose `pathToRegexp`.
+ */
+
+
+module.exports = pathToRegexp;
+module.exports.parse = parse;
+module.exports.compile = compile;
+module.exports.tokensToFunction = tokensToFunction;
+module.exports.tokensToRegExp = tokensToRegExp;
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+
+var PATH_REGEXP = new RegExp([// Match escaped characters that would otherwise appear in future matches.
+// This allows the user to escape special characters that won't transform.
+'(\\\\.)', // Match Express-style parameters and un-named parameters with a prefix
+// and optional suffixes. Matches appear as:
+//
+// "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
+// "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
+// "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
+'([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'].join('|'), 'g');
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+
+function parse(str, options) {
+  var tokens = [];
+  var key = 0;
+  var index = 0;
+  var path = '';
+  var defaultDelimiter = options && options.delimiter || '/';
+  var res;
+
+  while ((res = PATH_REGEXP.exec(str)) != null) {
+    var m = res[0];
+    var escaped = res[1];
+    var offset = res.index;
+    path += str.slice(index, offset);
+    index = offset + m.length; // Ignore already escaped sequences.
+
+    if (escaped) {
+      path += escaped[1];
+      continue;
+    }
+
+    var next = str[index];
+    var prefix = res[2];
+    var name = res[3];
+    var capture = res[4];
+    var group = res[5];
+    var modifier = res[6];
+    var asterisk = res[7]; // Push the current path onto the tokens.
+
+    if (path) {
+      tokens.push(path);
+      path = '';
+    }
+
+    var partial = prefix != null && next != null && next !== prefix;
+    var repeat = modifier === '+' || modifier === '*';
+    var optional = modifier === '?' || modifier === '*';
+    var delimiter = res[2] || defaultDelimiter;
+    var pattern = capture || group;
+    tokens.push({
+      name: name || key++,
+      prefix: prefix || '',
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      asterisk: !!asterisk,
+      pattern: pattern ? escapeGroup(pattern) : asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?'
+    });
+  } // Match any characters still remaining.
+
+
+  if (index < str.length) {
+    path += str.substr(index);
+  } // If the path exists, push it onto the end.
+
+
+  if (path) {
+    tokens.push(path);
+  }
+
+  return tokens;
+}
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+
+
+function compile(str, options) {
+  return tokensToFunction(parse(str, options), options);
+}
+/**
+ * Prettier encoding of URI path segments.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+
+
+function encodeURIComponentPretty(str) {
+  return encodeURI(str).replace(/[\/?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+  });
+}
+/**
+ * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+
+
+function encodeAsterisk(str) {
+  return encodeURI(str).replace(/[?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase();
+  });
+}
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+
+
+function tokensToFunction(tokens, options) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length); // Compile all the patterns before compilation.
+
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options));
+    }
+  }
+
+  return function (obj, opts) {
+    var path = '';
+    var data = obj || {};
+    var options = opts || {};
+    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i];
+
+      if (typeof token === 'string') {
+        path += token;
+        continue;
+      }
+
+      var value = data[token.name];
+      var segment;
+
+      if (value == null) {
+        if (token.optional) {
+          // Prepend partial segment prefixes.
+          if (token.partial) {
+            path += token.prefix;
+          }
+
+          continue;
+        } else {
+          throw new TypeError('Expected "' + token.name + '" to be defined');
+        }
+      }
+
+      if (isarray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`');
+        }
+
+        if (value.length === 0) {
+          if (token.optional) {
+            continue;
+          } else {
+            throw new TypeError('Expected "' + token.name + '" to not be empty');
+          }
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j]);
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`');
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment;
+        }
+
+        continue;
+      }
+
+      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
+
+      if (!matches[i].test(segment)) {
+        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"');
+      }
+
+      path += token.prefix + segment;
+    }
+
+    return path;
+  };
+}
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+
+
+function escapeString(str) {
+  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1');
+}
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+
+
+function escapeGroup(group) {
+  return group.replace(/([=!:$\/()])/g, '\\$1');
+}
+/**
+ * Attach the keys as a property of the regexp.
+ *
+ * @param  {!RegExp} re
+ * @param  {Array}   keys
+ * @return {!RegExp}
+ */
+
+
+function attachKeys(re, keys) {
+  re.keys = keys;
+  return re;
+}
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+
+
+function flags(options) {
+  return options && options.sensitive ? '' : 'i';
+}
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {!Array}  keys
+ * @return {!RegExp}
+ */
+
+
+function regexpToRegexp(path, keys) {
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g);
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        asterisk: false,
+        pattern: null
+      });
+    }
+  }
+
+  return attachKeys(path, keys);
+}
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array}   keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+
+
+function arrayToRegexp(path, keys, options) {
+  var parts = [];
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source);
+  }
+
+  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
+  return attachKeys(regexp, keys);
+}
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {!Array}  keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+
+
+function stringToRegexp(path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options);
+}
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}          tokens
+ * @param  {(Array|Object)=} keys
+ * @param  {Object=}         options
+ * @return {!RegExp}
+ */
+
+
+function tokensToRegExp(tokens, keys, options) {
+  if (!isarray(keys)) {
+    options =
+    /** @type {!Object} */
+    keys || options;
+    keys = [];
+  }
+
+  options = options || {};
+  var strict = options.strict;
+  var end = options.end !== false;
+  var route = ''; // Iterate over the tokens and create our regexp string.
+
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i];
+
+    if (typeof token === 'string') {
+      route += escapeString(token);
+    } else {
+      var prefix = escapeString(token.prefix);
+      var capture = '(?:' + token.pattern + ')';
+      keys.push(token);
+
+      if (token.repeat) {
+        capture += '(?:' + prefix + capture + ')*';
+      }
+
+      if (token.optional) {
+        if (!token.partial) {
+          capture = '(?:' + prefix + '(' + capture + '))?';
+        } else {
+          capture = prefix + '(' + capture + ')?';
+        }
+      } else {
+        capture = prefix + '(' + capture + ')';
+      }
+
+      route += capture;
+    }
+  }
+
+  var delimiter = escapeString(options.delimiter || '/');
+  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter; // In non-strict mode we allow a slash at the end of match. If the path to
+  // match already ends with a slash, we remove it for consistency. The slash
+  // is valid at the end of a path match, not in the middle. This is important
+  // in non-ending mode, where "/test/" shouldn't match "/test//route".
+
+  if (!strict) {
+    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
+  }
+
+  if (end) {
+    route += '$';
+  } else {
+    // In non-ending mode, we need the capturing groups to match as much as
+    // possible by using a positive lookahead to the end or next path segment.
+    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
+  }
+
+  return attachKeys(new RegExp('^' + route, flags(options)), keys);
+}
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {(Array|Object)=}       keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+
+
+function pathToRegexp(path, keys, options) {
+  if (!isarray(keys)) {
+    options =
+    /** @type {!Object} */
+    keys || options;
+    keys = [];
+  }
+
+  options = options || {};
+
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path,
+    /** @type {!Array} */
+    keys);
+  }
+
+  if (isarray(path)) {
+    return arrayToRegexp(
+    /** @type {!Array} */
+    path,
+    /** @type {!Array} */
+    keys, options);
+  }
+
+  return stringToRegexp(
+  /** @type {string} */
+  path,
+  /** @type {!Array} */
+  keys, options);
+}
 
 /***/ }),
 
@@ -14225,7 +14275,7 @@ function applyToTag(style, options, obj) {
     style.removeAttribute('media');
   }
 
-  if (sourceMap && typeof btoa !== 'undefined') {
+  if (sourceMap && btoa) {
     css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
   } // For old IE
 
@@ -14452,6 +14502,63 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./src/components/Altern/Loader.js":
+/*!*****************************************!*\
+  !*** ./src/components/Altern/Loader.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_Loader_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/Loader.css */ "./src/components/Altern/styles/Loader.css");
+/* harmony import */ var _styles_Loader_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_Loader_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function Loader() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "PageLoading"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "lds-grid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null)));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Loader);
+
+/***/ }),
+
+/***/ "./src/components/Altern/styles/Loader.css":
+/*!*************************************************!*\
+  !*** ./src/components/Altern/styles/Loader.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./Loader.css */ "./node_modules/css-loader/dist/cjs.js!./src/components/Altern/styles/Loader.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/components/HomeChildrens/Children.js":
 /*!**************************************************!*\
   !*** ./src/components/HomeChildrens/Children.js ***!
@@ -14463,126 +14570,60 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_Children_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style/Children.css */ "./src/components/HomeChildrens/style/Children.css");
-/* harmony import */ var _style_Children_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_Children_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _login_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../login/styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
-/* harmony import */ var _login_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_login_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _style_Children_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/Children.css */ "./src/components/HomeChildrens/style/Children.css");
+/* harmony import */ var _style_Children_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_Children_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
 
 
 
 
 
-
-class Children extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.data = {
-      name_childres: this.handleList()
-    };
-    /* this.state = { data: {} }; */
-
-    this.columns = this.data.name_childres.length;
-    this.class = "";
-    /* this.handleNames() */
-  }
-
-  handleList() {
-    let listNames = [];
-
-    for (let i = 0; i < this.props.data.length; i++) {
-      let aux = data[i];
-      let nameAux = '';
-
-      for (let j in aux) {
-        if (j === 'first_name') {
-          nameAux += aux[j];
-        }
-
-        if (j === 'last_name') {
-          nameAux += ' ' + aux[j];
-        }
-      }
-
-      listNames.push(nameAux);
-    }
-
-    console.log(this.props.data);
-    return listNames;
-  }
-  /*     handleNames(data){
-        let listNames = []
-        for (let i=0; i < data.length; i++) {
-       
-            let aux = data[i]
-             let nameAux = ''
-            for (let j in aux) {
-                if (j === 'first_name') {
-                    nameAux += aux[j]
-                 }
-                if (j === 'last_name') {
-                    nameAux += ' ' + aux[j]
-                }
-            } 
-            listNames.push(nameAux)
-        }
-            this.setState({
-                name_childres: listNames
-            })
-        } */
-
-
-  render() {
-    /* console.log(this.state.data) */
-
-    /* this.handleNames(this.state.data);
-     console.log(this.state.name_childres); */
-    {
-      this.columns > 2 ? this.class = "container-fluid style-main style-main-scrool justify-content-center" : this.class = "container-fluid style-main justify-content-center";
-    }
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: this.class
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row align-items-center d-flex flex-grap"
-    }, this.data.name_childres.map((name, i) => {
-      {
-        this.columns != 1 ? this.columns = "col-12 col-sm-6 col-md-5 mr-1 mt-5 d-flex justify-content-center" : this.columns = "col-12 col-sm-12 col-md-5 mr- mt-5 d-flex justify-content-center";
-      }
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: this.columns,
-        key: i
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "card "
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "imgBx"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_4__["default"],
-        alt: "images"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Litle Programmer"))))));
-    })));
-  }
-
-}
-
-function listChildren() {
-  const [data, setData] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({});
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(async () => {
-    const response = await axios__WEBPACK_IMPORTED_MODULE_3___default()('http://127.0.0.1:8000/related_students/');
-    setData(response.data);
+function Children() {
+  const [state, setState] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]);
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('http://127.0.0.1:8000/related_students/').then(response => (setState(response.data.students), console.log(response.data))).catch(error =>
+    /* crear página para indcar sesión caducada */
+    console.log(error));
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Children, {
-    data: data
-  }));
+  let columns = state.length;
+  let className = '';
+  {
+    columns > 2 ? className = "container-fluid d-flex style-main style-main-scrool justify-content-center" : className = "container-fluid style-main d-flex justify-content-center";
+  }
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: className
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row align-items-center d-flex flex-grap"
+  }, console.log(state), state ? state.map((name, i) => {
+    {
+      columns != 1 ? className = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center" : className = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center";
+    }
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Link, {
+      to: {
+        pathname: '/childrenProgres',
+        id_Children: name.id
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: className,
+      key: i
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "box"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card "
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "imgBx"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_3__["default"],
+      alt: "images"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "details"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, `${name.first_name} ${name.first_name}`, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Litle Programmer")))))));
+  }) : ''));
 }
 
-;
-/* harmony default export */ __webpack_exports__["default"] = (listChildren);
+/* harmony default export */ __webpack_exports__["default"] = (Children);
 
 /***/ }),
 
@@ -14873,6 +14914,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_PagesHome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../pages/PagesHome */ "./src/pages/PagesHome.js");
 /* harmony import */ var _pages_PagesLogin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../pages/PagesLogin */ "./src/pages/PagesLogin.js");
 /* harmony import */ var _pages_PagesChildrens__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../pages/PagesChildrens */ "./src/pages/PagesChildrens.js");
+/* harmony import */ var _pages_PagesProgress__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../pages/PagesProgress */ "./src/pages/PagesProgress.js");
+
 
 
 
@@ -14889,8 +14932,13 @@ function App() {
     path: "/loginParents",
     component: _pages_PagesLogin__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
     path: "/homeParents",
     component: _pages_PagesChildrens__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    exact: true,
+    path: "/progressChildren",
+    component: _pages_PagesProgress__WEBPACK_IMPORTED_MODULE_5__["default"]
   })));
 }
 
@@ -15059,12 +15107,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _LoginForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LoginForm */ "./src/components/login/LoginForm.js");
 /* harmony import */ var _commons_LoginParent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../commons/LoginParent */ "./src/components/commons/LoginParent.js");
-/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/BodyPage.css */ "./src/components/login/styles/BodyPage.css");
-/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/Navbar.css */ "./src/components/login/styles/Navbar.css");
-/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_Navbar_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Altern_Loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Altern/Loader */ "./src/components/Altern/Loader.js");
+/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/BodyPage.css */ "./src/components/login/styles/BodyPage.css");
+/* harmony import */ var _styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_BodyPage_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./styles/Navbar.css */ "./src/components/login/styles/Navbar.css");
+/* harmony import */ var _styles_Navbar_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_Navbar_css__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -15081,7 +15131,9 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       users: {
         username: '',
         password: ''
-      }
+      },
+      loading: true,
+      error: null
     };
     this.data = {};
     this.handleChange = this.handleChange.bind(this);
@@ -15105,11 +15157,15 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     await axios__WEBPACK_IMPORTED_MODULE_1___default.a.post('http://127.0.0.1:8000/login/', JSON.stringify(required)).then(res => {
       if (res.data.Status === 'OK') {
         this.setState({
-          islogged: true
+          islogged: true,
+          loading: false
         });
       }
     }).catch(err => {
-      console.error(err);
+      this.setState({
+        loading: false,
+        error: err
+      });
       /* ccreate page of error  */
     });
     /*Guardando datos en cache */
@@ -15118,6 +15174,10 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     if (this.props.value === true) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_commons_LoginParent__WEBPACK_IMPORTED_MODULE_3__["default"], null);
+    }
+
+    if (this.state.error) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, this.state.error.message));
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -15132,7 +15192,8 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       password: this.state.users.password,
       handleChange: this.handleChange,
       handleSubmit: this.handleSubmit,
-      data: this.data
+      data: this.data,
+      loading: this.state.loading
     }))));
   }
 
@@ -15180,8 +15241,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
-/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Altern_Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Altern/Loader */ "./src/components/Altern/Loader.js");
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/LoginForm.css */ "./src/components/login/styles/LoginForm.css");
+/* harmony import */ var _styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_LoginForm_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -15194,6 +15257,10 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           pathname: '/homeParents'
         }
       });
+    }
+
+    if (this.props.islogged === false && this.props.loading === false) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Altern_Loader__WEBPACK_IMPORTED_MODULE_2__["default"], null);
     }
 
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -15408,6 +15475,81 @@ module.exports = content.locals || {};
 
 var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
             var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./Navbar.css */ "./node_modules/css-loader/dist/cjs.js!./src/components/login/styles/Navbar.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/progressChildren/ProgressChildren.js":
+/*!*************************************************************!*\
+  !*** ./src/components/progressChildren/ProgressChildren.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProgressChildren; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/ProgressChildren.css */ "./src/components/progressChildren/styles/ProgressChildren.css");
+/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
+
+
+
+function ProgressChildren() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container-fluid bg-primary justify-content-center style-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row  bg-alert align-items-center justify-content-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-12  col-lg-12 align-items-center mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "face face1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Project: 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "name of project"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "face face2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet consecteturQuas cumque minus iste veritatis provident at."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/"
+  }, "Read More"))))))));
+}
+
+/***/ }),
+
+/***/ "./src/components/progressChildren/styles/ProgressChildren.css":
+/*!*********************************************************************!*\
+  !*** ./src/components/progressChildren/styles/ProgressChildren.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./ProgressChildren.css */ "./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/ProgressChildren.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -15656,6 +15798,36 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container-fluid d-flex flex-column image-main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_login_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_commons_NavSocial__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_login_BodyPage__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_login_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  }
+
+}
+
+/***/ }),
+
+/***/ "./src/pages/PagesProgress.js":
+/*!************************************!*\
+  !*** ./src/pages/PagesProgress.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PagesPogress; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/HomeChildrens/HeaderChildren */ "./src/components/HomeChildrens/HeaderChildren.js");
+/* harmony import */ var _components_progressChildren_ProgressChildren__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/progressChildren/ProgressChildren */ "./src/components/progressChildren/ProgressChildren.js");
+/* harmony import */ var _components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/HomeChildrens/FooterChildren */ "./src/components/HomeChildrens/FooterChildren.js");
+
+
+
+
+class PagesPogress extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container-fluid d-flex flex-column image-main"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_progressChildren_ProgressChildren__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   }
 
 }
