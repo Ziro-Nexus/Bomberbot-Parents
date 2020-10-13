@@ -1,9 +1,7 @@
 import React from 'react';
-
-import './style/Children.css';
-import '../login/styles/LoginForm.css';
 import axios from 'axios';
 
+import './style/Children.css';
 import Avatar from '../../images/Card_Children.jpeg'
 
 function Children () {
@@ -11,7 +9,6 @@ function Children () {
     const [state, setState] = React.useState([])
 
     React.useEffect (() =>{
-        let aux = {}
         axios.get('http://127.0.0.1:8000/related_students/')
         .then(response  => (
              setState(response.data.students),
@@ -23,27 +20,29 @@ function Children () {
         ))
     },[])
 
-    let columns = 2
-    let classx = ''
+    let columns = state.length
+    let className = ''
 
-        {columns > 2 ? classx = "container-fluid style-main style-main-scrool justify-content-center" : classx = "container-fluid style-main justify-content-center"}
+        {columns > 2 ? className = "container-fluid d-flex style-main style-main-scrool justify-content-center" : className = "container-fluid style-main d-flex justify-content-center"}
         return (
             
-            <div className={classx}>
+            <div className={className}>
                 
                 <div className="row align-items-center d-flex flex-grap">                   
                     {console.log(state)}
 
                     
 
-
                     {state ? 
                     state.map((name, i) => {
-                        {columns != 1 ? columns = "col-12 col-sm-6 col-md-5 mr-1 mt-5 d-flex justify-content-center"
-                        : columns = "col-12 col-sm-12 col-md-5 mr- mt-5 d-flex justify-content-center"}
+                        {columns != 1 ? className = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center"
+                        : className = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center"}
                         return (
-                        
-                        <div className={columns} key={i}>
+                    <Link to={{ 
+                        pathname: '/childrenProgres',
+                        id_Children: name.id
+                    }}>       
+                    <div className={className} key={i}>
                             <div className="box">
                                 <div className="card ">
                                     <div className="imgBx">
@@ -51,12 +50,12 @@ function Children () {
                                             alt="images" />
                                     </div>
                                     <div className="details">
-                                        <h2>{name.first_name + ' ' + name.first_name}<br/><span>Litle Programmer</span></h2>
+                                        <h2>{`${name.first_name} ${name.first_name}`}<br/><span>Litle Programmer</span></h2>
                                     </div>
                                 </div>
                             </div>
                     </div>
-
+                    </Link> 
                         )
                     }):''}
             </div>
