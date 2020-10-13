@@ -1,13 +1,20 @@
 import React from 'react';
- import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
+import ModalProgress from './ModalProgress';
 import './styles/ProgressChildren.css';
 import  ImagesProgress from '../../images/Card_Children.jpeg';
 
 export default function ProgressChildren(props){
 
     const location = useLocation();
-    console.log(location.state)
+    console.log(location.state);
+
+
+    function HandleClickMore(){
+        return <ModalProgress />
+    }
+
     return (
         
         <div className="container-fluid bg-primary justify-content-center style-main">
@@ -27,7 +34,7 @@ export default function ProgressChildren(props){
                                 <div className="content">
                                     <p>Lorem ipsum dolor sit amet consecteturQuas cumque minus iste veritatis provident
                                         at.</p>
-                                    <a href="/">Read More</a>
+                                    <a href="#modal1">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +43,14 @@ export default function ProgressChildren(props){
                 
 
             </div>
-
+            <div id="modal1" class="col-12 modalmask">
+                        <div class="modalbox movedown">
+                            <a href="#close" title="Close" class="close">X</a>
+                            <h2>INFORMATION PROJECT 1</h2>
+                            <p>In this lesson, students discover how computer games are made and students are introduced to fundamental programming concepts, thinking, and programming terminology.</p>
+                            
+                        </div>
+            </div>
         </div>
 
     )

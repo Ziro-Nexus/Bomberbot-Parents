@@ -137,6 +137,6 @@
 }
 
 .container2 .card2 .face.face2 .content a:hover{
-    background:white;
-    color: #6cc78e;
+    background: #333;
+    color: #fff;
 }
