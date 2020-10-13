@@ -2,13 +2,14 @@ import json
 import requests
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from .progress import ProgressStudent
 # Create your views here.
 
 
 class ProgressView(APIView):
     def post(self, request):
         # All students data related to the parent who logged in is obtained
-        data_students = request.session.get("student")
+        data_students = request.session.get("students")
         
         #The id of the student to consult is obtained
         student = request.data.get('id_student')
@@ -19,8 +20,24 @@ class ProgressView(APIView):
         dict_student = {}
         for stud in data_students:
             dict_student[stud['id']] = stud
-        data = dict_student[id_student]
-        #data = json.dumps(data)
-        print(type(data))
         
-        return Response(data)
+        # The student's data is selected by id
+        data = dict_student[id_student]
+        
+        # Instantiate the class to process student data
+        studen_obj = ProgressStudent(**data)
+        
+        progress_info = {}
+        
+        progress_info['log'] = studen_obj.log_info()
+        
+        progress_info['projects'] = studen_obj.project_info()
+        
+        progress_info['task'] = studen_obj.task_info()
+        
+        progress_info['project_image'] = studen_obj.image()
+        
+        progress_info['advice'] = studen_obj.advices()
+        
+        json_progress = json.dumps(progress_info)
+        return Response(json_progress)
