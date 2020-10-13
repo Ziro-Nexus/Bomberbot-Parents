@@ -1,6 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 
+import { Link } from 'react-router-dom';
+
+
 import './style/Children.css';
 import Avatar from '../../images/Card_Children.jpeg'
 
@@ -38,11 +41,10 @@ function Children () {
                         {columns != 1 ? className = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center"
                         : className = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center"}
                         return (
-                    <Link to={{ 
-                        pathname: '/childrenProgres',
-                        id_Children: name.id
-                    }}>       
-                    <div className={className} key={i}>
+ 
+                    <div key={i}>
+                        <Link to={{pathname:'/progressChildren', state: {id_student: name.id} }} >
+                        <div className={className} >
                             <div className="box">
                                 <div className="card ">
                                     <div className="imgBx">
@@ -50,12 +52,13 @@ function Children () {
                                             alt="images" />
                                     </div>
                                     <div className="details">
-                                        <h2>{`${name.first_name} ${name.first_name}`}<br/><span>Litle Programmer</span></h2>
+                                        <h2>{`${name.first_name} ${name.last_name}`}<br/><span>Litle Programmer</span></h2>
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                    </Link> 
+                        </div>
+                        </Link>
+                    </div> 
                         )
                     }):''}
             </div>
