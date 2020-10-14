@@ -35,5 +35,7 @@ class ProgressView(APIView):
         
         progress_info['advice'] = studen_obj.advices()
         
-        return Response(progress_info)
+        response = json.dumps(progress_info)
+        
+        return Response(response)
  
