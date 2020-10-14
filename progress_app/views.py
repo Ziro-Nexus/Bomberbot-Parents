@@ -36,6 +36,14 @@ class ProgressView(APIView):
         progress_info['advice'] = studen_obj.advices()
         
         response = json.dumps(progress_info)
+
+        request.session["progress_students"] = response
         
-        return Response(response)
- 
+        return Response({"Status": "OK"})
+
+
+    def get(self, request):
+        if "progress_students" in request.session:
+            return Response(request.session["progress_students"])
+        else:
+            return Response({"Status": "Failed"}, status=302)
