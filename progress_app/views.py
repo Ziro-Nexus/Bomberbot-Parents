@@ -26,18 +26,14 @@ class ProgressView(APIView):
         
         # Instantiate the class to process student data
         studen_obj = ProgressStudent(**data)
-        
+    
         progress_info = {}
+
+        progress_info['general'] = studen_obj.general_inf()
         
-        progress_info['log'] = studen_obj.log_info()
-        
-        progress_info['projects'] = studen_obj.project_info()
-        
-        progress_info['task'] = studen_obj.task_info()
-        
-        progress_info['project_image'] = studen_obj.image()
+        progress_info['projects'] = studen_obj.projects()
         
         progress_info['advice'] = studen_obj.advices()
         
-        json_progress = json.dumps(progress_info)
-        return Response(json_progress)
+        return Response(progress_info)
+ 
