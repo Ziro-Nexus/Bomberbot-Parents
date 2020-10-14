@@ -55,4 +55,10 @@ class PDFGenerator:
 
 pdf = PDFGenerator()
 pdf.default()
+pdf.Bomberbot_header()
+pdf.report_header(title="Progreso del estudiante Camilo")
+pdf.Bomberbot_header()
+pdf.report_header(title="Progreso del estudiante Camilo", end=True)
+
 pdf.save()
+
