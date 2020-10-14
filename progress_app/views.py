@@ -1,12 +1,41 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+import json
+import requests
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from .progress import ProgressStudent
 # Create your views here.
 
-'''
-Voy a retornar el diccionario que guarde en cache al momento del login desde user_session.views.auth
-para comprobar que la pagina si reciba los estudiantes relacionados.
-'''
-from django.views.decorators.csrf import csrf_exempt
-@csrf_exempt
-def progress_test(request):
-    return HttpResponse(request.session.get("students"))
+
+class ProgressView(APIView):
+    def post(self, request):
+        # All students data related to the parent who logged in is obtained
+        data_students = request.session.get("students")
+        
+        #The id of the student to consult is obtained
+        student = request.data.get('id_student')
+        id_student = student[0]['id']
+        
+        # We generate a dictionary with the following
+        # form {"student_id": "student_data", ...}
+        dict_student = {}
+        for stud in data_students:
+            dict_student[stud['id']] = stud
+        
+        # The student's data is selected by id
+        data = dict_student[id_student]
+        
+        # Instantiate the class to process student data
+        studen_obj = ProgressStudent(**data)
+    
+        progress_info = {}
+
+        progress_info['general'] = studen_obj.general_inf()
+        
+        progress_info['projects'] = studen_obj.projects()
+        
+        progress_info['advice'] = studen_obj.advices()
+        
+        response = json.dumps(progress_info)
+        
+        return Response(response)
+ 
