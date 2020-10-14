@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 
-
+import Loader from '../Altern/Loader';
 import './styles/LoginForm.css'
 
 class LoginForm extends React.Component {
@@ -12,9 +12,11 @@ class LoginForm extends React.Component {
  if(this.props.islogged === true){
       return <Redirect to={{
         pathname: '/homeParents',
-        state: { data: this.props.data }
       }} />;
 
+    }
+  if(this.props.islogged === false && this.props.loading === false){
+      return <Loader />
     }
     return (
       <div>

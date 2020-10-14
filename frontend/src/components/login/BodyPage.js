@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import LoginForm from './LoginForm'
 import LoginParent from '../commons/LoginParent'
+import Loader from '../Altern/Loader';
+
 
 
 import './styles/BodyPage.css'
@@ -18,7 +20,9 @@ class BodyPage extends React.Component {
       users: {
         username: '',
         password: ''
-      }
+      },
+      loading: true,
+      error: null
     };
     this.data = {};
 
@@ -44,14 +48,13 @@ class BodyPage extends React.Component {
     }
     await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
         .then(res => {
-          if(res.data[0].Status === 'OK'){
-            this.data = res.data[0].students;
-            console.log(this.data)
-            this.setState({ islogged: true})
+          if(res.data.Status === 'OK'){
+            this.setState({ islogged: true, loading: false})
           }
         })
         .catch(err =>{
-          console.error(err);
+          this.setState({ loading:false, error: err })
+          /* ccreate page of error  */
         })
 
         /*Guardando datos en cache */
@@ -60,6 +63,15 @@ class BodyPage extends React.Component {
 
     if (this.props.value === true) {
       return <LoginParent />
+    }
+
+
+    if(this.state.error){
+      return (
+        <div>
+          <h1>{this.state.error.message}</h1>
+        </div>
+      );
     }
     return ( 
         <div className="container-fluid style-main justify-content-center">
@@ -71,7 +83,9 @@ class BodyPage extends React.Component {
                 password = {this.state.users.password} 
                 handleChange={this.handleChange} 
                 handleSubmit={this.handleSubmit}
-                data={this.data}/>
+                data={this.data}
+                loading={this.state.loading}
+                />
                 </div>
             </div>
         </div>
