@@ -18,5 +18,4 @@ from . import views
 
 urlpatterns = [
     path('progress/', views.ProgressView.as_view()),
-    path('progress_students/', views.ProgressView.as_view()),
 ]

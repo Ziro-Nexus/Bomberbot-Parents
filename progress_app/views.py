@@ -39,7 +39,7 @@ class ProgressView(APIView):
 
         request.session["progress_students"] = response
         
-        return Response(response)
+        return Response({"Status": "OK"})
 
 
     def get(self, request):
