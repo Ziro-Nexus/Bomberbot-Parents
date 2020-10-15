@@ -10,10 +10,12 @@ import  ImagesProgress from '../../images/Card_Children.jpeg';
 
 export default function ProgressChildren(props){
 
+    let count = 0;
     const location = useLocation();
     /* console.log(location.state.id_student); */
 
     const [ state, setState ] = React.useState([]);
+    const [ general, setGeneral ] = React.useState([]);
 
 /*     React.useEffect(async() => { */
         
@@ -33,9 +35,10 @@ export default function ProgressChildren(props){
             if(response.data.Status === 'OK'){
                 axios('http://127.0.0.1:8000/progress/')
                 .then(res => (
-                    console.log(res),
+                    console.log(JSON.parse(res.data)),
                     console.log(JSON.parse(res.data).projects),
-                    setState(JSON.parse(res.data).projects)
+                    setState(JSON.parse(res.data).projects),
+                    setGeneral(JSON.parse(res.data).general)
                 ))
             }
         })
@@ -50,37 +53,38 @@ export default function ProgressChildren(props){
         return <ModalProgress />
     }
     
+
     return (
         <div className="container-fluid justify-content-center style-main">
             <div className="row align-items-center justify-content-end">
                 
                 
-            
-                <GeneralInfo />
-       {/*          {state ? state.map((project, i) =>{
-                let count = count + 1 */}
-                {/* return( */}
-                <div className="col-12 col-sm-6 align-items-center mt-5">
+        
+                <GeneralInfo general={general}/> 
+                {state ? state.map((project, i) =>{
+                    count = count + 1
+                return( 
+                <div className="col-12 col-sm-4 align-items-center mt-5" key={i}>
                     <div className="container2">
                         <div className="card2">
                             <div className="face face1">
                                 <div className="content">
                                     <img src={ImagesProgress} />
-                                    <h3>Project: 3</h3>
-                                    <h4>{/* {project.name_project} */} Sammy</h4>
+                                    <h3>Project: {count}</h3>
+                                    <h4>{project.name_project}</h4>
                                 </div>
                             </div>
                             <div className="face face2">
                                 <div className="content">
-                                    <p>{/* {project.proj_description} */} El heladero</p>
+                                    <p> {project.proj_description.substring(0, 175)}</p>
                                     <a href="#modal1">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            {/*     )
-                }): ''}    */}
+                 )
+                }): ''}  
                 
 
             </div>
