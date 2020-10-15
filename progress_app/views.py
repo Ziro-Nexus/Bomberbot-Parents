@@ -38,8 +38,7 @@ class ProgressView(APIView):
         
         progress_info['advice'] = studen_obj.advices()
         
-        #response = json.dumps(progress_info)
-        response = progress_info
+        response = json.dumps(progress_info)
 
         request.session["progress_students"] = response
         
