@@ -1,12 +1,15 @@
 import json
 import requests
 from rest_framework.views import APIView
+from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from .progress import ProgressStudent
 # Create your views here.
 
 
 class ProgressView(APIView):
+    parser_classes = [JSONParser]
+
     def post(self, request):
         # All students data related to the parent who logged in is obtained
         data_students = request.session.get("students")
