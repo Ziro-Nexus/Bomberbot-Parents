@@ -2229,6 +2229,28 @@ ___CSS_LOADER_EXPORT___.push([module.i, ".style-header {\n    /* background-colo
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/GeneralInfo.css":
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/GeneralInfo.css ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".container-general{\n    width: 100%;\n    \n/*     position: relative;\n    display: flex;  */\n    /* justify-content: space-between; */\n}\n\n\n.container-general .card-general .face{\n    width: 20rem;\n    height: 12.5rem;\n    transition: 0.5s;\n}\n\n.container-general .card-general{\n    position: relative;\n    cursor: pointer;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n\n.container-general .card-general .face.face1{\n    position: relative;\n    \n    background: #6cc78e;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n/* .container-general .card-general:hover .face.face1{\n    background: #fc9c28;\n    transform: translateY(0);\n} */\n\n.container-general .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n/* .container-general .card-general:hover .face.face1 .content{\n    opacity: 1;\n} */\n\n.container-general .card-general .face.face1 .content img{\n    margin: 0;\n    width: 11.5rem;\n    height: 6.5rem;\n\n/*     max-width: 60%;\n    max-height: 80%; */\n    align-items: center;\n    /* margin-left: 1.4rem; */\n    justify-items: center;\n}\n\n.container-general .card-general .face.face1 .content h3{\n    /* margin: 0.2rem 0 0; */\n    padding: .3rem;\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container-general .card-general .face.face1 .content h4{\n    /* margin: 0.2rem 0 0; */\n    /* padding: .3rem; */\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container-general .card-general .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n/* .container-general .card-general:hover .face.face2{\n    transform: translateY(0);\n} */\n\n.container-general .card-general .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container-general .card-general .face.face2 .content a{\n    margin: 15px 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: 5px;\n    border: 1px solid #333;\n}\n\n.container-general .card-general .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n", "",{"version":3,"sources":["webpack://src/components/progressChildren/styles/GeneralInfo.css"],"names":[],"mappings":"AAAA;IACI,WAAW;;AAEf;qBACqB;IACjB,oCAAoC;AACxC;;;AAGA;IACI,YAAY;IACZ,eAAe;IACf,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,UAAU;AACd;;AAEA;IACI,mBAAmB;AACvB;;;AAGA;IACI,kBAAkB;;IAElB,mBAAmB;IACnB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,UAAU;IACV,4BAA4B;AAChC;;AAEA;;;GAGG;;AAEH;IACI,YAAY;IACZ,gBAAgB;;AAEpB;;AAEA;;GAEG;;AAEH;IACI,SAAS;IACT,cAAc;IACd,cAAc;;AAElB;sBACsB;IAClB,mBAAmB;IACnB,yBAAyB;IACzB,qBAAqB;AACzB;;AAEA;IACI,wBAAwB;IACxB,cAAc;IACd,WAAW;IACX,kBAAkB;IAClB,cAAc;AAClB;;AAEA;IACI,wBAAwB;IACxB,oBAAoB;IACpB,WAAW;IACX,kBAAkB;IAClB,cAAc;AAClB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;IACb,sBAAsB;IACtB,0CAA0C;IAC1C,6BAA6B;AACjC;;AAEA;;GAEG;;AAEH;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,gBAAgB;IAChB,sBAAsB;IACtB,qBAAqB;IACrB,gBAAgB;IAChB,WAAW;IACX,YAAY;IACZ,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,WAAW;AACf","sourcesContent":[".container-general{\n    width: 100%;\n    \n/*     position: relative;\n    display: flex;  */\n    /* justify-content: space-between; */\n}\n\n\n.container-general .card-general .face{\n    width: 20rem;\n    height: 12.5rem;\n    transition: 0.5s;\n}\n\n.container-general .card-general{\n    position: relative;\n    cursor: pointer;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n\n.container-general .card-general .face.face1{\n    position: relative;\n    \n    background: #6cc78e;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n/* .container-general .card-general:hover .face.face1{\n    background: #fc9c28;\n    transform: translateY(0);\n} */\n\n.container-general .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n/* .container-general .card-general:hover .face.face1 .content{\n    opacity: 1;\n} */\n\n.container-general .card-general .face.face1 .content img{\n    margin: 0;\n    width: 11.5rem;\n    height: 6.5rem;\n\n/*     max-width: 60%;\n    max-height: 80%; */\n    align-items: center;\n    /* margin-left: 1.4rem; */\n    justify-items: center;\n}\n\n.container-general .card-general .face.face1 .content h3{\n    /* margin: 0.2rem 0 0; */\n    padding: .3rem;\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container-general .card-general .face.face1 .content h4{\n    /* margin: 0.2rem 0 0; */\n    /* padding: .3rem; */\n    color: #fff;\n    text-align: center;\n    font-size: 1em;\n}\n\n.container-general .card-general .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 20px;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n/* .container-general .card-general:hover .face.face2{\n    transform: translateY(0);\n} */\n\n.container-general .card-general .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container-general .card-general .face.face2 .content a{\n    margin: 15px 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: 5px;\n    border: 1px solid #333;\n}\n\n.container-general .card-general .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/ModalProgress.css":
 /*!********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/ModalProgress.css ***!
@@ -14622,7 +14644,7 @@ function Children() {
     className: "row align-items-center d-flex flex-grap"
   }, console.log(state), state ? state.map((name, i) => {
     {
-      columns != 1 ? className = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center" : className = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center";
+      columns != 1 ? className = "col-12 col-sm-12 col-md-12 ml-4 mt-4 d-flex justify-content-center" : className = "col-12 col-sm-12 col-md-5 mr-1 mt-4 d-flex justify-content-center";
     }
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       key: i
@@ -15193,6 +15215,7 @@ class BodyPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         loading: false,
         error: err
       });
+      console.log("Esta fallando el post");
       /* ccreate page of error  */
     });
     /*Guardando datos en cache */
@@ -15522,6 +15545,48 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/components/progressChildren/GeneralInfo.js":
+/*!********************************************************!*\
+  !*** ./src/components/progressChildren/GeneralInfo.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_GeneralInfo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/GeneralInfo.css */ "./src/components/progressChildren/styles/GeneralInfo.css");
+/* harmony import */ var _styles_GeneralInfo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_GeneralInfo_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
+
+
+
+
+function GeneralInfo() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-6  align-items-center mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container-general"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-general"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "face face1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_2__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "General"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, " Sammy"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "face face2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " El heladero"))))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (GeneralInfo);
+
+/***/ }),
+
 /***/ "./src/components/progressChildren/ModalProgress.js":
 /*!**********************************************************!*\
   !*** ./src/components/progressChildren/ModalProgress.js ***!
@@ -15568,10 +15633,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _ModalProgress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ModalProgress */ "./src/components/progressChildren/ModalProgress.js");
-/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/ProgressChildren.css */ "./src/components/progressChildren/styles/ProgressChildren.css");
-/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ModalProgress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModalProgress */ "./src/components/progressChildren/ModalProgress.js");
+/* harmony import */ var _GeneralInfo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./GeneralInfo */ "./src/components/progressChildren/GeneralInfo.js");
+/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/ProgressChildren.css */ "./src/components/progressChildren/styles/ProgressChildren.css");
+/* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../images/Card_Children.jpeg */ "./src/images/Card_Children.jpeg");
+
+
 
 
 
@@ -15579,18 +15649,36 @@ __webpack_require__.r(__webpack_exports__);
 
 function ProgressChildren(props) {
   const location = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useLocation"])();
-  console.log(location.state);
+  /* console.log(location.state.id_student); */
+
+  const [state, setState] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]);
+  /*     React.useEffect(async() => { */
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
+    const required = {
+      "id_student": [{
+        "id": "252ffeb5-aedf-4419-ace5-27c18b25e3db"
+      }]
+    };
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('http://127.0.0.1:8000/progress/', required).then(response => {
+      console.log(response);
+
+      if (response.data.Status === 'OK') {
+        axios__WEBPACK_IMPORTED_MODULE_2___default()('http://127.0.0.1:8000/progress/').then(res => (console.log(res), console.log(JSON.parse(res.data).projects), setState(JSON.parse(res.data).projects)));
+      }
+    }).catch(error => console.error(error));
+  }, []);
 
   function HandleClickMore() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModalProgress__WEBPACK_IMPORTED_MODULE_2__["default"], null);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModalProgress__WEBPACK_IMPORTED_MODULE_3__["default"], null);
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container-fluid bg-primary justify-content-center style-main"
+    className: "container-fluid justify-content-center style-main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row  bg-alert align-items-center justify-content-end"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-12 col-sm-12  col-lg-12 align-items-center mt-5"
+    className: "row align-items-center justify-content-end"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_GeneralInfo__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-12 col-sm-6 align-items-center mt-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -15600,24 +15688,53 @@ function ProgressChildren(props) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_4__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Project: 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "name of project"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    src: _images_Card_Children_jpeg__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Project: 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, " Sammy"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "face face2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet consecteturQuas cumque minus iste veritatis provident at."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " El heladero"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#modal1"
   }, "Read More"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "modal1",
-    class: "col-12 modalmask"
+    className: "col-12 modalmask"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "modalbox movedown"
+    className: "modalbox movedown"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#close",
     title: "Close",
-    class: "close"
+    className: "close"
   }, "X"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "INFORMATION PROJECT 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In this lesson, students discover how computer games are made and students are introduced to fundamental programming concepts, thinking, and programming terminology."))));
 }
+
+/***/ }),
+
+/***/ "./src/components/progressChildren/styles/GeneralInfo.css":
+/*!****************************************************************!*\
+  !*** ./src/components/progressChildren/styles/GeneralInfo.css ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./GeneralInfo.css */ "./node_modules/css-loader/dist/cjs.js!./src/components/progressChildren/styles/GeneralInfo.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
