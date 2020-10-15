@@ -47,29 +47,24 @@ export default function ProgressChildren(props){
 
     }, [])
     
-    
-
     function HandleClickMore(){
         return <ModalProgress />
     }
     
-
     return (
-        <div className="container-fluid justify-content-center style-main">
-            <div className="row align-items-center justify-content-end">
+        <div className="container-fluid  justify-content-center style-main">
+            <div className="row card-intern align-items-center justify-content-end">
                 
-                
-        
                 <GeneralInfo general={general}/> 
                 {state ? state.map((project, i) =>{
                     count = count + 1
                 return( 
-                <div className="col-12 col-sm-4 align-items-center mt-5" key={i}>
-                    <div className="container2">
+                <div className="col-12 col-sm-6 col-md-6 col-lg-4 align-items-center" key={i}>
+                    <div className="container2 justify-content-center">
                         <div className="card2">
                             <div className="face face1">
                                 <div className="content">
-                                    <img src={ImagesProgress} />
+                                    <img src={'https://i.ibb.co/tJy6JVR/munten-vangen.png'} />
                                     <h3>Project: {count}</h3>
                                     <h4>{project.name_project}</h4>
                                 </div>
