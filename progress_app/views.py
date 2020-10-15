@@ -1,16 +1,19 @@
 import json
 import requests
-from rest_framework.views import APIView
-from rest_framework.parsers import JSONParser
-from rest_framework.response import Response
 from .progress import ProgressStudent
-# Create your views here.
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework.parsers import JSONParser
 
 
 class ProgressView(APIView):
+    """ Progress view """
     parser_classes = [JSONParser]
 
-    def post(self, request):
+    def post(self, request, format=None):
+        """ Validate student id searches and processes
+            their information and caches it
+        """
         # All students data related to the parent who logged in is obtained
         data_students = request.session.get("students")
         
@@ -37,15 +40,15 @@ class ProgressView(APIView):
         progress_info['projects'] = studen_obj.projects()
         
         progress_info['advice'] = studen_obj.advices()
-        
-        response = json.dumps(progress_info)
 
-        request.session["progress_students"] = response
+        request.session["progress_students"] = progress_info
         
         return Response({"Status": "OK"})
 
 
     def get(self, request):
+        """ Returns students data """
+
         if "progress_students" in request.session:
             return Response(request.session["progress_students"])
         else:

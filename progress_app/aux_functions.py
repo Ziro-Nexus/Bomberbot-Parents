@@ -35,6 +35,14 @@ def pending(num_task, task_ok):
     return int(num_task) - int(task_ok)
 
 def set_advice(typ):
+    """[Concatenates and creates the model name to perform the query]
+
+    Args:
+        typ ([str]): [number for AdviceModel]
+
+    Returns:
+        [str]: [advice for parents]
+    """
     model = "AdviceModel" + typ + ".objects.all()"
     queryset_advice1 = eval(model)
     for adv in queryset_advice1:

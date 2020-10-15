@@ -73,6 +73,7 @@ class ProgressStudent:
         return general_info
 
     def projects(self):
+        """ Return projects information """
         project = []
         if self.owner_project1:
             project1 = {}
@@ -114,6 +115,9 @@ class ProgressStudent:
 
 
     def advices(self):
+        """ Returns a message to parents according
+            to their child's performance
+        """
         pending_t1 = pending(self.number_task_project1, self.task_ok1)
         pending_t2 = pending(self.number_task_project2, self.task_ok2)
         adv = ""
