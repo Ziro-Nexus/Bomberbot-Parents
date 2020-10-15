@@ -7,8 +7,8 @@
 
 .container-general .card-general .face{
     /* width: 100%; */
-
     align-items: center;
+    
     height: 12.5rem;
     transition: 0.5s;
     
@@ -34,15 +34,19 @@
     width: 100%;
     padding: 0.5rem;
     margin: 0.5;
-    font-size: 1rem;
-/*     background-image: linear-gradient(315deg, rgba(235, 217, 140, 0.835) 15%, rgba(102, 200, 36, 0.65) 90%), url('../../../images/Card_Children.jpeg'); */
-
+    /* font-size: 2rem; */
 }
 .content .content-gral2 {
     /* background: #68bb6de5; */
     background: white;
     width: 100%;
     padding: 0.5rem;
+    font-size: 1.3rem;
+
+    background-image: linear-gradient(315deg, rgba(75, 88, 112, 0.65) 0%, rgba(189, 202, 226, 0.65) 74%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(../../../images/bomberbot-trotse-vaders.png); */
 }
 
 .card-general {
@@ -52,8 +56,8 @@
 .container-general .card-general .face.face1{
     position: relative;
     background: #6cc78e;
-    display: flex;
-    height: 15.5rem;
+    /* display: flex; */
+    height: 14.5rem;
     justify-content: center;
     align-items: center;
     z-index: 1;
