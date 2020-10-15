@@ -79,7 +79,6 @@
 .container2 .card .face.face1 .content{
     opacity: 0.2;
     transition: 0.5s;
-    
 }
 
 .container2 .card2:hover .face.face1 .content{
@@ -88,18 +87,13 @@
 
 .container2 .card2 .face.face1 .content img{
     margin: 0;
-    width: 10rem;
-    height: 6.5rem;
-
-/*     max-width: 60%;
-    max-height: 80%; */
+    width: 14.5rem;
+    height: 8rem;
     align-items: center;
-    /* margin-left: 1.4rem; */
     justify-items: center;
 }
 
 .container2 .card2 .face.face1 .content h3{
-    /* margin: 0.2rem 0 0; */
     padding: .3rem;
     color: #fff;
     text-align: center;
@@ -107,8 +101,6 @@
 }
 
 .container2 .card2 .face.face1 .content h4{
-    /* margin: 0.2rem 0 0; */
-    /* padding: .3rem; */
     color: #fff;
     text-align: center;
     font-size: 1em;

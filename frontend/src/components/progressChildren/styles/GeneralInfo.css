@@ -39,7 +39,8 @@
 
 }
 .content .content-gral2 {
-    background: #68bb6de5;
+    /* background: #68bb6de5; */
+    background: white;
     width: 100%;
     padding: 0.5rem;
 }
