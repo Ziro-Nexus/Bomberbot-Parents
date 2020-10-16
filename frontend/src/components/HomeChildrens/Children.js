@@ -38,8 +38,8 @@ function Children () {
 
                     {state ? 
                     state.map((name, i) => {
-                        {columns != 1 ? className = "col-12 col-sm-6 col-md-5 mr-5 mt-5 d-flex justify-content-center"
-                        : className = "col-12 col-sm-12 col-md-5 mr-1 mt-5 d-flex justify-content-center"}
+                        {columns != 1 ? className = "col-12 col-sm-12 col-md-12 ml-4 mt-4 d-flex justify-content-center"
+                        : className = "col-12 col-sm-12 col-md-5 mr-1 mt-4 d-flex justify-content-center"}
                         return (
  
                     <div key={i}>

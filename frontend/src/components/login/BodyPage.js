@@ -54,6 +54,7 @@ class BodyPage extends React.Component {
         })
         .catch(err =>{
           this.setState({ loading:false, error: err })
+          console.log("Esta fallando el post");
           /* ccreate page of error  */
         })
 
