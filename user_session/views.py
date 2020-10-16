@@ -4,6 +4,15 @@ from rest_framework.response import Response
 import requests
 from rest_framework.decorators import api_view
 
+@api_view(('GET',))
+def logout(request):
+    assigned = ["related_students", "students"]
+    for i in request.session.keys():
+        if i in assigned:
+            del request.session[i]
+
+    return HttpResponse("bye")
+
 
 @api_view(('GET',))
 def related_students(request):
