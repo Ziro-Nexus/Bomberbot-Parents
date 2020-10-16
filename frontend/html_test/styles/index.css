@@ -471,16 +471,38 @@ CHILDREN
     /* justify-content: space-between; */
 }
 
-.container2 .card2{
-    position: relative;
-    cursor: pointer;
-}
 
 .container2 .card2 .face{
     width: 20rem;
     height: 12.5rem;
     transition: 0.5s;
 }
+
+.container2 .card2{
+    position: relative;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content a {
+    background: #68bb6d;
+}
+
 
 .container2 .card2 .face.face1{
     position: relative;
@@ -509,23 +531,28 @@ CHILDREN
 }
 
 .container2 .card2 .face.face1 .content img{
-    max-width: 60%;
+    margin: 0;
+    width: 11.5rem;
+    height: 6.5rem;
+
+/*     max-width: 60%;
+    max-height: 80%; */
     align-items: center;
-    margin-left: 1.4rem;
+    /* margin-left: 1.4rem; */
     justify-items: center;
 }
 
 .container2 .card2 .face.face1 .content h3{
-    margin: 0.5rem 0 0;
-    padding: .5rem;
+    /* margin: 0.2rem 0 0; */
+    padding: .3rem;
     color: #fff;
     text-align: center;
     font-size: 1em;
 }
 
 .container2 .card2 .face.face1 .content h4{
-    margin: 0.5rem 0 0;
-    padding: .5rem;
+    /* margin: 0.2rem 0 0; */
+    /* padding: .3rem; */
     color: #fff;
     text-align: center;
     font-size: 1em;
@@ -566,3 +593,182 @@ CHILDREN
     background: #333;
     color: #fff;
 }
+
+
+/* OPEN MODAL */
+.modalmask {
+    position: fixed;
+
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: rgba(108, 199, 141, 0.055); */
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalbox{
+    width: 45rem;
+    height: 30rem;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background: rgba(73, 198, 200, 0.952);
+    border-radius:.5rem;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+     
+}
+
+.movedown {
+    margin: 0 auto;
+}
+.rotate {
+    margin: 10% auto;
+    -webkit-transform: scale(-5,-5);
+    transform: scale(-5,-5);
+}
+.resize {
+    margin: 10% auto;
+    width:0;
+    height:0;
+ 
+}
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+.modalmask:target .rotate{     
+    transform: rotate(360deg) scale(1,1);
+        -webkit-transform: rotate(360deg) scale(1,1);
+}
+ 
+.modalmask:target .resize{
+    width:400px;
+    height:200px;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+ 
+}
+ 
+.close:hover {
+    background: #FAAC58;
+    color:#222;
+}
+
+/* STYLES GENERAL */
+
+h5
+{
+  margin:0px;
+  font-size:0.7rem;
+  font-weight:700;
+}
+
+p
+{
+  font-size:0.75rem;
+  text-align: left;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-card
+{
+    width: 11.5rem;
+    height: 6.5rem;
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  overflow:hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../../src/images/Card_Children.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: orange;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* padding: 0.5em 1em; */
+
+}
+
+.title_desc {
+    margin-top: 0;
+    text-align:center;
+    background-color: orange;
+    padding: .7rem;
+}
+
+.property-description .general p{
+    background-color: white;
+    padding: 1rem;
+    
+    color: black;
+}
+
+/* .property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+} */
+
+
+

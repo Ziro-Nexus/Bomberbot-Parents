@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 
+import Loader from '../Altern/Loader';
 import './styles/LoginForm.css'
 
 class LoginForm extends React.Component {
@@ -8,9 +9,14 @@ class LoginForm extends React.Component {
 
   render() {
 
-    if(this.props.islogged === true){
-      return <Redirect to="/homeParents" />;
+ if(this.props.islogged === true){
+      return <Redirect to={{
+        pathname: '/homeParents',
+      }} />;
 
+    }
+  if(this.props.islogged === false && this.props.loading === false){
+      return <Loader />
     }
     return (
       <div>
@@ -45,9 +51,9 @@ class LoginForm extends React.Component {
                 <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                 <label className="form-check-label">Check me out</label>
             </div>
-        <button className="btn btn-primary">
-        Submit
-        </button>
+          <button className="btn btn-primary">
+          Submit
+          </button>
       </form>
     </div>
     );

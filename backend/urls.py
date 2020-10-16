@@ -24,4 +24,5 @@ urlpatterns = [
     path('index/', views.index),
     path('loginParents/', views.index),
     path('homeParents/', views.index),
+    path('progressChildren/', views.index)
 ]

@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import LoginForm from './LoginForm'
 import LoginParent from '../commons/LoginParent'
+import Loader from '../Altern/Loader';
+
 
 
 import './styles/BodyPage.css'
@@ -18,8 +20,11 @@ class BodyPage extends React.Component {
       users: {
         username: '',
         password: ''
-      }
+      },
+      loading: true,
+      error: null
     };
+    this.data = {};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -30,7 +35,7 @@ class BodyPage extends React.Component {
     obj[event.target.name] = event.target.value
     this.setState(obj);
   }
-
+  
   async handleSubmit(event) {
     event.preventDefault();
     const required = {
@@ -41,24 +46,33 @@ class BodyPage extends React.Component {
           }
       ]
     }
-
     await axios.post('http://127.0.0.1:8000/login/', JSON.stringify(required))
         .then(res => {
-          console.log(res);
-          if(res.data[0].Status === 'OK'){
-            this.setState({ islogged: true})
-            console.log(res.data[0]);
-            /* localStorage('parents', JSON.stringify(res.data)) */
+          if(res.data.Status === 'OK'){
+            this.setState({ islogged: true, loading: false})
           }
         })
         .catch(err =>{
-          console.error(err);
+          this.setState({ loading:false, error: err })
+          console.log("Esta fallando el post");
+          /* ccreate page of error  */
         })
+
+        /*Guardando datos en cache */
       }
   render() {
 
     if (this.props.value === true) {
       return <LoginParent />
+    }
+
+
+    if(this.state.error){
+      return (
+        <div>
+          <h1>{this.state.error.message}</h1>
+        </div>
+      );
     }
     return ( 
         <div className="container-fluid style-main justify-content-center">
@@ -69,7 +83,10 @@ class BodyPage extends React.Component {
                 username = {this.state.users.username}
                 password = {this.state.users.password} 
                 handleChange={this.handleChange} 
-                handleSubmit={this.handleSubmit}/>
+                handleSubmit={this.handleSubmit}
+                data={this.data}
+                loading={this.state.loading}
+                />
                 </div>
             </div>
         </div>
