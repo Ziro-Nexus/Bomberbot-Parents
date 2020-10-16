@@ -25,7 +25,7 @@ export default function ProgressChildren(props){
         const required = {
                 "id_student": [
                     {
-                        "id": "252ffeb5-aedf-4419-ace5-27c18b25e3db"
+                        "id": location.state.id_student
                     }
                 ]
         };
@@ -35,10 +35,10 @@ export default function ProgressChildren(props){
             if(response.data.Status === 'OK'){
                 axios('http://127.0.0.1:8000/progress/')
                 .then(res => (
-                    console.log(JSON.parse(res.data)),
-                    console.log(JSON.parse(res.data).projects),
-                    setState(JSON.parse(res.data).projects),
-                    setGeneral(JSON.parse(res.data).general)
+                    console.log(res.data),
+                    console.log(res.data.projects),
+                    setState(res.data.projects),
+                    setGeneral(res.data.general)
                 ))
             }
         })
