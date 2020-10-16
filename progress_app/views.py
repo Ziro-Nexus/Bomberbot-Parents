@@ -4,6 +4,7 @@ from .progress import ProgressStudent
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.parsers import JSONParser
+from rest_framework.exceptions import APIException
 
 
 class ProgressView(APIView):
@@ -23,26 +24,34 @@ class ProgressView(APIView):
         
         # We generate a dictionary with the following
         # form {"student_id": "student_data", ...}
-        dict_student = {}
-        for stud in data_students:
-            dict_student[stud['id']] = stud
-        
-        # The student's data is selected by id
-        data = dict_student[id_student]
-        
-        # Instantiate the class to process student data
-        studen_obj = ProgressStudent(**data)
+        try:
+            dict_student = {}
+            for stud in data_students:
+                dict_student[stud['id']] = stud
+            
+            # The student's data is selected by id
+            data = dict_student[id_student]
     
-        progress_info = {}
+            # Instantiate the class to process student data
+            studen_obj = ProgressStudent(**data)
+        
+            progress_info = {}
 
-        progress_info['general'] = studen_obj.general_inf()
-        
-        progress_info['projects'] = studen_obj.projects()
-        
-        progress_info['advice'] = studen_obj.advices()
+            progress_info['general'] = studen_obj.general_inf()
+            
+            progress_info['projects'] = studen_obj.projects()
+            
+            if studen_obj.advices():
+                progress_info['advice'] = studen_obj.advices()
+            else:
+                raise Exception
 
-        request.session["progress_students"] = progress_info
+            request.session["progress_students"] = progress_info
+
+        except:
+            return Response({"Status": "Failed"}, status=500)
         
+        #return Response(request.session["progress_students"])
         return Response({"Status": "OK"})
 
 
@@ -52,4 +61,4 @@ class ProgressView(APIView):
         if "progress_students" in request.session:
             return Response(request.session["progress_students"])
         else:
-            return Response({"Status": "Failed"}, status=302)
+            return Response({"Status": "Failed"}, status=500)

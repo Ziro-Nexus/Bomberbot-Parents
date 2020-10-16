@@ -45,6 +45,9 @@ def set_advice(typ):
     """
     model = "AdviceModel" + typ + ".objects.all()"
     queryset_advice1 = eval(model)
-    for adv in queryset_advice1:
-        advice = adv.advice
-    return advice
+    if queryset_advice1:
+        for adv in queryset_advice1:
+            advice = adv.advice
+        return advice
+    else:
+        advice = False
