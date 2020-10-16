@@ -2,11 +2,11 @@ import React from 'react';
 
 import './styles/GeneralInfo.css';
 /* import './styles/GeneralInfo.css' */
-import ImagesProgress from '../../images/Card_Children.jpeg';
+import ImagesGeneral from '../../images/Info.png';
 
 function GeneralInfo(props) {
     return (
-        <div className="col-12 col-sm-6 col-md-6 col-lg-4 align-items-center">
+        <div className={props.clas}>
             {console.log("Information general", props.general)}
 
             {props.general.actual_project ?
@@ -15,7 +15,7 @@ function GeneralInfo(props) {
                         <div className="card2">
                             <div className="face face1">
                                 <div className="content">
-                                    <img src={'https://i.ibb.co/tJy6JVR/munten-vangen.png'} />
+                                    <img src={ImagesGeneral} />
                                     <h4>{props.general.actual_project}</h4>
                                 </div>
                             </div>
