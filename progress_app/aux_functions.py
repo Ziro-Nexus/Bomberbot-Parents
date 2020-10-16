@@ -1,6 +1,7 @@
 import datetime
 from .models import AdviceModel1, AdviceModel2, AdviceModel3
 
+
 def exp_days(exp_date, pending_task):
     """[Calculate the number of days expired]
 
@@ -16,7 +17,7 @@ def exp_days(exp_date, pending_task):
 
     if current_date > exp_d and pending_task != 0:
         days = str(current_date - exp_d)
-        days  = days.split(',')
+        days = days.split(',')
         return days[0]
     else:
         return "0"
@@ -33,6 +34,7 @@ def pending(num_task, task_ok):
         [int]: [Numbers of pending tasks or projects]
     """
     return int(num_task) - int(task_ok)
+
 
 def set_advice(typ):
     """[Concatenates and creates the model name to perform the query]

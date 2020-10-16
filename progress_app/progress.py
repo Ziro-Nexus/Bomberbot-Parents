@@ -3,8 +3,10 @@ from .models import AdviceModel1, AdviceModel2, AdviceModel3
 from .aux_functions import pending, exp_days, set_advice
 from django.forms.models import model_to_dict
 
+
 class ProgressStudent:
-    """Class to process data on student progress """ 
+    """Class to process data on student progress """
+
     def __init__(self, *args, **kwargs):
         self.selected_course = kwargs.get('selected_course')
         self.total_project_course = kwargs.get('total_project_course')
@@ -27,7 +29,7 @@ class ProgressStudent:
             self.description_project2 = kwargs.get('description_project2')
             self.goals_project2 = kwargs.get('project_goals2')
             self.skill_project2 = kwargs.get('acquired_skills2')
-            self.number_task_project2= kwargs.get('number_task_project2')
+            self.number_task_project2 = kwargs.get('number_task_project2')
             self.task_ok2 = kwargs.get('task_ok2')
             self.task_due_date2 = kwargs.get('task_due_date2')
             self.cover_image2 = kwargs.get('cover_image2')
@@ -44,7 +46,6 @@ class ProgressStudent:
         self.last_time = kwargs.get('last_time')
         self.total_time = kwargs.get('total_time')
 
-
     def general_inf(self):
         """ Return general information """
         general_info = {}
@@ -53,7 +54,7 @@ class ProgressStudent:
         general_info['course'] = self.selected_course
         general_info['total_projs'] = self.total_project_course
         general_info['finished_proj'] = self.project_course_ok
-        
+
         # Calculate the number of pending projects
         pending_p = pending(self.total_project_course, self.project_course_ok)
         general_info['pending_proj'] = pending_p
@@ -89,7 +90,8 @@ class ProgressStudent:
             pending_t1 = pending(self.number_task_project1, self.task_ok1)
             project1['pending_task'] = pending_t1
             project1['task_due'] = self.task_due_date1
-            project1['days_exp_task'] = exp_days(self.task_due_date1, pending_t1)
+            project1['days_exp_task'] = exp_days(
+                self.task_due_date1, pending_t1)
             project1['url_image'] = self.cover_image1
             project.append(project1)
 
@@ -107,12 +109,12 @@ class ProgressStudent:
                 pending_t2 = pending(self.number_task_project2, self.task_ok2)
                 project2['pending_task'] = pending_t2
                 project2['task_due'] = self.task_due_date2
-                project2['days_exp_task'] = exp_days(self.task_due_date2, pending_t2)
+                project2['days_exp_task'] = exp_days(
+                    self.task_due_date2, pending_t2)
                 project2['url_image'] = self.cover_image2
                 project.append(project2)
-                
-        return project  
 
+        return project
 
     def advices(self):
         """ Returns a message to parents according
@@ -124,11 +126,13 @@ class ProgressStudent:
         if pending(self.total_project_course, self.project_course_ok) == 0:
             typ = "1"
             adv = set_advice(typ)
-        elif exp_days(self.task_due_date1, pending_t1) is "0" and exp_days(self.task_due_date2, pending_t2) is "0":
+        elif exp_days(self.task_due_date1, pending_t1) == "0" and exp_days(
+                self.task_due_date2, pending_t2) == "0":
             typ = "2"
             adv = set_advice(typ)
-        elif exp_days(self.task_due_date1, pending_t1) is not "0" or exp_days(self.task_due_date2, pending_t2) is not "0":
+        elif exp_days(self.task_due_date1, pending_t1) != "0" or exp_days(
+                self.task_due_date2, pending_t2) != "0":
             typ = "3"
             adv = set_advice(typ)
-        
+
         return adv
