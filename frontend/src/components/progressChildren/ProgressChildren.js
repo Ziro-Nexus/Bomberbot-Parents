@@ -32,7 +32,6 @@ export default function ProgressChildren(props){
         axios.post('http://127.0.0.1:8000/progress/', required)
         .then(response =>{
             console.log(response);
-            console.log('entrando a response')
             if(response.data.Status === 'OK'){
                 axios('http://127.0.0.1:8000/progress/')
                 .then(res => (

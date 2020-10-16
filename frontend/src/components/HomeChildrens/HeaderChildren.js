@@ -38,7 +38,7 @@ export default class HeaderChildren extends React.Component {
                             <nav>
                                 <a href="/">HOME</a>
                                 <a href="/">CODING</a>
-                                <a href="/logout">LOGOUT</a>
+                                <a href="/index">LOGOUT</a>
                             </nav>
 
                         </div>
