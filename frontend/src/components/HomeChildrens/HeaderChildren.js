@@ -36,9 +36,9 @@ export default class HeaderChildren extends React.Component {
                         <div className="col-12 col-sm-4 navbar d-flex justify-content-center align-items-center">
                             
                             <nav>
-                                <a href="/">HOME</a>
+                                <a href="/index">HOME</a>
                                 <a href="/">CODING</a>
-                                <a href="/index">LOGOUT</a>
+                                <a href="/logout">LOGOUT</a>
                             </nav>
 
                         </div>
