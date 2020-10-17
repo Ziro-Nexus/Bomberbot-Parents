@@ -1,6 +1,7 @@
 import datetime
 from .models import AdviceModel1, AdviceModel2, AdviceModel3
 
+
 def exp_days(exp_date, pending_task):
     """[Calculate the number of days expired]
 
@@ -16,7 +17,7 @@ def exp_days(exp_date, pending_task):
 
     if current_date > exp_d and pending_task != 0:
         days = str(current_date - exp_d)
-        days  = days.split(',')
+        days = days.split(',')
         return days[0]
     else:
         return "0"
@@ -34,6 +35,7 @@ def pending(num_task, task_ok):
     """
     return int(num_task) - int(task_ok)
 
+
 def set_advice(typ):
     """[Concatenates and creates the model name to perform the query]
 
@@ -45,6 +47,22 @@ def set_advice(typ):
     """
     model = "AdviceModel" + typ + ".objects.all()"
     queryset_advice1 = eval(model)
-    for adv in queryset_advice1:
-        advice = adv.advice
-    return advice
+    if queryset_advice1:
+        for adv in queryset_advice1:
+            advice = adv.advice
+        return advice
+    else:
+        advice = False
+
+
+def name(first, last):
+    """[Concatenate the full name]
+
+    Args:
+        first ([str]): [first name]
+        last ([str]): [last name]
+
+    Returns:
+        [str]: [full name]
+    """
+    return first + ' ' + last

@@ -16,35 +16,42 @@ class ProgressView(APIView):
         """
         # All students data related to the parent who logged in is obtained
         data_students = request.session.get("students")
-        
-        #The id of the student to consult is obtained
+
+        # The id of the student to consult is obtained
         student = request.data.get('id_student')
         id_student = student[0]['id']
-        
+
         # We generate a dictionary with the following
         # form {"student_id": "student_data", ...}
-        dict_student = {}
-        for stud in data_students:
-            dict_student[stud['id']] = stud
-        
-        # The student's data is selected by id
-        data = dict_student[id_student]
-        
-        # Instantiate the class to process student data
-        studen_obj = ProgressStudent(**data)
-    
-        progress_info = {}
+        try:
+            dict_student = {}
+            for stud in data_students:
+                dict_student[stud['id']] = stud
 
-        progress_info['general'] = studen_obj.general_inf()
-        
-        progress_info['projects'] = studen_obj.projects()
-        
-        progress_info['advice'] = studen_obj.advices()
+            # The student's data is selected by id
+            data = dict_student[id_student]
 
-        request.session["progress_students"] = progress_info
-        
+            # Instantiate the class to process student data
+            studen_obj = ProgressStudent(**data)
+
+            progress_info = {}
+
+            progress_info['general'] = studen_obj.general_inf()
+
+            progress_info['projects'] = studen_obj.projects()
+
+            if studen_obj.advices():
+                progress_info['advice'] = studen_obj.advices()
+            else:
+                raise Exception
+
+            request.session["progress_students"] = progress_info
+
+        except Exception:
+            return Response({"Status": "Failed"}, status=500)
+
+        # return Response(request.session["progress_students"])
         return Response({"Status": "OK"})
-
 
     def get(self, request):
         """ Returns students data """
@@ -52,4 +59,4 @@ class ProgressView(APIView):
         if "progress_students" in request.session:
             return Response(request.session["progress_students"])
         else:
-            return Response({"Status": "Failed"}, status=302)
+            return Response({"Status": "Failed"}, status=500)
