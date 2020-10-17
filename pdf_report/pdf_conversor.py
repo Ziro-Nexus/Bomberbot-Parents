@@ -92,11 +92,3 @@ class GetReport(PDFConversor):
             self.template = f.read()
         self.fill_data()
 
-
-pdf = ""
-with open("test.json", "r") as f:
-    pdf = json.loads(f.read())
-
-
-x = GetReport(**pdf)
-x.from_template()
