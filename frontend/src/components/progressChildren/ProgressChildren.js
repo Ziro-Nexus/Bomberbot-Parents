@@ -132,7 +132,7 @@ export default function ProgressChildren(props){
                                     data={project}
                                     hideModal={hideModal}/>
     
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
