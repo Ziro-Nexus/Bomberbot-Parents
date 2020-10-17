@@ -96,7 +96,14 @@ export default function ProgressChildren(props){
                             </div>
                             <div className="face face2">
                                 <div className="content">
-                                    <p> {project.proj_description.substring(0, 176)}</p>
+                                    {/* <p> {project.proj_description.substring(0, 176)}</p> */}
+                                    <p>
+                                        <strong>Total task:</strong> {project.total_task_proj}<br />
+                                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finished task:</strong> {project.finished_tasks}<br />
+                                        <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pending task:</strong> {project.pending_task}<br />
+                                        <strong>Expiration date:</strong> {project.task_due}<br />
+                                        <strong>Days expired:</strong> {project.days_exp_task}<br />
+                                    </p>
                                     <a href="#modal1">Read More</a>
                                 </div>
                             </div>

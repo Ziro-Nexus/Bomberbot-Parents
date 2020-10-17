@@ -16,12 +16,15 @@ function GeneralInfo(props) {
                             <div className="face face1">
                                 <div className="content">
                                     <img src={ImagesGeneral} />
-                                    <h4>{props.general.actual_project}</h4>
+                                    <h2>General information</h2>
+                                    
                                 </div>
                             </div>
                             <div className="face face2">
                                 <div className="content">
+                                
                                     <p>
+                                    <strong>Current project:</strong> {props.general.actual_project}<br />
                                         <strong>Course:</strong> {props.general.course}<br />
                                         <strong>Project:</strong> {props.general.finished_proj}<br />
                                         <strong>Last logging:</strong> {props.general.last_logging.substring(0, 10)}<br />
