@@ -53,3 +53,16 @@ def set_advice(typ):
         return advice
     else:
         advice = False
+
+
+def name(first, last):
+    """[Concatenate the full name]
+
+    Args:
+        first ([str]): [first name]
+        last ([str]): [last name]
+
+    Returns:
+        [str]: [full name]
+    """
+    return first + ' ' + last

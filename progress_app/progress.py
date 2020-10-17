@@ -1,6 +1,6 @@
 import datetime
 from .models import AdviceModel1, AdviceModel2, AdviceModel3
-from .aux_functions import pending, exp_days, set_advice
+from .aux_functions import pending, exp_days, set_advice, name
 from django.forms.models import model_to_dict
 
 
@@ -8,6 +8,8 @@ class ProgressStudent:
     """Class to process data on student progress """
 
     def __init__(self, *args, **kwargs):
+        self.first_name = kwargs.get('firts_name')
+        self.last_name = kwargs.get('last_name')
         self.selected_course = kwargs.get('selected_course')
         self.total_project_course = kwargs.get('total_project_course')
         self.project_course_ok = kwargs.get('project_course_ok')
@@ -49,6 +51,7 @@ class ProgressStudent:
     def general_inf(self):
         """ Return general information """
         general_info = {}
+        general_info['full_name'] = name(self.first_name, self.last_name)
         general_info['last_logging'] = self.last_time
         general_info['total_time'] = self.total_time
         general_info['course'] = self.selected_course
