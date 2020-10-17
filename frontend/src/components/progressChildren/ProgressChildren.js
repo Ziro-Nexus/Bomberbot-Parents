@@ -17,7 +17,7 @@ import ModalProgress from './ModalProgress';
 import GeneralInfo from './GeneralInfo';
 
 import './styles/ProgressChildren.css';
-
+import './styles/ModalProgress.css';
 
 
 export default function ProgressChildren(props){
@@ -92,15 +92,34 @@ export default function ProgressChildren(props){
         classScroll = "container-fluid justify-content-center scroll-page style-main";
     }
 
-
-
-
     const PrintModal= (e, i) =>{
             setIndex(i);
             handleShow();
             console.log("EL estado que queremos ver para todos es necesarios", state[i])
     }
+
+    // SPLIT FOR GOALS
+    let arrayGoals = []
+    if (state[index]) {
+        const cadenaGoals = state[index].goals_projet
+        const cadenaDivGoals = cadenaGoals.split('.')    
+        for (let i = 0; i < cadenaDivGoals.length - 1; i++) {
+            arrayGoals.push(cadenaDivGoals[i] + '.')
+        }
+    }
     
+    // SPLIT FOR SKILL
+    let arraySkills = []
+    if (state[index]) {
+        const cadenaSkills = state[index].skill_project
+        const cadenaDivSkills = cadenaSkills.split('.')    
+        for (let i = 0; i < cadenaDivSkills.length - 1; i++) {
+            arraySkills.push(cadenaDivSkills[i] + '.')
+        } 
+    }
+
+
+
     return (
         <div className={classScroll}>
             <div className="row card-intern align-items-center justify-content-end">
@@ -140,25 +159,41 @@ export default function ProgressChildren(props){
                  )
                 }): ''}
             </div>
-                    <Modal
-                    show={show}
-                    onHide={handleClose}
-                    keyboard={false}
-                >
-                    <Modal.Header closeButton>
-                    <Modal.Title>{state[index] ? state[index].name_project : ''}</Modal.Title>
-                    {/* {console.log(state[index])} */}
+            <Modal 
+                show={show}
+                onHide={handleClose}
+                keyboard={false}
+
+                size="lg" 
+                aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                    <Modal.Header>
+                        <Modal.Title>
+                            <strong className="tit-modal">Important information:</strong>
+                        </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                    I will not close if you click outside me. Don't even try to press
-                    escape key.
+
+                            <strong className="des-modal">Project description:</strong> 
+                                <p className="des-modal-content">{state[index] ? state[index].proj_description : ''}</p><br />
+                                
+                            <strong className="des-modal">Project goals:</strong>
+                                <p className="des-modal-content">
+                                        {arrayGoals.map(arrGoal => <li>{arrGoal}</li>)}
+                                        
+                                </p><br />
+                           
+                            <strong className="des-modal">Project skill:</strong> 
+                                <p className="des-modal-content">
+                                        {arraySkills.map(arrSkills => <li>{arrSkills}</li>)}
+                                </p><br />
                     </Modal.Body>
+                    
+                    
                     <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
+                        <Button onClick={handleClose}>Close</Button>
                     </Modal.Footer>
-                </Modal>
+            </Modal>
                 
         </div>
 
