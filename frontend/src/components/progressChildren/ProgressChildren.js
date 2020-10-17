@@ -19,17 +19,13 @@ import GeneralInfo from './GeneralInfo';
 import './styles/ProgressChildren.css';
 
 
+
 export default function ProgressChildren(props){
 
- const [isOpen, setIsOpen] = React.useState(false);
+    const [show, setShow] = React.useState(false);
 
-    const showModal = () => {
-        setIsOpen(true);
-    };
-
-    const hideModal = () => {
-        setIsOpen(false);
-    };
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     let count = 0;
     let classes = '', classScroll = '';
@@ -51,6 +47,7 @@ export default function ProgressChildren(props){
     /* console.log(location.state.id_student); */
 
     const [ state, setState ] = React.useState([]);
+    const [ index, setIndex ] = React.useState(0);
     const [ general, setGeneral ] = React.useState([]);
 
 /*     React.useEffect(async() => { */
@@ -83,9 +80,7 @@ export default function ProgressChildren(props){
 
     }, [])
     
-    function HandleClickMore(){
-        return <ModalProgress />
-    }
+
     if(state.length === 1){
         classes = "col-12 col-sm-6 col-md-6 col-lg-6 align-items-center"
         classScroll = "container-fluid justify-content-center style-main";
@@ -95,6 +90,15 @@ export default function ProgressChildren(props){
     } else {
         classes = "col-12 col-sm-6 col-md-4 col-lg-4 align-items-center"
         classScroll = "container-fluid justify-content-center scroll-page style-main";
+    }
+
+
+
+
+    const PrintModal= (e, i) =>{
+            setIndex(i);
+            handleShow();
+            console.log("EL estado que queremos ver para todos es necesarios", state[i])
     }
     
     return (
@@ -125,13 +129,9 @@ export default function ProgressChildren(props){
                                         <strong>Expiration date:</strong> {project.task_due}<br />
                                         <strong>Days expired:</strong> {project.days_exp_task}<br />
                                     </p>
-                                    <Button onClick={showModal}>Read More</Button>
-                                    <ModalProgress 
-                                    isOpen={isOpen} 
-                                    hideModal={hideModal} 
-                                    data={project}
-                                    hideModal={hideModal}/>
-    
+                                    <Button variant="primary" onClick={e => PrintModal(e, i)}>
+                                        Read More
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -140,6 +140,25 @@ export default function ProgressChildren(props){
                  )
                 }): ''}
             </div>
+                    <Modal
+                    show={show}
+                    onHide={handleClose}
+                    keyboard={false}
+                >
+                    <Modal.Header closeButton>
+                    <Modal.Title>{state[index] ? state[index].name_project : ''}</Modal.Title>
+                    {/* {console.log(state[index])} */}
+                    </Modal.Header>
+                    <Modal.Body>
+                    I will not close if you click outside me. Don't even try to press
+                    escape key.
+                    </Modal.Body>
+                    <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Close
+                    </Button>
+                    </Modal.Footer>
+                </Modal>
                 
         </div>
 
