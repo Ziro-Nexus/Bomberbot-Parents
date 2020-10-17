@@ -12,4 +12,3 @@ npm-debug.log
 *api/__pycache__/__init__.cpython-36.pyc*
 *api/__pycache__/models.cpython-36.pyc*
 frontend/dist
-*.pdf*
