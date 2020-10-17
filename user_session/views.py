@@ -1,5 +1,5 @@
 import json
-from django.http import HttpResponse, FileResponse, Http404
+from django.http import HttpResponse, FileResponse, Http404, HttpResponseRedirect
 from rest_framework.response import Response
 import requests
 from rest_framework.decorators import api_view
@@ -11,7 +11,7 @@ def logout(request):
         if i in assigned:
             del request.session[i]
 
-    return HttpResponse("bye")
+    return HttpResponseRedirect("index/")
 
 
 @api_view(('GET',))
