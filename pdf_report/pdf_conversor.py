@@ -48,11 +48,3 @@ class Template1(PDFConversor):
         with open("pdf_templates/template1.html", "r") as f:
             self.template = f.read()
         self.fill_data()
-
-
-dic = {}
-with open("test.json", "r") as f:
-    dic = json.loads(f.read())
-
-t = Template1(**dic)
-t.from_template()

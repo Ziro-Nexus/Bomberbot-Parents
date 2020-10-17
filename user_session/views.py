@@ -1,5 +1,5 @@
 import json
-from django.http import HttpResponse
+from django.http import HttpResponse, FileResponse, Http404
 from rest_framework.response import Response
 import requests
 from rest_framework.decorators import api_view
@@ -47,3 +47,12 @@ def auth(request):
     response["Status"] = response_json["Status"]
     request.session["related_students"] = json.dumps(response_json)
     return Response(json.dumps({"Status": response_json["Status"]}))
+
+
+
+@api_view(('GET',))
+def pdf_view(request):
+    try:
+        return FileResponse(open('pdf_report/test1.pdf', 'rb'), content_type='application/pdf')
+    except FileNotFoundError:
+        raise Http404()

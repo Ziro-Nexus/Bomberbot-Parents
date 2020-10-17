@@ -19,5 +19,6 @@ from . import views
 urlpatterns = [
     path('login/', views.auth),
     path('logout/', views.logout),
+    path('pdf/', views.pdf_view),
     path('related_students/', views.related_students)
 ]
