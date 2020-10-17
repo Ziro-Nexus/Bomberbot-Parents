@@ -2,13 +2,34 @@ import React from 'react';
 import { useLocation } from "react-router-dom";
 import axios from 'axios';
 
+import { Button } from 'react-bootstrap';
+
+
+/*Import bootstrap */
+import ReactDOM from "react-dom";
+import Modal from "react-bootstrap/Modal";
+import ModalBody from "react-bootstrap/ModalBody";
+import ModalHeader from "react-bootstrap/ModalHeader";
+import ModalFooter from "react-bootstrap/ModalFooter";
+import ModalTitle from "react-bootstrap/ModalTitle";
+
 import ModalProgress from './ModalProgress';
 import GeneralInfo from './GeneralInfo';
 
 import './styles/ProgressChildren.css';
-import  ImagesProgress from '../../images/Card_Children.jpeg';
+
 
 export default function ProgressChildren(props){
+
+ const [isOpen, setIsOpen] = React.useState(false);
+
+    const showModal = () => {
+        setIsOpen(true);
+    };
+
+    const hideModal = () => {
+        setIsOpen(false);
+    };
 
     let count = 0;
     let classes = '', classScroll = '';
@@ -104,23 +125,20 @@ export default function ProgressChildren(props){
                                         <strong>Expiration date:</strong> {project.task_due}<br />
                                         <strong>Days expired:</strong> {project.days_exp_task}<br />
                                     </p>
-                                    <a href="#modal1">Read More</a>
-                                </div>
+                                    <Button onClick={showModal}>Read More</Button>
+                                    <ModalProgress 
+                                    isOpen={isOpen} 
+                                    hideModal={hideModal} 
+                                    data={project}
+                                    hideModal={hideModal}/>
+    
+                                  </div>
                             </div>
                         </div>
                     </div>
                 </div>
                  )
-                }): ''}  
-                <div id="modal1" className="col-12 modalmask">
-                            <div className="modalbox movedown">
-                                <a href="#close" title="Close" className="close">X</a>
-                                <h2>INFORMATION PROJECT 1</h2>
-                                <p>In this lesson, students discover how computer games are made and students are introduced to fundamental programming concepts, thinking, and programming terminology.</p>
-                                
-                            </div>
-                </div>
-
+                }): ''}
             </div>
                 
         </div>
