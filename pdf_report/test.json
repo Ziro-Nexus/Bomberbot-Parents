@@ -1,0 +1,40 @@
+{
+    "general": {
+        "last_logging": "2020-10-17T05:50:27Z",
+        "total_time": 5.0,
+        "course": "year 1",
+        "total_projs": 2,
+        "finished_proj": 1,
+        "pending_proj": 1,
+        "actual_project": "Making games, Catching coins (part 1)"
+    },
+    "projects": [
+        {
+            "reference_project": "Computational Thinking",
+            "name_project": "Basic Programming",
+            "proj_description": "Introduction to programming\r\n\r\nIn this lesson, students learn what programming is. They know the difference between hardware and software and can explain the connection between them. They can give examples of computer programs from everyday life and can write simple computer programs themselves using visual instructions.",
+            "goals_projet": "- Students know what programming is and can give examples of it computer programs in everyday life.\r\n-Students know the difference between hardware and software.\r\n-Students can write simple computer programs with visual instructions.",
+            "skill_project": "Your child began to develop computational thinking that allows him to use different algorithmic and analytical approaches in order to analyze or solve problems.\r\n\r\nLearn to recognize different everyday devices that are actually computers and how they work.\r\n\r\nYou understand the concepts of software and hardware, you can recognize them in your environment and you know the difference between them.\r\n\r\nYou understand that programming can create apps, websites, and games for fun, but it can also make a real contribution to the world in many different areas.",
+            "total_task_proj": 13,
+            "finished_tasks": 13,
+            "pending_task": 0,
+            "task_due": "2020-10-23",
+            "days_exp_task": "0",
+            "url_image": "https://i.ibb.co/PG9D9d6/sequenties.png"
+        },
+        {
+            "reference_project": "Computational Thinking",
+            "name_project": "Making games, Catching coins (part 1)",
+            "proj_description": "In this lesson, students discover how computer games are made and students are introduced to fundamental programming concepts, thinking, and programming terminology.",
+            "goals_projet": "-Students know that computer games consist of objects and scripts with commands for the computer to perform tasks.\r\n\r\n-Students can add objects to their games.\r\n\r\n-Students know what variables are and can add variables to their game",
+            "skill_project": "In this lesson, your child has taken another step in the development of his computational thinking since during the development of the game he was able to apply it.\r\n\r\nI understand and internalize the fundamental concepts of programming, the way of thinking and the terminology of programming.\r\n\r\nYou are ready to study and understand more advanced programming concepts.",
+            "total_task_proj": 6,
+            "finished_tasks": 4,
+            "pending_task": 2,
+            "task_due": "2020-10-07",
+            "days_exp_task": "9 days",
+            "url_image": "https://i.ibb.co/tJy6JVR/munten-vangen.png"
+        }
+    ],
+    "advice": "Cheer up, we can still do it, your child can still do the overdue tasks and become the best in the world of technology."
+}
