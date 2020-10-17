@@ -17,8 +17,10 @@ function GeneralInfo(props) {
                                 <div className="content">
                                     <img src={ImagesGeneral} />
                                     <h2>General information</h2>
+                                    <h2>{props.general.full_name}</h2>
                                     
                                 </div>
+                                
                             </div>
                             <div className="face face2">
                                 <div className="content">
@@ -28,6 +30,7 @@ function GeneralInfo(props) {
                                         <strong>Course:</strong> {props.general.course}<br />
                                         <strong>Project:</strong> {props.general.finished_proj}<br />
                                         <strong>Last logging:</strong> {props.general.last_logging.substring(0, 10)}<br />
+                                        
                                         <strong>Total projects:</strong> {props.general.total_projs}<br />
                                         <strong>Pending projects:</strong> {props.general.pending_proj}<br />
                                         <strong>Total time:</strong> {props.general.total_time} hours<br />

@@ -81,3 +81,19 @@
     background: #FAAC58;
     color:#222;
 }
+
+.tit-modal {
+    color: #68bb6d;
+    font-size: 2rem;
+}
+
+.des-modal {
+    font-size: 1.3rem;
+}
+
+.des-modal-content {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-left: 1.5rem;
+
+}
