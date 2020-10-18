@@ -16,7 +16,7 @@ class Components:
         subs = "<h1> General Information </h1> <hr>"
         data = self.data["general"]
         for field in data.keys():
-            subs += f"  <h2> {field}: </h2> <center> <p> {data[field]} </p> </center>"
+            subs += f"<h2> {field}: </h2> <center> <p> {data[field]} </p> </center>"
 
         return subs.replace("_", " ")
 
@@ -30,7 +30,7 @@ class Components:
         subs = f"""
             <h1 style="color: red;"> Advice of progress:</h1>
             <center> <p> {self.data["advice"]} </p> </center> 
-            <div style="margin-top: 50px;">
+            <div style="margin-top: 100px;">
                 <h1> Current projects: {len(self.data["projects"])} </h1> <hr>
                 @tmp@
             </div>
@@ -40,11 +40,11 @@ class Components:
             subs += static
             for key in field.keys():
                 subs = re.sub(
-                    "@tmp@", f"<p> {key}: {field[key]} </p> @tmp@", subs)
+                    "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
             else:
                 subs = re.sub("@tmp@", "", subs)
 
-        return subs
+        return subs.replace("_", " ").replace("proj", "project")
 
 
 class PDFConversor(Components):
@@ -92,3 +92,10 @@ class GetReport(PDFConversor):
             self.template = f.read()
         self.fill_data()
 
+
+pdf = ""
+with open("test.json", "r") as f:
+    pdf = json.loads(f.read())
+
+pdf = GetReport(**pdf)
+pdf.from_template()
