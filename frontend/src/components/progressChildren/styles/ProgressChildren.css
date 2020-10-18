@@ -94,7 +94,7 @@
     color: white;
     font-weight: 400;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .container2 .card2 .face.face2{
@@ -138,4 +138,20 @@
 }
 .scroll-page::-webkit-scrollbar {
     display: none;
+}
+
+.advice {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    
+    border-radius: 0.75rem;
+    background: #fc9d28d0;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
 }

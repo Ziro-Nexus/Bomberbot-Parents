@@ -42,13 +42,10 @@ export default function ProgressChildren(props){
         id_student = localStorage.getItem('id_student')
     }
 
-    
-    
-    /* console.log(location.state.id_student); */
-
     const [ state, setState ] = React.useState([]);
     const [ index, setIndex ] = React.useState(0);
     const [ general, setGeneral ] = React.useState([]);
+    const [ advice, setAdvice ] = React.useState('');
 
 /*     React.useEffect(async() => { */
         
@@ -64,14 +61,15 @@ export default function ProgressChildren(props){
         };
         axios.post('http://127.0.0.1:8000/progress/', required)
         .then(response =>{
-            console.log(response);
+            
             if(response.data.Status === 'OK'){
                 axios('http://127.0.0.1:8000/progress/')
                 .then(res => (
-                    console.log(res.data),
-                    console.log(res.data.projects),
+                    console.log('OK'),
                     setState(res.data.projects),
-                    setGeneral(res.data.general)
+                    setGeneral(res.data.general),
+                    setAdvice(res.data.advice)
+
                 ))
             }
         })
@@ -95,7 +93,7 @@ export default function ProgressChildren(props){
     const PrintModal= (e, i) =>{
             setIndex(i);
             handleShow();
-            console.log("EL estado que queremos ver para todos es necesarios", state[i])
+            console.log("Modal open")
     }
 
     // SPLIT FOR GOALS
@@ -122,8 +120,13 @@ export default function ProgressChildren(props){
 
     return (
         <div className={classScroll}>
+
             <div className="row card-intern align-items-center justify-content-end">
                 
+            <div className="advice">{advice ? <h3>{advice}</h3> : ''}
+            </div> 
+
+
                 <GeneralInfo general={general} clas={classes}/> 
                 {state ? state.map((project, i) =>{
                     count = count + 1
@@ -179,13 +182,14 @@ export default function ProgressChildren(props){
                                 
                             <strong className="des-modal">Project goals:</strong>
                                 <p className="des-modal-content">
-                                        {arrayGoals.map(arrGoal => <li>{arrGoal}</li>)}
-                                        
+                                        {/* {arrayGoals.map(arrGoal => <li>{arrGoal}</li>)} */}
+                                        {arrayGoals ? arrayGoals.map((arrGoal, i) => <li key={i}>{arrGoal}</li>) : ''}
                                 </p><br />
                            
                             <strong className="des-modal">Project skill:</strong> 
                                 <p className="des-modal-content">
-                                        {arraySkills.map(arrSkills => <li>{arrSkills}</li>)}
+                                        {/* {arraySkills.map(arrSkills => <li>{arrSkills}</li>)} */}
+                                        {arraySkills ? arraySkills.map((arrSkills, i) => <li key={i}>{arrSkills}</li>) : ''}
                                 </p><br />
                     </Modal.Body>
                     
