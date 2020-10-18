@@ -107,10 +107,3 @@ class GetReport(PDFConversor):
         with open("pdf_templates/template1.html", "r") as f:
             self.template = f.read()
         self.fill_data()
-
-p = {}
-with open("test.json", "r") as f:
-    p = json.loads(f.read())
-
-a = GetReport(**p)
-a.from_template()
