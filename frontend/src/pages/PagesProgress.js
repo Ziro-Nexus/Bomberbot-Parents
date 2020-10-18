@@ -9,7 +9,7 @@ export default class PagesPogress extends Component {
   render() {
     return (
       <div className="container-fluid d-flex flex-column image-main">
-        <Header />
+        <Header pages={true}/>
         <BodyProgress />
         <FooterChildren />
       </div>

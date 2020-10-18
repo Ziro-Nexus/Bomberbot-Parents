@@ -148,9 +148,9 @@ export default function ProgressChildren(props){
                                         <strong>Expiration date:</strong> {project.task_due}<br />
                                         <strong>Days expired:</strong> {project.days_exp_task}<br />
                                     </p>
-                                    <Button variant="primary" onClick={e => PrintModal(e, i)}>
+                                    <a variant="primary" onClick={e => PrintModal(e, i)}>
                                         Read More
-                                    </Button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
