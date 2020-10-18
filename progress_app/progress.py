@@ -55,12 +55,12 @@ class ProgressStudent:
         general_info['last_logging'] = self.last_time
         general_info['total_time'] = self.total_time
         general_info['course'] = self.selected_course
-        general_info['total_projs'] = self.total_project_course
-        general_info['finished_proj'] = self.project_course_ok
+        general_info['total_project'] = self.total_project_course
+        general_info['finished_project'] = self.project_course_ok
 
         # Calculate the number of pending projects
         pending_p = pending(self.total_project_course, self.project_course_ok)
-        general_info['pending_proj'] = pending_p
+        general_info['pending_project'] = pending_p
 
         # Defines current status of projects
         if pending_p == 0:
@@ -83,10 +83,10 @@ class ProgressStudent:
             project1 = {}
             project1['reference_project'] = self.reference_project1
             project1['name_project'] = self.project_name1
-            project1['proj_description'] = self.description_project1
-            project1['goals_projet'] = self.goals_project1
+            project1['description_project'] = self.description_project1
+            project1['goals_project'] = self.goals_project1
             project1['skill_project'] = self.skill_project1
-            project1['total_task_proj'] = self.number_task_project1
+            project1['total_task_project'] = self.number_task_project1
             project1['finished_tasks'] = self.task_ok1
 
             # Calculate the number of pending task
@@ -102,10 +102,10 @@ class ProgressStudent:
                 project2 = {}
                 project2['reference_project'] = self.reference_project2
                 project2['name_project'] = self.project_name2
-                project2['proj_description'] = self.description_project2
-                project2['goals_projet'] = self.goals_project2
+                project2['description_project'] = self.description_project2
+                project2['goals_project'] = self.goals_project2
                 project2['skill_project'] = self.skill_project2
-                project2['total_task_proj'] = self.number_task_project2
+                project2['total_task_project'] = self.number_task_project2
                 project2['finished_tasks'] = self.task_ok2
 
                 # Calculate the number of pending task
