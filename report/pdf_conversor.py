@@ -1,6 +1,7 @@
 import pdfkit
 import re
 import json
+import os
 
 
 class Components:
@@ -88,7 +89,7 @@ class GetReport(PDFConversor):
     def __init__(self, **data):
         PDFConversor.__init__(self, **data)
         self.name = "test1.pdf" if "username" not in data else data["username"] + ".pdf"
-        with open("pdf_templates/template1.html", "r") as f:
+        with open(os.path.join(os.getcwd(), "report") + "/pdf_templates/template1.html" ) as f:
             self.template = f.read()
         self.fill_data()
 
