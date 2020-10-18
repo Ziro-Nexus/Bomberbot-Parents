@@ -13,7 +13,7 @@ export default class HomeParents extends React.Component {
 
             <div className="hero d-flex flex-column justify-content-center">
                 <h1 className="tracking-in-expand-fwd-top">Bomberbot PARENT</h1>
-                <h3>The easiest way to teach and develop digital skills</h3>
+                <h3>The easiest way to check your child's progress</h3>
                 <Link to="/loginParents">
                 <div className="begin">
                     Login

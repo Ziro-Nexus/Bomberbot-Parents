@@ -17,19 +17,15 @@ import ModalProgress from './ModalProgress';
 import GeneralInfo from './GeneralInfo';
 
 import './styles/ProgressChildren.css';
+import './styles/ModalProgress.css';
 
 
 export default function ProgressChildren(props){
 
- const [isOpen, setIsOpen] = React.useState(false);
+    const [show, setShow] = React.useState(false);
 
-    const showModal = () => {
-        setIsOpen(true);
-    };
-
-    const hideModal = () => {
-        setIsOpen(false);
-    };
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     let count = 0;
     let classes = '', classScroll = '';
@@ -51,6 +47,7 @@ export default function ProgressChildren(props){
     /* console.log(location.state.id_student); */
 
     const [ state, setState ] = React.useState([]);
+    const [ index, setIndex ] = React.useState(0);
     const [ general, setGeneral ] = React.useState([]);
 
 /*     React.useEffect(async() => { */
@@ -83,9 +80,7 @@ export default function ProgressChildren(props){
 
     }, [])
     
-    function HandleClickMore(){
-        return <ModalProgress />
-    }
+
     if(state.length === 1){
         classes = "col-12 col-sm-6 col-md-6 col-lg-6 align-items-center"
         classScroll = "container-fluid justify-content-center style-main";
@@ -96,7 +91,35 @@ export default function ProgressChildren(props){
         classes = "col-12 col-sm-6 col-md-4 col-lg-4 align-items-center"
         classScroll = "container-fluid justify-content-center scroll-page style-main";
     }
+
+    const PrintModal= (e, i) =>{
+            setIndex(i);
+            handleShow();
+            console.log("EL estado que queremos ver para todos es necesarios", state[i])
+    }
+
+    // SPLIT FOR GOALS
+    let arrayGoals = []
+    if (state[index]) {
+        const cadenaGoals = state[index].goals_projet
+        const cadenaDivGoals = cadenaGoals.split('.')    
+        for (let i = 0; i < cadenaDivGoals.length - 1; i++) {
+            arrayGoals.push(cadenaDivGoals[i] + '.')
+        }
+    }
     
+    // SPLIT FOR SKILL
+    let arraySkills = []
+    if (state[index]) {
+        const cadenaSkills = state[index].skill_project
+        const cadenaDivSkills = cadenaSkills.split('.')    
+        for (let i = 0; i < cadenaDivSkills.length - 1; i++) {
+            arraySkills.push(cadenaDivSkills[i] + '.')
+        } 
+    }
+
+
+
     return (
         <div className={classScroll}>
             <div className="row card-intern align-items-center justify-content-end">
@@ -125,13 +148,9 @@ export default function ProgressChildren(props){
                                         <strong>Expiration date:</strong> {project.task_due}<br />
                                         <strong>Days expired:</strong> {project.days_exp_task}<br />
                                     </p>
-                                    <Button onClick={showModal}>Read More</Button>
-                                    <ModalProgress 
-                                    isOpen={isOpen} 
-                                    hideModal={hideModal} 
-                                    data={project}
-                                    hideModal={hideModal}/>
-    
+                                    <Button variant="primary" onClick={e => PrintModal(e, i)}>
+                                        Read More
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -140,6 +159,41 @@ export default function ProgressChildren(props){
                  )
                 }): ''}
             </div>
+            <Modal 
+                show={show}
+                onHide={handleClose}
+                keyboard={false}
+
+                size="lg" 
+                aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                    <Modal.Header>
+                        <Modal.Title>
+                            <strong className="tit-modal">Important information:</strong>
+                        </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+
+                            <strong className="des-modal">Project description:</strong> 
+                                <p className="des-modal-content">{state[index] ? state[index].proj_description : ''}</p><br />
+                                
+                            <strong className="des-modal">Project goals:</strong>
+                                <p className="des-modal-content">
+                                        {arrayGoals.map(arrGoal => <li>{arrGoal}</li>)}
+                                        
+                                </p><br />
+                           
+                            <strong className="des-modal">Project skill:</strong> 
+                                <p className="des-modal-content">
+                                        {arraySkills.map(arrSkills => <li>{arrSkills}</li>)}
+                                </p><br />
+                    </Modal.Body>
+                    
+                    
+                    <Modal.Footer>
+                        <Button onClick={handleClose}>Close</Button>
+                    </Modal.Footer>
+            </Modal>
                 
         </div>
 
