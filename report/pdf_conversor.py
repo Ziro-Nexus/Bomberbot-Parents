@@ -2,6 +2,7 @@ import pdfkit
 import re
 import json
 import os
+import shutil
 
 
 class Components:
@@ -15,37 +16,45 @@ class Components:
         informacion general sobre el estudiante """
     
         subs = "<h1> General Information </h1> <hr>"
+        subs += f"""
+        <h4 style="color: red;"> Advice of progress:</h4>
+        <center> <p> {self.data["advice"]} </p> </center> 
+        """
         data = self.data["general"]
         for field in data.keys():
-            subs += f"  <h2> {field}: </h2> <center> <p> {data[field]} </p> </center>"
+            subs += f"<h2> {field}: </h2> <center> <p> {data[field]} </p> </center>"
 
         return subs.replace("_", " ")
 
     def prepare_project_substring(self):
         static = """
-            <div class"projects">
+            <div class="projects">
                 @tmp@
             </div>
             <hr>
         """
         subs = f"""
-            <h1 style="color: red;"> Advice of progress:</h1>
-            <center> <p> {self.data["advice"]} </p> </center> 
-            <div style="margin-top: 50px;">
-                <h1> Current projects: {len(self.data["projects"])} </h1> <hr>
+            <div class="projects">
+            <h1> Current projects: {len(self.data["projects"])} </h1>
+            <hr>
                 @tmp@
             </div>
         """
+        
         iter = self.data["projects"]
         for field in iter:
             subs += static
             for key in field.keys():
                 subs = re.sub(
-                    "@tmp@", f"<p> {key}: {field[key]} </p> @tmp@", subs)
+                    "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
             else:
                 subs = re.sub("@tmp@", "", subs)
 
-        return subs
+        return subs.replace("_", " ")
+    
+    def get_student_name(self):
+        if self.data:
+            return self.data["general"]["full_name"]
 
 
 class PDFConversor(Components):
@@ -72,6 +81,10 @@ class PDFConversor(Components):
             'no-outline': None
         }
         pdfkit.from_string(self.template, self.name, options=options)
+        filepath = os.path.join(os.getcwd(), "report") + f"/{self.name}"
+        folderpath = os.path.join(os.getcwd(), "report") + "/pdf_tmp"
+
+        shutil.move(filepath , folderpath)
 
     def fill_data(self):
         """ Necesito crear un HTML segun los datos que se establecen 
@@ -79,6 +92,8 @@ class PDFConversor(Components):
             corresspondiente que siempre debe empezar por @<llave>@
         """
         if self.data:
+            self.template = re.sub(
+                "@student_name@", self.get_student_name(), self.template)
             self.template = re.sub(
                 "@general@", self.prepare_general_substring(), self.template)
             self.template = re.sub(
@@ -89,7 +104,6 @@ class GetReport(PDFConversor):
     def __init__(self, **data):
         PDFConversor.__init__(self, **data)
         self.name = "test1.pdf" if "username" not in data else data["username"] + ".pdf"
-        with open(os.path.join(os.getcwd(), "report") + "/pdf_templates/template1.html" ) as f:
+        with open("pdf_templates/template1.html", "r") as f:
             self.template = f.read()
         self.fill_data()
-
