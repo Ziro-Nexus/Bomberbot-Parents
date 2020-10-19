@@ -14,9 +14,9 @@ class Navbar extends React.Component {
     <div className="row d-flex style-header justify-content-between align-items-center bg-light">
 
         <div className="col-12 col-sm-4 d-flex align-items-center">
-            <Link to="/index">
+            <a href="https://bomberbot.com/">
                 <img className="img-logo" src={Photo} alt="Logo Bomberbot" />
-            </Link>
+            </a>
         </div>
 
         <div className="col-12 col-sm-4 d-flex justify-content-center">

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link} from 'react-router-dom';
+
 
 import Photo from '../../images/logo_01_BB_tr.png';
 import Kingdow from '../../images/reino-unido.png'
@@ -16,7 +18,7 @@ export default class HeaderChildren extends React.Component {
                <div className="row d-flex style-header  align-items-center bg-light">
 
                         <div className="col-12 col-sm-4 d-flex flex-column align-items-center">
-                            <a href="/">
+                            <a href="https://bomberbot.com/">
                                 <img className="img-logo" src={Photo} alt="Logo Bomberbot" />
                             </a>
                         </div>
@@ -37,7 +39,8 @@ export default class HeaderChildren extends React.Component {
                             
                             <nav>
                                 <a href="/index">HOME</a>
-                                <a href="/">CODING</a>
+                                {this.props.pages ? <a href="http://127.0.0.1:8000/report/" target="_blank">EXPORT PDF</a> : ''}
+                                {this.props.pages ? <Link to='/homeParents'>OTHER CHILD</Link> : ''}
                                 <a href="/logout">LOGOUT</a>
                             </nav>
 
