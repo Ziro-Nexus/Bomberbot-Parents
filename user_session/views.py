@@ -29,7 +29,7 @@ def related_students(request):
     if "related_students" in request.session:
         return Response(request.session["related_students"])
     else:
-        return Response({"Status": "Failed"}, status=302)
+        return HttpResponseRedirect("http://127.0.0.1:8000/loginParents")
 
 # Validate user session
 @api_view(('POST',))

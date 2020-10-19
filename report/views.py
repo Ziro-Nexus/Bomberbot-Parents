@@ -2,7 +2,7 @@ import os
 import json
 import requests
 from os import remove
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from rest_framework.views import APIView
 from .pdf_conversor import GetReport
 
@@ -10,7 +10,12 @@ from .pdf_conversor import GetReport
 class ReportView(APIView):
 
     def get(self, request):
-        data = request.session["progress_students"]
+
+        try:
+            data = request.session["progress_students"]
+        except:
+            return HttpResponseRedirect("http://127.0.0.1:8000/index/")
+
         data['username'] = data['general']['full_name'].replace(' ', '_')
         pdf_r = GetReport(**data)
         pdf_r.from_template()
