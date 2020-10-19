@@ -2,9 +2,9 @@ import os
 import json
 import requests
 from os import remove
-from django.http import HttpResponse, HttpResponseRedirect
-from rest_framework.views import APIView
 from .pdf_conversor import GetReport
+from rest_framework.views import APIView
+from django.http import HttpResponse, HttpResponseRedirect
 
 
 class ReportView(APIView):
