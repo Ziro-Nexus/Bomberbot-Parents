@@ -5321,7 +5321,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 2.7rem;\n    width: 2.7rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n   /* MENU NAVEGATION */\n   .navbar\n   {\n \n       margin: 0 auto;\n\n\n       background: rgba(255,255,255,1);\n       background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(104,187,109,0.63)));\n       background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68bb6d', GradientType=1 );\n\n    \n  \n   }\n   \n.navbar a\n   {\n       width: 100%;\n       text-align: center;\n       color:#fc9c28;\n       text-decoration: none;\n       font-family: Verdana, Geneva, Tahoma, sans-serif;\n       font-weight: bold;\n       transition: 0.2s ease color;\n   }\n   \n.navbar a:before, .navbar a:after\n   {\n       content: \"\";\n       position: absolute;\n       border-radius: 50%;\n       transform: scale(0);\n       transition: 0.2s ease transform;\n   }\n\n   .navbar a:hover\n   {\n       color: #68bb6d;\n       border-bottom: 2px solid #68bb6d;\n       border-top: 2px solid #68bb6d;\n       margin-bottom: 1.3px;\n       margin-top: 1.3px;\n   }\n", "",{"version":3,"sources":["webpack://src/components/HomeChildrens/style/HeaderChildren.css"],"names":[],"mappings":"AAAA;IACI,+BAA+B;IAC/B,iCAAiC;AACrC;;AAEA;IACI,cAAc;IACd,cAAc;AAClB;;AAEA;IACI,cAAc;IACd,aAAa;IACb,2BAA2B;IAC3B,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,iBAAiB;IACjB,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,YAAY;IACZ,iBAAiB;AACrB;GACG,oBAAoB;GACpB;;;OAGI,cAAc;;;OAGd,+BAA+B;OAC/B,2FAA2F;OAC3F,gIAAgI;OAChI,8FAA8F;OAC9F,yFAAyF;OACzF,0FAA0F;OAC1F,0FAA0F;OAC1F,oHAAoH;;;;GAIxH;;AAEH;;OAEO,WAAW;OACX,kBAAkB;OAClB,aAAa;OACb,qBAAqB;OACrB,gDAAgD;OAChD,iBAAiB;OACjB,2BAA2B;GAC/B;;AAEH;;OAEO,WAAW;OACX,kBAAkB;OAClB,kBAAkB;OAClB,mBAAmB;OACnB,+BAA+B;GACnC;;GAEA;;OAEI,cAAc;OACd,gCAAgC;OAChC,6BAA6B;OAC7B,oBAAoB;OACpB,iBAAiB;GACrB","sourcesContent":[".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 2.7rem;\n    width: 2.7rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n   /* MENU NAVEGATION */\n   .navbar\n   {\n \n       margin: 0 auto;\n\n\n       background: rgba(255,255,255,1);\n       background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(104,187,109,0.63)));\n       background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68bb6d', GradientType=1 );\n\n    \n  \n   }\n   \n.navbar a\n   {\n       width: 100%;\n       text-align: center;\n       color:#fc9c28;\n       text-decoration: none;\n       font-family: Verdana, Geneva, Tahoma, sans-serif;\n       font-weight: bold;\n       transition: 0.2s ease color;\n   }\n   \n.navbar a:before, .navbar a:after\n   {\n       content: \"\";\n       position: absolute;\n       border-radius: 50%;\n       transform: scale(0);\n       transition: 0.2s ease transform;\n   }\n\n   .navbar a:hover\n   {\n       color: #68bb6d;\n       border-bottom: 2px solid #68bb6d;\n       border-top: 2px solid #68bb6d;\n       margin-bottom: 1.3px;\n       margin-top: 1.3px;\n   }\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 2.7rem;\n    width: 2.7rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n   /* MENU NAVEGATION */\n.navbar\n{\n\n    margin: 0 auto;\n\n\n    background: rgba(255,255,255,1);\n    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(104,187,109,0.63)));\n    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68bb6d', GradientType=1 );\n\n\n\n}\n   \n.navbar a\n   {\n       width: 100%;\n       text-align: center;\n       color:#fc9c28;\n       text-decoration: none;\n       font-family: Verdana, Geneva, Tahoma, sans-serif;\n       font-weight: bold;\n       transition: 0.2s ease color;\n   }\n   \n.navbar a:before, .navbar a:after\n   {\n       content: \"\";\n       position: absolute;\n       border-radius: 50%;\n       transform: scale(0);\n       transition: 0.2s ease transform;\n   }\n\n   .navbar a:hover\n   {\n       color: #68bb6d;\n       border-bottom: 2px solid #68bb6d;\n       border-top: 2px solid #68bb6d;\n       margin-bottom: 1.3px;\n       margin-top: 1.3px;\n   }\n", "",{"version":3,"sources":["webpack://src/components/HomeChildrens/style/HeaderChildren.css"],"names":[],"mappings":"AAAA;IACI,+BAA+B;IAC/B,iCAAiC;AACrC;;AAEA;IACI,cAAc;IACd,cAAc;AAClB;;AAEA;IACI,cAAc;IACd,aAAa;IACb,2BAA2B;IAC3B,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,YAAY;IACZ,iBAAiB;IACjB,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,YAAY;IACZ,iBAAiB;AACrB;GACG,oBAAoB;AACvB;;;IAGI,cAAc;;;IAGd,+BAA+B;IAC/B,2FAA2F;IAC3F,gIAAgI;IAChI,8FAA8F;IAC9F,yFAAyF;IACzF,0FAA0F;IAC1F,0FAA0F;IAC1F,oHAAoH;;;;AAIxH;;AAEA;;OAEO,WAAW;OACX,kBAAkB;OAClB,aAAa;OACb,qBAAqB;OACrB,gDAAgD;OAChD,iBAAiB;OACjB,2BAA2B;GAC/B;;AAEH;;OAEO,WAAW;OACX,kBAAkB;OAClB,kBAAkB;OAClB,mBAAmB;OACnB,+BAA+B;GACnC;;GAEA;;OAEI,cAAc;OACd,gCAAgC;OAChC,6BAA6B;OAC7B,oBAAoB;OACpB,iBAAiB;GACrB","sourcesContent":[".style-header {\n    /* background-color: #6cc78e; */\n    border-bottom: 0.1rem solid black;\n}\n\n.style-header .img-logo {\n    height: 4.5rem;\n    width: 12.5rem;\n}\n\n.container-fluid .image-pais {\n    height: 2.7rem;\n    width: 2.7rem;\n    border: 0.01rem solid black;\n    border-radius: 50%;\n    box-shadow: 5px 5px 5px rgb(93, 92, 92);\n}\n\n.container-fluid .image-pais:hover {\n    opacity: 0.7;\n}\n\n.style-header a {\n    color: black;\n    font-size: 1.2rem;\n    margin-left: 1.5rem;\n    text-decoration: none;\n}\n\n.style-header a:hover {\n    color: white;\n    font-size: 1.2rem;\n}\n   /* MENU NAVEGATION */\n.navbar\n{\n\n    margin: 0 auto;\n\n\n    background: rgba(255,255,255,1);\n    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(104,187,109,0.63)));\n    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(104,187,109,0.63) 100%);\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#68bb6d', GradientType=1 );\n\n\n\n}\n   \n.navbar a\n   {\n       width: 100%;\n       text-align: center;\n       color:#fc9c28;\n       text-decoration: none;\n       font-family: Verdana, Geneva, Tahoma, sans-serif;\n       font-weight: bold;\n       transition: 0.2s ease color;\n   }\n   \n.navbar a:before, .navbar a:after\n   {\n       content: \"\";\n       position: absolute;\n       border-radius: 50%;\n       transform: scale(0);\n       transition: 0.2s ease transform;\n   }\n\n   .navbar a:hover\n   {\n       color: #68bb6d;\n       border-bottom: 2px solid #68bb6d;\n       border-top: 2px solid #68bb6d;\n       margin-bottom: 1.3px;\n       margin-top: 1.3px;\n   }\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -5547,7 +5547,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n}\n\n.card-intern {\n    width: 100%;\n}\n\n.container2{\n    width: 100%;\n    display: flex;\n}\n\n.container2 .card2 .face{\n    align-items: center;\n    height: 12.5rem;\n    transition: 0.5s;\n    border-radius: 0.75rem;\n}\n\n.container2 .card2{\n    cursor: pointer;\n    width: 80%;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n.container2 .card2 .face.face1{\n    position: relative;\n    height: 15.5rem;\n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    height: 15.5rem;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 10rem;\n    height: 6.5rem;\n    align-items: center;\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    padding-top: 1rem;\n    color: #fff;\n    text-align: center;\n    font-size: 2rem;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    color: white;\n    font-weight: 400;\n    text-align: center;\n    font-size: 1.5rem;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 1rem;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 1rem 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: .25rem;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n\n.scroll-page{\n    overflow-y: scroll;\n}\n.scroll-page::-webkit-scrollbar {\n    display: none;\n}", "",{"version":3,"sources":["webpack://src/components/progressChildren/styles/ProgressChildren.css"],"names":[],"mappings":"AAAA,uBAAuB;;;AAGvB;IACI,sBAAsB;IACtB,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,mBAAmB;IACnB,eAAe;IACf,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,eAAe;IACf,UAAU;AACd;;AAEA;IACI,aAAa;IACb,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,UAAU;AACd;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,eAAe;IACf,mBAAmB;IACnB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,UAAU;IACV,4BAA4B;AAChC;;AAEA;IACI,mBAAmB;IACnB,eAAe;IACf,wBAAwB;AAC5B;;AAEA;IACI,YAAY;IACZ,gBAAgB;;AAEpB;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,SAAS;IACT,YAAY;IACZ,cAAc;IACd,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,iBAAiB;IACjB,WAAW;IACX,kBAAkB;IAClB,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,gBAAgB;IAChB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;IACb,sBAAsB;IACtB,0CAA0C;IAC1C,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,gBAAgB;IAChB,sBAAsB;IACtB,qBAAqB;IACrB,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,WAAW;AACf;;AAEA;IACI,kBAAkB;AACtB;AACA;IACI,aAAa;AACjB","sourcesContent":["/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n}\n\n.card-intern {\n    width: 100%;\n}\n\n.container2{\n    width: 100%;\n    display: flex;\n}\n\n.container2 .card2 .face{\n    align-items: center;\n    height: 12.5rem;\n    transition: 0.5s;\n    border-radius: 0.75rem;\n}\n\n.container2 .card2{\n    cursor: pointer;\n    width: 80%;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n.container2 .card2 .face.face1{\n    position: relative;\n    height: 15.5rem;\n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    height: 15.5rem;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 10rem;\n    height: 6.5rem;\n    align-items: center;\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    padding-top: 1rem;\n    color: #fff;\n    text-align: center;\n    font-size: 2rem;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    color: white;\n    font-weight: 400;\n    text-align: center;\n    font-size: 1.5rem;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 1rem;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 1rem 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: .25rem;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n\n.scroll-page{\n    overflow-y: scroll;\n}\n.scroll-page::-webkit-scrollbar {\n    display: none;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n}\n\n.card-intern {\n    width: 100%;\n}\n\n.container2{\n    width: 100%;\n    display: flex;\n}\n\n.container2 .card2 .face{\n    align-items: center;\n    height: 12.5rem;\n    transition: 0.5s;\n    border-radius: 0.75rem;\n}\n\n.container2 .card2{\n    cursor: pointer;\n    width: 80%;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n.container2 .card2 .face.face1{\n    position: relative;\n    height: 15.5rem;\n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    height: 15.5rem;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 10rem;\n    height: 6.5rem;\n    align-items: center;\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    padding-top: 1rem;\n    color: #fff;\n    text-align: center;\n    font-size: 2rem;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    color: white;\n    font-weight: 400;\n    text-align: center;\n    font-size: 1.7rem;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 1rem;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 1rem 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: .25rem;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n\n.scroll-page{\n    overflow-y: scroll;\n}\n.scroll-page::-webkit-scrollbar {\n    display: none;\n}\n\n.advice {\n    color: white;\n    font-size: 3rem;\n    text-align: center;\n    margin-left: 4rem;\n    margin-right: 4rem;\n    width: 100%;\n    display: flex;\n    padding: 2rem;\n    justify-content: center;\n    \n    border-radius: 0.75rem;\n    background: #fc9d28d0;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n}", "",{"version":3,"sources":["webpack://src/components/progressChildren/styles/ProgressChildren.css"],"names":[],"mappings":"AAAA,uBAAuB;;;AAGvB;IACI,sBAAsB;IACtB,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,mBAAmB;IACnB,eAAe;IACf,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,eAAe;IACf,UAAU;AACd;;AAEA;IACI,aAAa;IACb,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,UAAU;AACd;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,eAAe;IACf,mBAAmB;IACnB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,UAAU;IACV,4BAA4B;AAChC;;AAEA;IACI,mBAAmB;IACnB,eAAe;IACf,wBAAwB;AAC5B;;AAEA;IACI,YAAY;IACZ,gBAAgB;;AAEpB;;AAEA;IACI,UAAU;AACd;;AAEA;IACI,SAAS;IACT,YAAY;IACZ,cAAc;IACd,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,iBAAiB;IACjB,WAAW;IACX,kBAAkB;IAClB,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,gBAAgB;IAChB,kBAAkB;IAClB,iBAAiB;AACrB;;AAEA;IACI,kBAAkB;IAClB,gBAAgB;IAChB,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,aAAa;IACb,sBAAsB;IACtB,0CAA0C;IAC1C,6BAA6B;AACjC;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,gBAAgB;IAChB,sBAAsB;IACtB,qBAAqB;IACrB,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,sBAAsB;AAC1B;;AAEA;IACI,gBAAgB;IAChB,WAAW;AACf;;AAEA;IACI,kBAAkB;AACtB;AACA;IACI,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,eAAe;IACf,kBAAkB;IAClB,iBAAiB;IACjB,kBAAkB;IAClB,WAAW;IACX,aAAa;IACb,aAAa;IACb,uBAAuB;;IAEvB,sBAAsB;IACtB,qBAAqB;IACrB,0CAA0C;AAC9C","sourcesContent":["/*  PROGRESS-CHILDREN */\n\n\n.style-main {\n    /* background: blue; */\n    height: 90%;\n    display: flex;\n}\n\n.card-intern {\n    width: 100%;\n}\n\n.container2{\n    width: 100%;\n    display: flex;\n}\n\n.container2 .card2 .face{\n    align-items: center;\n    height: 12.5rem;\n    transition: 0.5s;\n    border-radius: 0.75rem;\n}\n\n.container2 .card2{\n    cursor: pointer;\n    width: 80%;\n}\n\n.content {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n.content img {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\n.content a {\n    background: #68bb6d;\n}\n\n.container2 .card2 .face.face1{\n    position: relative;\n    height: 15.5rem;\n    background: #fc9c28;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    z-index: 1;\n    transform: translateY(100px);\n}\n\n.container2 .card2:hover .face.face1{\n    background: #6cc78e;\n    height: 15.5rem;\n    transform: translateY(0);\n}\n\n.container2 .card .face.face1 .content{\n    opacity: 0.2;\n    transition: 0.5s;\n    \n}\n\n.container2 .card2:hover .face.face1 .content{\n    opacity: 1;\n}\n\n.container2 .card2 .face.face1 .content img{\n    margin: 0;\n    width: 10rem;\n    height: 6.5rem;\n    align-items: center;\n    justify-items: center;\n}\n\n.container2 .card2 .face.face1 .content h3{\n    padding-top: 1rem;\n    color: #fff;\n    text-align: center;\n    font-size: 2rem;\n}\n\n.container2 .card2 .face.face1 .content h4{\n    color: white;\n    font-weight: 400;\n    text-align: center;\n    font-size: 1.7rem;\n}\n\n.container2 .card2 .face.face2{\n    position: relative;\n    background: #fff;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 1rem;\n    box-sizing: border-box;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n    transform: translateY(-100px);\n}\n\n.container2 .card2:hover .face.face2{\n    transform: translateY(0);\n}\n\n.container2 .card2 .face.face2 .content p{\n    margin: 0;\n    padding: 0;\n}\n\n.container2 .card2 .face.face2 .content a{\n    margin: 1rem 0 0;\n    display:  inline-block;\n    text-decoration: none;\n    font-weight: 900;\n    color: #333;\n    padding: .25rem;\n    border: 1px solid #333;\n}\n\n.container2 .card2 .face.face2 .content a:hover{\n    background: #333;\n    color: #fff;\n}\n\n.scroll-page{\n    overflow-y: scroll;\n}\n.scroll-page::-webkit-scrollbar {\n    display: none;\n}\n\n.advice {\n    color: white;\n    font-size: 3rem;\n    text-align: center;\n    margin-left: 4rem;\n    margin-right: 4rem;\n    width: 100%;\n    display: flex;\n    padding: 2rem;\n    justify-content: center;\n    \n    border-radius: 0.75rem;\n    background: #fc9d28d0;\n    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -5570,8 +5570,9 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);"]);
 ___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Anton);"]);
+___CSS_LOADER_EXPORT___.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n}\n\nbody {\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n  background-color: #F4F4F7;\n}\n\nh1 {\n  font-family: 'Anton', sans-serif;\n}\n\na.link-unstyled {\n  color: inherit;\n}\n\na.link-unstyled:hover {\n  color: inherit;\n  text-decoration: none;\n}\n\n.btn {\n  padding: 0.375rem 2rem;\n}\n\n.btn.btn-primary {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(125, 205, 64, 0.5);\n}\n\n.btn.btn-danger {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);\n}", "",{"version":3,"sources":["webpack://src/global.css"],"names":[],"mappings":"AAIA;EACE,mCAAmC;EACnC,kCAAkC;EAClC,iDAAiD;AACnD;;AAEA;EACE,iDAAiD;EACjD,yBAAyB;AAC3B;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,cAAc;EACd,qBAAqB;AACvB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,gDAAgD;AAClD;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,+CAA+C;AACjD","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');\n@import url('https://fonts.googleapis.com/css?family=Anton');\n\n\n* {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n}\n\nbody {\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n  background-color: #F4F4F7;\n}\n\nh1 {\n  font-family: 'Anton', sans-serif;\n}\n\na.link-unstyled {\n  color: inherit;\n}\n\na.link-unstyled:hover {\n  color: inherit;\n  text-decoration: none;\n}\n\n.btn {\n  padding: 0.375rem 2rem;\n}\n\n.btn.btn-primary {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(125, 205, 64, 0.5);\n}\n\n.btn.btn-danger {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Roboto Condensed', sans-serif;\n}\n\nbody {\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n  background-color: #F4F4F7;\n}\n\nh1 {\n  font-family: 'Anton', sans-serif;\n}\n\na.link-unstyled {\n  color: inherit;\n}\n\na.link-unstyled:hover {\n  color: inherit;\n  text-decoration: none;\n}\n\n.btn {\n  padding: 0.375rem 2rem;\n}\n\n.btn.btn-primary {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(125, 205, 64, 0.5);\n}\n\n.btn.btn-danger {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);\n}", "",{"version":3,"sources":["webpack://src/global.css"],"names":[],"mappings":"AAKA;EACE,mCAAmC;EACnC,kCAAkC;EAClC,2CAA2C;AAC7C;;AAEA;EACE,iDAAiD;EACjD,yBAAyB;AAC3B;;AAEA;EACE,gCAAgC;AAClC;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,cAAc;EACd,qBAAqB;AACvB;;AAEA;EACE,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,gDAAgD;AAClD;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,WAAW;EACX,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,+CAA+C;AACjD","sourcesContent":["@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');\n@import url('https://fonts.googleapis.com/css?family=Anton');\n@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap');\n\n\n* {\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: 'Roboto Condensed', sans-serif;\n}\n\nbody {\n  font-family: 'Lato', 'Helvetica Neue', sans-serif;\n  background-color: #F4F4F7;\n}\n\nh1 {\n  font-family: 'Anton', sans-serif;\n}\n\na.link-unstyled {\n  color: inherit;\n}\n\na.link-unstyled:hover {\n  color: inherit;\n  text-decoration: none;\n}\n\n.btn {\n  padding: 0.375rem 2rem;\n}\n\n.btn.btn-primary {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #7DCD40;\n  border-color: #7DCD40;\n}\n\n.btn.btn-primary:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(125, 205, 64, 0.5);\n}\n\n.btn.btn-danger {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):hover {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):active {\n  color: #fff;\n  background-color: #CD4040;\n  border-color: #CD4040;\n}\n\n.btn.btn-danger:not(:disabled):not(.disabled):focus {\n  box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -29836,12 +29837,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HeaderChildren; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _images_logo_01_BB_tr_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/logo_01_BB_tr.png */ "./src/images/logo_01_BB_tr.png");
-/* harmony import */ var _images_reino_unido_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/reino-unido.png */ "./src/images/reino-unido.png");
-/* harmony import */ var _images_finlandia_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/finlandia.png */ "./src/images/finlandia.png");
-/* harmony import */ var _images_paises_bajos_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/paises-bajos.png */ "./src/images/paises-bajos.png");
-/* harmony import */ var _style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style/HeaderChildren.css */ "./src/components/HomeChildrens/style/HeaderChildren.css");
-/* harmony import */ var _style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _images_logo_01_BB_tr_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/logo_01_BB_tr.png */ "./src/images/logo_01_BB_tr.png");
+/* harmony import */ var _images_reino_unido_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/reino-unido.png */ "./src/images/reino-unido.png");
+/* harmony import */ var _images_finlandia_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/finlandia.png */ "./src/images/finlandia.png");
+/* harmony import */ var _images_paises_bajos_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../images/paises-bajos.png */ "./src/images/paises-bajos.png");
+/* harmony import */ var _style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style/HeaderChildren.css */ "./src/components/HomeChildrens/style/HeaderChildren.css");
+/* harmony import */ var _style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_style_HeaderChildren_css__WEBPACK_IMPORTED_MODULE_6__);
+
 
 
 
@@ -29855,10 +29858,10 @@ class HeaderChildren extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compon
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-12 col-sm-4 d-flex flex-column align-items-center"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
+      href: "https://bomberbot.com/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "img-logo",
-      src: _images_logo_01_BB_tr_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+      src: _images_logo_01_BB_tr_png__WEBPACK_IMPORTED_MODULE_2__["default"],
       alt: "Logo Bomberbot"
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-12 col-sm-4 d-flex justify-content-center"
@@ -29866,27 +29869,30 @@ class HeaderChildren extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Compon
       href: "/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "image-pais",
-      src: _images_reino_unido_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+      src: _images_reino_unido_png__WEBPACK_IMPORTED_MODULE_3__["default"],
       alt: "Reino Unido"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "image-pais",
-      src: _images_paises_bajos_png__WEBPACK_IMPORTED_MODULE_4__["default"],
+      src: _images_paises_bajos_png__WEBPACK_IMPORTED_MODULE_5__["default"],
       alt: "Pa\xEDses bajos"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "image-pais",
-      src: _images_finlandia_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+      src: _images_finlandia_png__WEBPACK_IMPORTED_MODULE_4__["default"],
       alt: "Suomi"
     }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-12 col-sm-4 navbar d-flex justify-content-center align-items-center"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/index"
-    }, "HOME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/"
-    }, "CODING"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    }, "HOME"), this.props.pages ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "http://127.0.0.1:8000/report/",
+      target: "_blank"
+    }, "EXPORT PDF") : '', this.props.pages ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+      to: "/homeParents"
+    }, "OTHER CHILD") : '', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/logout"
     }, "LOGOUT")))));
   }
@@ -30141,7 +30147,7 @@ class HomeParents extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
       className: "hero d-flex flex-column justify-content-center"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
       className: "tracking-in-expand-fwd-top"
-    }, "Bomberbot PARENT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "The easiest way to teach and develop digital skills"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    }, "Bomberbot PARENT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "The easiest way to check your child's progress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       to: "/loginParents"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "begin"
@@ -30430,7 +30436,7 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Altern_Loader__WEBPACK_IMPORTED_MODULE_2__["default"], null);
     }
 
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Authentication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
       className: "align-items-center",
       onSubmit: this.props.handleSubmit
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -30442,10 +30448,7 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       value: this.props.username,
       onChange: this.props.handleChange,
       required: "required"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("small", {
-      id: "emailHelp",
-      className: "form-text text-muted"
-    }, "We'll never share your email with anyone else.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "form-group"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
       className: "form-control",
@@ -30454,15 +30457,7 @@ class LoginForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       value: this.props.password,
       onChange: this.props.handleChange,
       required: "required"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "form-group form-check"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-      type: "checkbox",
-      className: "form-check-input",
-      id: "exampleCheck1"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-      className: "form-check-label"
-    }, "Check me out")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       className: "btn btn-primary"
     }, "Submit")));
   }
@@ -30505,8 +30500,8 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "row d-flex style-header justify-content-between align-items-center bg-light"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-12 col-sm-4 d-flex align-items-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
-      to: "/index"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://bomberbot.com/"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "img-logo",
       src: _images_logo_01_BB_tr_png__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -30699,7 +30694,7 @@ function GeneralInfo(props) {
     className: "face face2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Current project:"), " ", props.general.actual_project, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Course:"), " ", props.general.course, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Project:"), " ", props.general.finished_proj, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Last logging:"), " ", props.general.last_logging.substring(0, 10), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total projects:"), " ", props.general.total_projs, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Pending projects:"), " ", props.general.pending_proj, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total time:"), " ", props.general.total_time, " hours", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)))))) : '');
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Current project:"), " ", props.general.actual_project, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Course:"), " ", props.general.course, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Project:"), " ", props.general.finished_proj, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Last logging:"), " ", props.general.last_logging.substring(0, 10), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total projects:"), " ", props.general.total_project, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Pending projects:"), " ", props.general.pending_project, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total time:"), " ", props.general.total_time, " hours", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)))))) : '');
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (GeneralInfo);
@@ -30828,11 +30823,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _GeneralInfo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./GeneralInfo */ "./src/components/progressChildren/GeneralInfo.js");
 /* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./styles/ProgressChildren.css */ "./src/components/progressChildren/styles/ProgressChildren.css");
 /* harmony import */ var _styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_styles_ProgressChildren_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _styles_ModalProgress_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./styles/ModalProgress.css */ "./src/components/progressChildren/styles/ModalProgress.css");
+/* harmony import */ var _styles_ModalProgress_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_ModalProgress_css__WEBPACK_IMPORTED_MODULE_13__);
 
 
 
 
 /*Import bootstrap */
+
 
 
 
@@ -30862,12 +30860,11 @@ function ProgressChildren(props) {
   } else {
     id_student = localStorage.getItem('id_student');
   }
-  /* console.log(location.state.id_student); */
-
 
   const [state, setState] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]);
   const [index, setIndex] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0);
   const [general, setGeneral] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]);
+  const [advice, setAdvice] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('');
   /*     React.useEffect(async() => { */
 
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
@@ -30877,10 +30874,8 @@ function ProgressChildren(props) {
       }]
     };
     axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('http://127.0.0.1:8000/progress/', required).then(response => {
-      console.log(response);
-
       if (response.data.Status === 'OK') {
-        axios__WEBPACK_IMPORTED_MODULE_2___default()('http://127.0.0.1:8000/progress/').then(res => (console.log(res.data), console.log(res.data.projects), setState(res.data.projects), setGeneral(res.data.general)));
+        axios__WEBPACK_IMPORTED_MODULE_2___default()('http://127.0.0.1:8000/progress/').then(res => (console.log('OK'), setState(res.data.projects), setGeneral(res.data.general), setAdvice(res.data.advice)));
       }
     }).catch(error => console.error(error));
   }, []);
@@ -30899,14 +30894,40 @@ function ProgressChildren(props) {
   const PrintModal = (e, i) => {
     setIndex(i);
     handleShow();
-    console.log("EL estado que queremos ver para todos es necesarios", state[i]);
-  };
+    console.log("Modal open");
+  }; // SPLIT FOR GOALS
+
+
+  let arrayGoals = [];
+
+  if (state[index]) {
+    const cadenaGoals = state[index].goals_project;
+    const cadenaDivGoals = cadenaGoals.split('.');
+
+    for (let i = 0; i < cadenaDivGoals.length - 1; i++) {
+      arrayGoals.push(cadenaDivGoals[i] + '.');
+    }
+  } // SPLIT FOR SKILL
+
+
+  let arraySkills = [];
+
+  if (state[index]) {
+    const cadenaSkills = state[index].skill_project;
+    const cadenaDivSkills = cadenaSkills.split('.');
+
+    for (let i = 0; i < cadenaDivSkills.length - 1; i++) {
+      arraySkills.push(cadenaDivSkills[i] + '.');
+    }
+  }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classScroll
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row card-intern align-items-center justify-content-end"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_GeneralInfo__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "advice"
+  }, advice ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, advice) : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_GeneralInfo__WEBPACK_IMPORTED_MODULE_11__["default"], {
     general: general,
     clas: classes
   }), state ? state.map((project, i) => {
@@ -30928,18 +30949,36 @@ function ProgressChildren(props) {
       className: "face face2"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "content"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total task:"), " ", project.total_task_proj, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "\xA0\xA0\xA0\xA0\xA0Finished task:"), " ", project.finished_tasks, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "\xA0\xA0\xA0\xA0\xA0Pending task:"), " ", project.pending_task, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Expiration date:"), " ", project.task_due, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Days expired:"), " ", project.days_exp_task, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Total task:"), " ", project.total_task_project, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "\xA0\xA0\xA0\xA0\xA0Finished task:"), " ", project.finished_tasks, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "\xA0\xA0\xA0\xA0\xA0Pending task:"), " ", project.pending_task, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Expiration date:"), " ", project.task_due, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Days expired:"), " ", project.days_exp_task, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       variant: "primary",
       onClick: e => PrintModal(e, i)
     }, "Read More"))))));
   }) : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"], {
     show: show,
     onHide: handleClose,
-    keyboard: false
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Header, {
-    closeButton: true
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Title, null, state[index] ? state[index].name_project : '')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Body, null, "I will not close if you click outside me. Don't even try to press escape key."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Footer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-    variant: "secondary",
+    keyboard: false,
+    size: "lg",
+    "aria-labelledby": "contained-modal-title-vcenter",
+    centered: true
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Header, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Title, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    className: "tit-modal"
+  }, "Important information:"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Body, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    className: "des-modal"
+  }, "Project description:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "des-modal-content"
+  }, state[index] ? state[index].description_project : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    className: "des-modal"
+  }, "Project goals:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "des-modal-content"
+  }, arrayGoals ? arrayGoals.map((arrGoal, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    key: i
+  }, arrGoal)) : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    className: "des-modal"
+  }, "Project skill:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "des-modal-content"
+  }, arraySkills ? arraySkills.map((arrSkills, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    key: i
+  }, arrSkills)) : ''), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Footer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
     onClick: handleClose
   }, "Close"))));
 }
@@ -31303,7 +31342,9 @@ class PagesPogress extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container-fluid d-flex flex-column image-main"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_progressChildren_ProgressChildren__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_HeaderChildren__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      pages: true
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_progressChildren_ProgressChildren__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeChildrens_FooterChildren__WEBPACK_IMPORTED_MODULE_3__["default"], null));
   }
 
 }

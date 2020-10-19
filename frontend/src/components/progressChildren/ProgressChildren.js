@@ -99,7 +99,7 @@ export default function ProgressChildren(props){
     // SPLIT FOR GOALS
     let arrayGoals = []
     if (state[index]) {
-        const cadenaGoals = state[index].goals_projet
+        const cadenaGoals = state[index].goals_project
         const cadenaDivGoals = cadenaGoals.split('.')    
         for (let i = 0; i < cadenaDivGoals.length - 1; i++) {
             arrayGoals.push(cadenaDivGoals[i] + '.')
@@ -145,7 +145,7 @@ export default function ProgressChildren(props){
                                 <div className="content">
                                     {/* <p> {project.proj_description.substring(0, 176)}</p> */}
                                     <p>
-                                        <strong>Total task:</strong> {project.total_task_proj}<br />
+                                        <strong>Total task:</strong> {project.total_task_project}<br />
                                         <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finished task:</strong> {project.finished_tasks}<br />
                                         <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pending task:</strong> {project.pending_task}<br />
                                         <strong>Expiration date:</strong> {project.task_due}<br />
@@ -178,7 +178,7 @@ export default function ProgressChildren(props){
                     <Modal.Body>
 
                             <strong className="des-modal">Project description:</strong> 
-                                <p className="des-modal-content">{state[index] ? state[index].proj_description : ''}</p><br />
+                                <p className="des-modal-content">{state[index] ? state[index].description_project : ''}</p><br />
                                 
                             <strong className="des-modal">Project goals:</strong>
                                 <p className="des-modal-content">

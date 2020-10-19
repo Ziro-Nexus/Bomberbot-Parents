@@ -39,7 +39,8 @@ export default class HeaderChildren extends React.Component {
                             
                             <nav>
                                 <a href="/index">HOME</a>
-                                {this.props.pages ? <Link to='/homeParents'>OTHER CHILD</Link> : <a href="/">INFORMATION</a>}
+                                {this.props.pages ? <a href="http://127.0.0.1:8000/report/" target="_blank">EXPORT PDF</a> : ''}
+                                {this.props.pages ? <Link to='/homeParents'>OTHER CHILD</Link> : ''}
                                 <a href="/logout">LOGOUT</a>
                             </nav>
 

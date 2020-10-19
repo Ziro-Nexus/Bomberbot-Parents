@@ -31,8 +31,8 @@ function GeneralInfo(props) {
                                         <strong>Project:</strong> {props.general.finished_proj}<br />
                                         <strong>Last logging:</strong> {props.general.last_logging.substring(0, 10)}<br />
                                         
-                                        <strong>Total projects:</strong> {props.general.total_projs}<br />
-                                        <strong>Pending projects:</strong> {props.general.pending_proj}<br />
+                                        <strong>Total projects:</strong> {props.general.total_project}<br />
+                                        <strong>Pending projects:</strong> {props.general.pending_project}<br />
                                         <strong>Total time:</strong> {props.general.total_time} hours<br />
                                     </p>
                                 </div>
