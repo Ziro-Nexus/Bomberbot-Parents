@@ -4,7 +4,6 @@ from .progress import ProgressStudent
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.parsers import JSONParser
-from rest_framework.exceptions import APIException
 
 
 class ProgressView(APIView):
@@ -46,8 +45,9 @@ class ProgressView(APIView):
             else:
                 raise Exception
 
+        
             request.session["progress_students"] = progress_info
-
+            
         except Exception:
             return Response({"Status": "Failed"}, status=500)
 

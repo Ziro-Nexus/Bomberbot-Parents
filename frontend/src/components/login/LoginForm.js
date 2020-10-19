@@ -20,6 +20,7 @@ class LoginForm extends React.Component {
     }
     return (
       <div>
+        <h3>Authentication</h3>
       <form className="align-items-center" onSubmit={this.props.handleSubmit}>
         <div className="form-group">
           <label>Username</label>
@@ -31,8 +32,8 @@ class LoginForm extends React.Component {
             onChange={this.props.handleChange}
             required="required"
           />
-          <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+{/*           <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone
+                    else.</small> */}
 
         </div>
 
@@ -47,10 +48,10 @@ class LoginForm extends React.Component {
             required="required"
           />
         </div>
-        <div className="form-group form-check">
+{/*         <div className="form-group form-check">
                 <input type="checkbox" className="form-check-input" id="exampleCheck1" />
                 <label className="form-check-label">Check me out</label>
-            </div>
+            </div> */}
           <button className="btn btn-primary">
           Submit
           </button>

@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'user_session',
     'progress_app',
-    'corsheaders'
+    'corsheaders',
+    'report'
 ]
 
 MIDDLEWARE = [

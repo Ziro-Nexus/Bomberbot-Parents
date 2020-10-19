@@ -2,38 +2,27 @@
 
 
 .style-main {
-    /* background: blue; */
     height: 90%;
     display: flex;
-/*     background-image: linear-gradient(315deg, rgba(11, 26, 53, 0.65) 0%, rgba(78, 112, 175, 0.65) 74%), url('../../../images/bombebotimages.jpg'); */
-/*     background-repeat: no-repeat;
-    background-size: cover; */
 }
-
-
 
 .card-intern {
     width: 100%;
+    
 }
 
 .container2{
     width: 100%;
-    /* height: 15.5rem; */
-    /* background-color: white; */
     display: flex;
 }
 
-
 .container2 .card2 .face{
     align-items: center;
-/*     height: 15.5rem; */
     height: 12.5rem;
     transition: 0.5s;
-    
 }
 
 .container2 .card2{
-    /* position: relative; */
     cursor: pointer;
     width: 80%;
 }
@@ -45,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .content img {
@@ -62,13 +52,13 @@
 .container2 .card2 .face.face1{
     position: relative;
     height: 15.5rem;
-    background: #fc9c28;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
 }
+
 
 .container2 .card2:hover .face.face1{
     background: #6cc78e;
@@ -98,21 +88,35 @@
     justify-items: center;
 }
 
+.container2 .card2 .face.face1 .content h2{
+    margin: .5rem 0 0;
+    padding: .1rem;
+    color: white;
+    text-align: center;
+    font-size: rem;
+}
 .container2 .card2 .face.face1 .content h3{
     /* margin: 0.2rem 0 0; */
-    padding: .3rem;
+    padding: 1rem;
     color: #fff;
     text-align: center;
     font-size: 1em;
 }
 
 .container2 .card2 .face.face1 .content h4{
-    /* margin: 0.2rem 0 0; */
-    /* padding: .3rem; */
     color: #fff;
     text-align: center;
     font-size: 1em;
 }
+
+
+
+
+
+
+
+
+
 
 .container2 .card2 .face.face2{
     position: relative;
@@ -136,12 +140,12 @@
 }
 
 .container2 .card2 .face.face2 .content a{
-    margin: 15px 0 0;
+    margin: 1rem 0 0;
     display:  inline-block;
     text-decoration: none;
     font-weight: 900;
     color: #333;
-    padding: 5px;
+    padding: 0.26rem;
     border: 1px solid #333;
 }
 
