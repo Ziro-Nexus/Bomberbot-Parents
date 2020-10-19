@@ -12,13 +12,14 @@ class Components:
         self.data = data
 
     def prepare_general_substring(self):
-        """ Toma los datos guardados y segun esos me genera un componente que establece
-        informacion general sobre el estudiante """
-    
+        """ Toma los datos guardados y segun esos me genera
+            un componente que establece
+            informacion general sobre el estudiante """
+
         subs = "<h1> General Information </h1> <hr>"
         subs += f"""
         <h4 style="color: red;"> Advice of progress:</h4>
-        <center> <p> {self.data["advice"]} </p> </center> 
+        <center> <p> {self.data["advice"]} </p> </center>
         """
         data = self.data["general"]
         for field in data.keys():
@@ -40,7 +41,7 @@ class Components:
                 @tmp@
             </div>
         """
-        
+
         iter = self.data["projects"]
         for field in iter:
             subs += static
@@ -51,7 +52,7 @@ class Components:
                 subs = re.sub("@tmp@", "", subs)
 
         return subs.replace("_", " ")
-    
+
     def get_student_name(self):
         if self.data:
             return self.data["general"]["full_name"]
@@ -81,10 +82,10 @@ class PDFConversor(Components):
             'no-outline': None
         }
         pdfkit.from_string(self.template, self.name, options=options)
-        filepath = os.path.join(os.getcwd(), "report") + f"/{self.name}"
+        filepath = os.getcwd() + f"/{self.name}"
         folderpath = os.path.join(os.getcwd(), "report") + "/pdf_tmp"
 
-        shutil.move(filepath , folderpath)
+        shutil.move(filepath, folderpath)
 
     def fill_data(self):
         """ Necesito crear un HTML segun los datos que se establecen 
@@ -104,6 +105,7 @@ class GetReport(PDFConversor):
     def __init__(self, **data):
         PDFConversor.__init__(self, **data)
         self.name = "test1.pdf" if "username" not in data else data["username"] + ".pdf"
-        with open("pdf_templates/template1.html", "r") as f:
+        # with open("pdf_templates/template1.html", "r") as f:
+        with open(os.path.join(os.getcwd(), "report") + "/pdf_templates/template1.html") as f:
             self.template = f.read()
         self.fill_data()
