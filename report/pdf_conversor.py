@@ -1,3 +1,8 @@
+"""  PDF CONVERSOR
+     Camilo Tobon - Holberton School
+"""
+
+
 import pdfkit
 import re
 import json
@@ -6,15 +11,17 @@ import shutil
 
 
 class Components:
+    """ Components are HTML in a string format
+    """
     def __init__(self, **data):
         self.template = ""
         self.name = ""
         self.data = data
 
     def prepare_general_substring(self):
-        """ Toma los datos guardados y segun esos me genera
-            un componente que establece
-            informacion general sobre el estudiante """
+        """ Take the data saved in self.data
+            and build a HTML related about general information of student selected
+        """
 
         subs = "<h1> General Information </h1> <hr>"
         subs += f"""
@@ -28,47 +35,53 @@ class Components:
         return subs.replace("_", " ")
 
     def prepare_project_substring(self):
+        """ Take the data saved in self.data
+            and build a HTML related about projects information of student selected
+        """
+
         static = """
             <div class="projects">
                 @tmp@
             </div>
-            <hr>
         """
         subs = f"""
             <div class="projects">
-            <h1> Current projects: {len(self.data["projects"])} </h1>
-            <hr>
                 @tmp@
             </div>
         """
 
         iter = self.data["projects"]
+        append_static = False
+        avoid_keys = ["url_image"]
         for field in iter:
-            subs += static
+            if append_static:
+                subs += static
             for key in field.keys():
-                subs = re.sub(
-                    "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
+                if key not in avoid_keys:
+                    subs = re.sub(
+                        "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
             else:
                 subs = re.sub("@tmp@", "", subs)
+                append_static = True
 
-        return subs.replace("_", " ")
+        return subs.replace("_", " ").replace("@tmp@", "")
 
     def get_student_name(self):
+        """ Return student name """
         if self.data:
             return self.data["general"]["full_name"]
 
 
 class PDFConversor(Components):
     """
-    PDFConversor - Clase que se encarga de crear los pdf a partir de pdf.
+    PDFConversor - Create PDF from HTML
     """
 
     def __init__(self, **data):
-        """ Heredamos todo de components """
         Components.__init__(self, **data)
 
     def from_template(self):
-        """ cargar template y guardarlo con el nombre dado, establecer opciones de pagina"""
+        """ load the template and adding options of pdf pagination"""
         options = {
             'page-size': 'Letter',
             'margin-top': '0.75in',
@@ -88,13 +101,11 @@ class PDFConversor(Components):
         shutil.move(filepath, folderpath)
 
     def fill_data(self):
-        """ Necesito crear un HTML segun los datos que se establecen 
-            esta funcion se encarga de acomodar el dato en el campo
-            corresspondiente que siempre debe empezar por @<llave>@
+        """ Using Regex for allocate the html component in correct position
+            @key@
         """
         if self.data:
-            self.template = re.sub(
-                "@student_name@", self.get_student_name(), self.template)
+            #self.template = re.sub("@student_name@", self.get_student_name(), self.template)
             self.template = re.sub(
                 "@general@", self.prepare_general_substring(), self.template)
             self.template = re.sub(
