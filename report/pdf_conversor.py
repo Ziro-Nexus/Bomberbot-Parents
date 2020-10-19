@@ -32,26 +32,28 @@ class Components:
             <div class="projects">
                 @tmp@
             </div>
-            <hr>
         """
         subs = f"""
             <div class="projects">
-            <h1> Current projects: {len(self.data["projects"])} </h1>
-            <hr>
                 @tmp@
             </div>
         """
 
         iter = self.data["projects"]
+        append_static = False
+        avoid = ["url_image"]
         for field in iter:
-            subs += static
+            if append_static:
+                subs += static
             for key in field.keys():
-                subs = re.sub(
-                    "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
+                if key not in avoid:
+                    subs = re.sub(
+                        "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
             else:
                 subs = re.sub("@tmp@", "", subs)
+                append_static = True
 
-        return subs.replace("_", " ")
+        return subs.replace("_", " ").replace("@tmp@", "")
 
     def get_student_name(self):
         if self.data:
@@ -93,8 +95,7 @@ class PDFConversor(Components):
             corresspondiente que siempre debe empezar por @<llave>@
         """
         if self.data:
-            self.template = re.sub(
-                "@student_name@", self.get_student_name(), self.template)
+            #self.template = re.sub("@student_name@", self.get_student_name(), self.template)
             self.template = re.sub(
                 "@general@", self.prepare_general_substring(), self.template)
             self.template = re.sub(
