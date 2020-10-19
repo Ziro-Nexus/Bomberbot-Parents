@@ -45,8 +45,9 @@ class ProgressView(APIView):
             else:
                 raise Exception
 
+        
             request.session["progress_students"] = progress_info
-
+            
         except Exception:
             return Response({"Status": "Failed"}, status=500)
 
