@@ -91,7 +91,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-9. In your browser go to http://127.0.0.1:8000/admin and then provide the username and password that you created in point 7  
+9. In your browser go to http://127.0.0.1:8000/admin and then provide the username and password that you created in point 7.
 
 ![admin](https://i.ibb.co/hg0VX0K/admin.png)
 
