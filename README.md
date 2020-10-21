@@ -42,30 +42,23 @@ $  mkdir my_dir
 $  cd my_dir 
 ```
 
-2. Install virtualenv, create and activate the virtual environment.
-```
-$  pip3 install virtualenv  
-$  virtualenv venv  
-$  source venv/bin/activate
-```
-
-3. Clone Github repository
+2. Clone Github repository
 ```
  $  git clone https://github.com/Deepzirox/Bomberbot-Parents.git
 ```
 
-4. Enter the Bomberbot-parent directory and run the install.sh file.
+3. Enter the Bomberbot-parent directory and run the install.sh file.
 ```
  $  cd Bomberbot-parent  
  $  ./install.sh
  ```
 
 
-5. Activation of the project in Django.
+4. Activation of the project in Django.
 ```
  $  python3 manage.py migrate
 ```
-6. Create a super administrator for the database.
+5. Create a super administrator for the database.
 ```
  $  python3 manage.py createsuperuser
  $  Username: 
@@ -74,7 +67,7 @@ $  source venv/bin/activate
  $  Password (again):
 ```
 
-7. Start Server.
+6. Start Server.
 ```
  $  python3 manage.py runserver
 Performing system checks...
@@ -86,32 +79,32 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-8. In your browser go to http://127.0.0.1:8000/admin and then provide the username and password that you created in point 7.
+7. In your browser go to http://127.0.0.1:8000/admin and then provide the username and password that you created in point 7.
 
 ![admin](https://i.ibb.co/hg0VX0K/admin.png)
 
-9.  To store the message for parents we first select the Add+ option of **Congratulations** and copy and paste the following message and save.
+8.  To store the message for parents we first select the Add+ option of **Congratulations** and copy and paste the following message and save.
 >Congratulations, your child has achieved it, he has taken another step in the development of his computational thinking and better understands the world of technology.  
 
 <a href="https://ibb.co/XCNZTcv"><img src="https://i.ibb.co/RDZpWRV/adminmodel.png" alt="adminmodel" border="0"></a>    
 <a href="https://ibb.co/Xy1NrKN"><img src="https://i.ibb.co/9w6zk1z/savemodel1.png" alt="savemodel1" border="0"></a>
 
-10. Store in the following tables in this order:  
+9. Store in the following tables in this order:  
 * In **Motivational overdue task** add the following message:
 >Cheer up, we can still do it, your child can still do the overdue tasks and become the best in the world of technology  
 * In **Motivational taks ok** add the following message:  
 >Congratulations your child is doing very well and every day he is acquiring skills in the world of technology.
 
-11. In your browser go to http://127.0.0.1:8000/index/ and log in.  
+10. In your browser go to http://127.0.0.1:8000/index/ and log in.  
 Below you will find a list of test users.
 >**User name:** nasser1  **Password:** 12345  
 >**User name:** camilo1 **Password:** 12345  
 >**User name:** katerine1 **Password:** 12345  
 
-12. You can hang out with children to learn about their performance in the Bomberbot program.
+11. You can hang out with children to learn about their performance in the Bomberbot program.
 <a href="https://ibb.co/VjPJJs0"><img src="https://i.ibb.co/tmWQQ9w/selectok.png" alt="selectok" border="0"></a>
 
-13. You can navigate between the information cards, you can also export and download a PDF file with a complete report of the child's information.  
+12. You can navigate between the information cards, you can also export and download a PDF file with a complete report of the child's information.  
 <a href="https://ibb.co/Tkn80SP"><img src="https://i.ibb.co/kxr8Dfq/infostu.png" alt="infostu" border="0"></a>
 
 ## **Authors:**
