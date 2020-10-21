@@ -25,15 +25,11 @@ cd ../
 # Compile Webpack
 sudo npm run webpack --prefix frontend/
 
-# Migrate
-python3 manage.py migrate
-python3 manage.py makemigrations
-
 
 rm -rf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
 rm -rf wkhtmltox
 
 RED='\033[0;31m'
 NC='\033[0m'
-echo -e " ${RED} All dependencies are installed, please create a superuser and go to the /admin/ route. the advices models need to be fill manualy, see README.md ${NC}"
+echo -e " ${RED} All dependencies are installed, please migrate and create a superuser and go to the /admin/ route. the advices models need to be fill manualy, see README.md ${NC}"
 
