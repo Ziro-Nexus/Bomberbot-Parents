@@ -4,8 +4,8 @@ module.exports = {
     entry: {
         login: './src/index.js',
     },
-    watch: true,
-    mode: "development",
+    watch: false,
+    mode: "production",
     devtool: 'source-map',
     output: {
         filename: '[name].bundle.js',
