@@ -19,8 +19,10 @@ class ReportView(APIView):
         data['username'] = data['general']['full_name'].replace(' ', '_')
         pdf_r = GetReport(**data)
         pdf_r.from_template()
+
         with open(os.getcwd() + '/report/pdf_tmp/' + data['username'] +
                   '.pdf', 'rb') as pdf:
+
             response = HttpResponse(pdf.read(), content_type='application/pdf')
             response['Content-Disposition'] = 'inline; filename=' + \
                 data['username']
