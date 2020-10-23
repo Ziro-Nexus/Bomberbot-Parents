@@ -62,6 +62,7 @@ $  cd my_dir
 5. Make migration of application.
 ```
  $  python3 manage.py makemigrations progress_app
+ $  python3 manage.py migrate
 ```
 6. Create a super administrator for the database.
 ```
