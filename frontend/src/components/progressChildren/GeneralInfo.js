@@ -28,7 +28,7 @@ function GeneralInfo(props) {
                                     <p>
                                     <strong>Current project:</strong> {props.general.actual_project}<br />
                                         <strong>Course:</strong> {props.general.course}<br />
-                                        <strong>Project:</strong> {props.general.finished_proj}<br />
+                                        <strong>Finished project:</strong> {props.general.finished_project}<br />
                                         <strong>Last logging:</strong> {props.general.last_logging.substring(0, 10)}<br />
                                         
                                         <strong>Total projects:</strong> {props.general.total_project}<br />
