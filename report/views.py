@@ -13,7 +13,7 @@ class ReportView(APIView):
 
         try:
             data = request.session["progress_students"]
-        except:
+        except Exception:
             return HttpResponseRedirect("http://127.0.0.1:8000/index/")
 
         data['username'] = data['general']['full_name'].replace(' ', '_')

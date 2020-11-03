@@ -20,7 +20,8 @@ class Components:
 
     def prepare_general_substring(self):
         """ Take the data saved in self.data
-            and build a HTML related about general information of student selected
+            and build a HTML related about general
+            information of student selected
         """
 
         subs = "<h1> General Information </h1> <hr>"
@@ -30,13 +31,14 @@ class Components:
         """
         data = self.data["general"]
         for field in data.keys():
-            subs += f"<h2> {field}: </h2> <center> <p> {data[field]} </p> </center>"
+            subs += f"<h2>{field}: </h2><center><p> {data[field]}</p></center>"
 
         return subs.replace("_", " ")
 
     def prepare_project_substring(self):
         """ Take the data saved in self.data
-            and build a HTML related about projects information of student selected
+            and build a HTML related about projects
+            information of student selected
         """
 
         static = """
@@ -59,7 +61,8 @@ class Components:
             for key in field.keys():
                 if key not in avoid_keys:
                     subs = re.sub(
-                        "@tmp@", f"<h2> {key}: </h2> <center> <p> {field[key]} </p> </center>@tmp@", subs)
+                        "@tmp@", f"<h2>{key}: </h2><center><p> {field[key]}\
+                                             </p></center>@tmp@", subs)
             else:
                 subs = re.sub("@tmp@", "", subs)
                 append_static = True
@@ -105,7 +108,9 @@ class PDFConversor(Components):
             @key@
         """
         if self.data:
-            #self.template = re.sub("@student_name@", self.get_student_name(), self.template)
+            """self.template = re.sub("@student_name@",
+            self.get_student_name(), self.template)
+            """
             self.template = re.sub(
                 "@general@", self.prepare_general_substring(), self.template)
             self.template = re.sub(
@@ -115,8 +120,10 @@ class PDFConversor(Components):
 class GetReport(PDFConversor):
     def __init__(self, **data):
         PDFConversor.__init__(self, **data)
-        self.name = "test1.pdf" if "username" not in data else data["username"] + ".pdf"
+        self.name = "test1.pdf" if "username"\
+                    not in data else data["username"] + ".pdf"
         # with open("pdf_templates/template1.html", "r") as f:
-        with open(os.path.join(os.getcwd(), "report") + "/pdf_templates/template1.html") as f:
+        with open(os.path.join(os.getcwd(), "report") +
+                  "/pdf_templates/template1.html") as f:
             self.template = f.read()
         self.fill_data()
