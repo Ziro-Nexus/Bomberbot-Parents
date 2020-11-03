@@ -1,10 +1,9 @@
 import json
-from django.http import HttpResponse, FileResponse, Http404, HttpResponseRedirect
+from django.http import HttpResponse, FileResponse
+from django.http import Http404, HttpResponseRedirect
 from rest_framework.response import Response
 import requests
 from rest_framework.decorators import api_view
-
-
 
 
 # Handle Logout, delete cookies on the browser
@@ -16,7 +15,7 @@ def logout(request):
 
     if "progress_students" in request.session.keys():
         del request.session["progress_students"]
-    
+
     if "students" in request.session.keys():
         del request.session["students"]
 
@@ -30,8 +29,9 @@ def related_students(request):
         return Response(request.session["related_students"])
     else:
         return HttpResponseRedirect("http://127.0.0.1:8000/loginParents")
-
 # Validate user session
+
+
 @api_view(('POST',))
 def auth(request):
     headers = {
@@ -47,7 +47,7 @@ def auth(request):
             request.session["students"] = response_json
             for student in response_json:
                 response["students"].append({
-                    "first_name" : student["firts_name"],
+                    "first_name": student["firts_name"],
                     "last_name":   student["last_name"],
                     "id": student["id"]
                 })
@@ -59,10 +59,10 @@ def auth(request):
     return Response(json.dumps({"Status": response_json["Status"]}))
 
 
-
 """ @api_view(('GET',))
 def pdf_view(request):
     try:
-        return FileResponse(open('pdf_report/test1.pdf', 'rb'), content_type='application/pdf')
+        return FileResponse(open('pdf_report/test1.pdf', 'rb'),
+        content_type='application/pdf')
     except FileNotFoundError:
         raise Http404() """
